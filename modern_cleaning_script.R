@@ -101,9 +101,67 @@ tmp <- data.frame(ModernName = rep(unq_spe, each = nyear),
 									Year = rep(2012:2015, length(unq_spe)),
 									stringsAsFactors = FALSE)
 
-test <- left_join(tmp, count_per_year, by = c("ModernName" = "ModernName",
+day_seen <- left_join(tmp, count_per_year, by = c("ModernName" = "ModernName",
 																							"Year" = "Year"))
 
+# make NA a 0
+day_seen$DaysSeen[is.na(day_seen$DaysSeen)] <- 0
 
-
+write.csv(day_seen, "./data/species_number_days_seen_modern.csv")
 range(count_per_year$days_seen)
+
+
+
+# calculate species richness per day
+sp_day <- md %>% 
+	group_by(Year, Date) %>% 
+	summarise(sp_rich = length(unique(ModernName)))
+
+# get julian date 
+sp_day$jul <- NA
+
+for(i in 2012:2015){
+	sp_day$jul[sp_day$Year == i] <- as.numeric(julian(sp_day$Date[sp_day$Year == i],
+																				 origin = mdy(paste0("1-1-",i))))
+}
+
+write.csv(sp_day, "./data/modern_species_rich_daily.csv")
+
+plot(sp_day$sp_rich[sp_day$Year == 2012] ~ sp_day$jul[sp_day$Year == 2012],
+		 pch = 16, bty = "l", xlab = "Julian day", ylab = "Species richness",
+		 ylim = c(0, 70))
+l1 <- loess(sp_day$sp_rich[sp_day$Year == 2012] ~ sp_day$jul[sp_day$Year == 2012])
+p1 <- predict(l1)
+
+lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2012], lwd = 2 ) 
+
+
+points(sp_day$sp_rich[sp_day$Year == 2013] ~ sp_day$jul[sp_day$Year == 2013],
+			 pch = 16, col = "red")
+
+l1 <- loess(sp_day$sp_rich[sp_day$Year == 2013] ~ sp_day$jul[sp_day$Year == 2013])
+p1 <- predict(l1)
+
+lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2013], lwd = 2, col = "red" ) 
+
+
+
+points(sp_day$sp_rich[sp_day$Year == 2014] ~ sp_day$jul[sp_day$Year == 2014],
+			 pch = 16, col = "purple")
+
+l1 <- loess(sp_day$sp_rich[sp_day$Year == 2014] ~ sp_day$jul[sp_day$Year == 2014])
+p1 <- predict(l1)
+
+lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2014], lwd = 2, col = "purple" ) 
+points(sp_day$sp_rich[sp_day$Year == 2015] ~ sp_day$jul[sp_day$Year == 2015],
+			 pch = 16, col = "grey")
+
+l1 <- loess(sp_day$sp_rich[sp_day$Year == 2015] ~ sp_day$jul[sp_day$Year == 2015])
+p1 <- predict(l1)
+
+lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2015], lwd = 2, col = "gray" )
+
+
+
+plot(sp_rich_day)
+
