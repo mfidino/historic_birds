@@ -1,0 +1,608 @@
+"ID","BooksCommonName","Date"
+1,"Mourning Dove",4/1/1903 0:00:00
+2,"Marsh Hawk",4/25/1899 0:00:00
+3,"Sparrow Hawk",5/18/1898 0:00:00
+4,"Yellow-billed Cuckoo",5/19/1898 0:00:00
+5,"Black-billed Cuckoo",5/27/1899 0:00:00
+6,"Belted Kingfisher",3/28/1897 0:00:00
+7,"Hairy Woodpecker",4/11/1898 0:00:00
+8,"Downy Woodpecker",4/7/1897 0:00:00
+9,"Yellow-bellied Sapsucker",4/25/1897 0:00:00
+10,"Red-bellied Woodpecker",5/22/1898 0:00:00
+11,"Red-headed Woodpecker",4/26/1897 0:00:00
+12,"Flicker",4/15/1897 0:00:00
+13,"Whip-poor-will",5/21/1898 0:00:00
+14,"Nighthawk",5/10/1899 0:00:00
+15,"Chimney Swift",5/1/1897 0:00:00
+16,"Ruby-throated Hummingbird",5/19/1898 0:00:00
+17,"Kingbird",4/29/1897 0:00:00
+18,"Great-crested Flycatcher",5/3/1898 0:00:00
+19,"Phoebe",4/7/1897 0:00:00
+20,"Wood Pewee",4/27/1897 0:00:00
+21,"Yellow-bellied Flycatcher",4/29/1900 0:00:00
+22,"Least Flycatcher",5/12/1897 0:00:00
+23,"Blue Jay",
+24,"Crow",3/9/1898 0:00:00
+25,"Bobolink",5/14/1898 0:00:00
+26,"Cowbird",4/4/1897 0:00:00
+27,"Yellow-headed Blackbird",5/17/1901 0:00:00
+28,"Red-winged Blackbird",5/7/1898 0:00:00
+29,"Meadowlark",3/14/1898 0:00:00
+30,"Orchard Oriole",5/15/1898 0:00:00
+31,"Baltimore Oriole",4/30/1898 0:00:00
+32,"Rusty Blackbird",4/19/1900 0:00:00
+33,"Bronzed Grackle",3/29/1897 0:00:00
+34,"Purple Finch",4/24/1898 0:00:00
+35,"American Goldfinch",4/25/1897 0:00:00
+36,"Vesper Sparrow",4/22/1900 0:00:00
+37,"Savanna Sparrow",3/19/1903 0:00:00
+38,"Henslow Sparrow",4/29/1898 0:00:00
+39,"White-crowned Sparrow",5/5/1897 0:00:00
+40,"White-throated Sparrow",4/26/1897 0:00:00
+41,"Tree Sparrow",4/6/1900 0:00:00
+42,"Chipping Sparrow",4/15/1897 0:00:00
+43,"Field Sparrow",4/23/1899 0:00:00
+44,"Junco",3/28/1897 0:00:00
+45,"Song Sparrow",4/8/1897 0:00:00
+46,"Lincoln Sparrow",5/10/1900 0:00:00
+47,"Swamp Sparrow",5/7/1898 0:00:00
+48,"Fox Sparrow",4/8/1897 0:00:00
+49,"Towhee",4/7/1897 0:00:00
+50,"Cardinal",3/28/1897 0:00:00
+51,"Rose-breasted Grosbeak",5/10/1899 0:00:00
+52,"Indigo Bunting",5/14/1898 0:00:00
+53,"Dickcissel",5/16/1901 0:00:00
+54,"Scarlet Tanager",5/14/1898 0:00:00
+55,"Summer Tanager",5/4/1899 0:00:00
+56,"Purple Martin",5/25/1898 0:00:00
+57,"Barn Swallow",4/18/1897 0:00:00
+58,"Tree Swallow",5/11/1898 0:00:00
+59,"Cedar Waxwing",4/11/1898 0:00:00
+60,"Loggerhead Shrike",3/14/1898 0:00:00
+61,"Red-eyed Vireo",5/10/1898 0:00:00
+62,"Warbling Vireo",4/27/1897 0:00:00
+63,"Yellow-throated Vireo",5/1/1898 0:00:00
+64,"Blue-headed Vireo",5/17/1900 0:00:00
+65,"Black and White Creeper",4/28/1897 0:00:00
+66,"Prothonotary Warbler",5/16/1899 0:00:00
+67,"Blue Golden-winged Warbler",5/14/1898 0:00:00
+68,"Nashville Warbler",5/10/1898 0:00:00
+69,"Tennessee Warbler",5/11/1898 0:00:00
+70,"Parula Warbler",5/11/1898 0:00:00
+71,"Cape May Warbler",5/13/1898 0:00:00
+72,"Yellow Warbler",5/11/1897 0:00:00
+73,"Black-throated Blue Warbler",5/11/1897 0:00:00
+74,"Myrtle Warbler",4/14/1897 0:00:00
+75,"Magnolia Warbler",4/26/1897 0:00:00
+76,"Cerulean Warbler",5/12/1900 0:00:00
+77,"Chestnut-sided Warbler",5/21/1897 0:00:00
+78,"Bay-breasted Warbler",5/20/1898 0:00:00
+79,"Black-poll Warbler",5/19/1898 0:00:00
+80,"Blackburnian Warbler",5/12/1897 0:00:00
+81,"Black-throated Green Warbler",4/18/1897 0:00:00
+82,"Pine Warbler",4/26/1900 0:00:00
+83,"Palm Warbler",4/29/1898 0:00:00
+84,"Ovenbird",5/11/1897 0:00:00
+85,"Grinnell Water-Thrush",4/30/1898 0:00:00
+86,"Louisiana Water-Thrush",4/27/1902 0:00:00
+87,"Connecticut Warbler",5/20/1903 0:00:00
+88,"Mourning Warbler",5/20/1898 0:00:00
+89,"Western Yellow-throat",4/26/1897 0:00:00
+90,"Yellow-breasted Chat",5/2/1902 0:00:00
+91,"Hooded Warbler",5/12/1903 0:00:00
+92,"Wilson Black-cap Warbler",5/21/1897 0:00:00
+93,"Canadian Warbler",5/19/1898 0:00:00
+94,"American Redstart",5/11/1897 0:00:00
+95,"Mockingbird",4/29/1901 0:00:00
+96,"Catbird",4/26/1897 0:00:00
+97,"Brown Thrasher",4/26/1897 0:00:00
+98,"House Wren",4/14/1897 0:00:00
+99,"Winter Wren",4/8/1897 0:00:00
+100,"Long-billed Marsh Wren",4/14/1898 0:00:00
+101,"Brown Creeper",4/7/1897 0:00:00
+102,"White-breasted Nuthatch",4/7/1897 0:00:00
+103,"Red-breasted Nuthatch",5/3/1900 0:00:00
+104,"Chickadee",4/1/1898 0:00:00
+105,"Golden-crowned Kinglet",4/7/1897 0:00:00
+106,"Ruby-crowned Kinglet",4/14/1897 0:00:00
+107,"Blue-gray Gnatcatcher",4/25/1898 0:00:00
+108,"Wood thrush",4/18/1897 0:00:00
+109,"Wilson Thrush",5/11/1897 0:00:00
+110,"Gray-cheeked Thrush",5/21/1902 0:00:00
+111,"Olive-backed Thrush",5/1/1898 0:00:00
+112,"Hermit Thrush",3/31/1898 0:00:00
+113,"Robin",3/28/1897 0:00:00
+114,"Bluebird",3/28/1897 0:00:00
+115,"Mourning Dove",5/9/1898 0:00:00
+116,"Mourning Dove",3/25/1899 0:00:00
+117,"Mourning Dove",4/6/1900 0:00:00
+118,"Mourning Dove",4/10/1901 0:00:00
+119,"Mourning Dove",4/26/1902 0:00:00
+120,"Yellow-throated Vireo",5/12/1900 0:00:00
+121,"Yellow-throated Vireo",5/5/1901 0:00:00
+122,"Yellow-throated Vireo",4/28/1902 0:00:00
+123,"Yellow-throated Vireo",5/12/1903 0:00:00
+124,"Yellow-breasted Chat",5/11/1903 0:00:00
+125,"Yellow-billed Cuckoo",5/1/1899 0:00:00
+126,"Yellow-billed Cuckoo",5/16/1900 0:00:00
+127,"Yellow-billed Cuckoo",5/17/1901 0:00:00
+128,"Yellow-billed Cuckoo",5/17/1902 0:00:00
+129,"Yellow-billed Cuckoo",5/12/1903 0:00:00
+130,"Yellow-bellied Sapsucker",3/30/1898 0:00:00
+131,"Yellow-bellied Sapsucker",4/8/1899 0:00:00
+132,"Yellow-bellied Sapsucker",4/6/1900 0:00:00
+133,"Yellow-bellied Sapsucker",3/19/1901 0:00:00
+134,"Yellow-bellied Sapsucker",3/27/1902 0:00:00
+135,"Yellow-bellied Sapsucker",4/1/1903 0:00:00
+136,"Yellow-bellied Flycatcher",5/1/1902 0:00:00
+137,"Yellow-bellied Flycatcher",5/12/1903 0:00:00
+138,"Yellow Warbler",4/30/1898 0:00:00
+139,"Yellow Warbler",4/29/1899 0:00:00
+140,"Yellow Warbler",4/30/1900 0:00:00
+141,"Yellow Warbler",5/6/1901 0:00:00
+142,"Yellow Warbler",5/2/1902 0:00:00
+143,"Yellow Warbler",4/29/1903 0:00:00
+144,"Wood thrush",5/3/1898 0:00:00
+145,"Wood thrush",5/1/1899 0:00:00
+146,"Wood thrush",5/4/1901 0:00:00
+147,"Wood thrush",4/29/1902 0:00:00
+148,"Wood thrush",5/12/1903 0:00:00
+149,"Wood Pewee",5/19/1898 0:00:00
+150,"Wood Pewee",5/10/1899 0:00:00
+151,"Wood Pewee",5/11/1900 0:00:00
+152,"Wood Pewee",5/16/1901 0:00:00
+153,"Wood Pewee",4/28/1902 0:00:00
+154,"Wood Pewee",5/12/1903 0:00:00
+155,"Winter Wren",4/25/1898 0:00:00
+156,"Winter Wren",4/30/1899 0:00:00
+157,"Winter Wren",3/22/1901 0:00:00
+158,"Winter Wren",4/19/1902 0:00:00
+159,"Winter Wren",4/8/1903 0:00:00
+160,"Wilson Thrush",4/10/1898 0:00:00
+161,"Wilson Thrush",4/12/1899 0:00:00
+162,"Wilson Thrush",4/7/1900 0:00:00
+163,"Wilson Thrush",4/11/1901 0:00:00
+164,"Wilson Thrush",4/26/1902 0:00:00
+165,"Wilson Thrush",4/8/1903 0:00:00
+166,"Wilson Black-cap Warbler",5/6/1898 0:00:00
+167,"Wilson Black-cap Warbler",5/22/1899 0:00:00
+168,"Wilson Black-cap Warbler",5/10/1900 0:00:00
+169,"Wilson Black-cap Warbler",5/16/1901 0:00:00
+170,"Wilson Black-cap Warbler",5/3/1902 0:00:00
+171,"Wilson Black-cap Warbler",5/17/1903 0:00:00
+172,"White-throated Sparrow",4/13/1898 0:00:00
+173,"White-throated Sparrow",4/19/1899 0:00:00
+174,"White-throated Sparrow",4/21/1900 0:00:00
+175,"White-throated Sparrow",4/17/1901 0:00:00
+176,"White-throated Sparrow",3/24/1902 0:00:00
+177,"White-throated Sparrow",3/21/1903 0:00:00
+178,"White-crowned Sparrow",5/9/1898 0:00:00
+179,"White-crowned Sparrow",4/29/1899 0:00:00
+180,"White-crowned Sparrow",5/2/1900 0:00:00
+181,"White-crowned Sparrow",4/20/1901 0:00:00
+182,"White-crowned Sparrow",3/11/1902 0:00:00
+183,"White-crowned Sparrow",4/29/1903 0:00:00
+184,"White-breasted Nuthatch",3/29/1898 0:00:00
+185,"White-breasted Nuthatch",4/11/1899 0:00:00
+186,"White-breasted Nuthatch",4/2/1900 0:00:00
+187,"White-breasted Nuthatch",3/18/1901 0:00:00
+188,"White-breasted Nuthatch",3/31/1902 0:00:00
+189,"White-breasted Nuthatch",4/2/1903 0:00:00
+190,"Whip-poor-will",4/30/1899 0:00:00
+191,"Whip-poor-will",5/9/1901 0:00:00
+192,"Whip-poor-will",5/17/1903 0:00:00
+193,"Western Yellow-throat",5/1/1898 0:00:00
+194,"Western Yellow-throat",4/28/1899 0:00:00
+195,"Western Yellow-throat",5/5/1900 0:00:00
+196,"Western Yellow-throat",5/5/1901 0:00:00
+197,"Western Yellow-throat",5/2/1902 0:00:00
+198,"Western Yellow-throat",5/1/1903 0:00:00
+199,"Warbling Vireo",5/15/1898 0:00:00
+200,"Warbling Vireo",5/12/1899 0:00:00
+201,"Warbling Vireo",5/6/1900 0:00:00
+202,"Warbling Vireo",5/11/1901 0:00:00
+203,"Warbling Vireo",5/7/1902 0:00:00
+204,"Warbling Vireo",5/5/1903 0:00:00
+205,"Vesper Sparrow",4/18/1902 0:00:00
+206,"Vesper Sparrow",4/1/1903 0:00:00
+207,"Tree Swallow",4/12/1899 0:00:00
+208,"Tree Swallow",4/18/1900 0:00:00
+209,"Tree Swallow",4/12/1901 0:00:00
+210,"Tree Swallow",3/11/1902 0:00:00
+211,"Tree Swallow",4/1/1903 0:00:00
+212,"Tree Sparrow",4/5/1901 0:00:00
+213,"Tree Sparrow",3/7/1902 0:00:00
+214,"Tree Sparrow",3/13/1903 0:00:00
+215,"Towhee",3/17/1898 0:00:00
+216,"Towhee",4/11/1899 0:00:00
+217,"Towhee",4/7/1900 0:00:00
+218,"Towhee",3/25/1901 0:00:00
+219,"Towhee",3/10/1902 0:00:00
+220,"Towhee",3/18/1903 0:00:00
+221,"Swamp Sparrow",4/20/1899 0:00:00
+222,"Swamp Sparrow",4/20/1899 0:00:00
+223,"Swamp Sparrow",4/21/1900 0:00:00
+224,"Swamp Sparrow",3/11/1902 0:00:00
+225,"Swamp Sparrow",4/12/1903 0:00:00
+226,"Sparrow Hawk",4/30/1903 0:00:00
+227,"Sparrow Hawk",3/21/1902 0:00:00
+228,"Sparrow Hawk",3/24/1901 0:00:00
+229,"Sparrow Hawk",4/18/1900 0:00:00
+230,"Sparrow Hawk",4/25/1899 0:00:00
+231,"Song Sparrow",3/15/1898 0:00:00
+232,"Song Sparrow",3/19/1899 0:00:00
+233,"Song Sparrow",3/27/1900 0:00:00
+234,"Song Sparrow",3/18/1901 0:00:00
+235,"Song Sparrow",3/8/1902 0:00:00
+236,"Song Sparrow",3/12/1903 0:00:00
+237,"Scarlet Tanager",5/4/1899 0:00:00
+238,"Scarlet Tanager",5/2/1900 0:00:00
+239,"Scarlet Tanager",5/5/1901 0:00:00
+240,"Scarlet Tanager",5/3/1902 0:00:00
+241,"Scarlet Tanager",5/5/1903 0:00:00
+242,"Rusty Blackbird",4/5/1901 0:00:00
+243,"Rusty Blackbird",3/17/1903 0:00:00
+244,"Ruby-throated Hummingbird",5/9/1899 0:00:00
+245,"Ruby-throated Hummingbird",5/13/1900 0:00:00
+246,"Ruby-throated Hummingbird",5/16/1901 0:00:00
+247,"Ruby-throated Hummingbird",5/17/1902 0:00:00
+248,"Ruby-throated Hummingbird",5/13/1903 0:00:00
+249,"Ruby-crowned Kinglet",4/1/1898 0:00:00
+250,"Ruby-crowned Kinglet",4/13/1899 0:00:00
+251,"Ruby-crowned Kinglet",4/7/1900 0:00:00
+252,"Ruby-crowned Kinglet",4/17/1902 0:00:00
+253,"Ruby-crowned Kinglet",4/13/1902 0:00:00
+254,"Ruby-crowned Kinglet",3/19/1903 0:00:00
+255,"Rose-breasted Grosbeak",5/11/1900 0:00:00
+256,"Rose-breasted Grosbeak",5/4/1901 0:00:00
+257,"Rose-breasted Grosbeak",4/28/1902 0:00:00
+258,"Rose-breasted Grosbeak",5/9/1903 0:00:00
+259,"Robin",3/9/1898 0:00:00
+260,"Robin",3/4/1899 0:00:00
+261,"Robin",3/24/1900 0:00:00
+262,"Robin",3/14/1901 0:00:00
+263,"Robin",3/10/1902 0:00:00
+264,"Robin",3/7/1903 0:00:00
+265,"Red-winged Blackbird",4/18/1900 0:00:00
+266,"Red-winged Blackbird",3/22/1901 0:00:00
+267,"Red-winged Blackbird",3/26/1902 0:00:00
+268,"Red-winged Blackbird",3/17/1903 0:00:00
+269,"Red-headed Woodpecker",4/29/1898 0:00:00
+270,"Red-headed Woodpecker",4/28/1899 0:00:00
+271,"Red-headed Woodpecker",5/6/1900 0:00:00
+272,"Red-headed Woodpecker",4/27/1901 0:00:00
+273,"Red-headed Woodpecker",4/27/1902 0:00:00
+274,"Red-headed Woodpecker",4/28/1903 0:00:00
+275,"Red-eyed Vireo",4/29/1899 0:00:00
+276,"Red-eyed Vireo",5/12/1900 0:00:00
+277,"Red-eyed Vireo",5/4/1901 0:00:00
+278,"Red-eyed Vireo",5/2/1902 0:00:00
+279,"Red-eyed Vireo",5/4/1903 0:00:00
+280,"Red-breasted Nuthatch",4/22/1902 0:00:00
+281,"Red-breasted Nuthatch",4/28/1903 0:00:00
+282,"Purple Martin",5/30/1899 0:00:00
+283,"Purple Martin",4/27/1901 0:00:00
+284,"Purple Martin",4/23/1902 0:00:00
+285,"Purple Martin",4/17/1903 0:00:00
+286,"Purple Finch",4/15/1900 0:00:00
+287,"Purple Finch",4/11/1902 0:00:00
+288,"Purple Finch",4/15/1903 0:00:00
+289,"Prothonotary Warbler",4/27/1902 0:00:00
+290,"Prothonotary Warbler",5/19/1903 0:00:00
+291,"Pine Warbler",4/30/1901 0:00:00
+292,"Pine Warbler",4/21/1902 0:00:00
+293,"Pine Warbler",4/22/1903 0:00:00
+294,"Phoebe",3/20/1898 0:00:00
+295,"Phoebe",4/17/1899 0:00:00
+296,"Phoebe",4/1/1900 0:00:00
+297,"Phoebe",3/18/1901 0:00:00
+298,"Phoebe",3/15/1902 0:00:00
+299,"Phoebe",3/17/1903 0:00:00
+300,"Parula Warbler",5/12/1901 0:00:00
+301,"Parula Warbler",5/3/1902 0:00:00
+302,"Parula Warbler",5/9/1903 0:00:00
+303,"Palm Warbler",4/20/1899 0:00:00
+304,"Palm Warbler",4/27/1900 0:00:00
+305,"Palm Warbler",4/26/1901 0:00:00
+306,"Palm Warbler",4/21/1902 0:00:00
+307,"Palm Warbler",4/22/1903 0:00:00
+308,"Ovenbird",5/1/1898 0:00:00
+309,"Ovenbird",5/3/1899 0:00:00
+310,"Ovenbird",5/5/1900 0:00:00
+311,"Ovenbird",5/5/1901 0:00:00
+312,"Ovenbird",5/1/1902 0:00:00
+313,"Ovenbird",5/6/1903 0:00:00
+314,"Orchard Oriole",5/6/1899 0:00:00
+315,"Orchard Oriole",5/11/1900 0:00:00
+316,"Orchard Oriole",5/10/1901 0:00:00
+317,"Orchard Oriole",5/2/1902 0:00:00
+318,"Orchard Oriole",5/5/1903 0:00:00
+319,"Olive-backed Thrush",5/4/1899 0:00:00
+320,"Olive-backed Thrush",5/8/1900 0:00:00
+321,"Olive-backed Thrush",4/30/1901 0:00:00
+322,"Olive-backed Thrush",4/22/1902 0:00:00
+323,"Olive-backed Thrush",4/29/1903 0:00:00
+324,"Nighthawk",5/13/1900 0:00:00
+325,"Nighthawk",5/18/1901 0:00:00
+326,"Nighthawk",5/18/1902 0:00:00
+327,"Nighthawk",5/18/1903 0:00:00
+328,"Nashville Warbler",5/4/1899 0:00:00
+329,"Nashville Warbler",5/9/1900 0:00:00
+330,"Nashville Warbler",5/19/1901 0:00:00
+331,"Nashville Warbler",5/2/1902 0:00:00
+332,"Nashville Warbler",5/1/1903 0:00:00
+333,"Myrtle Warbler",4/16/1898 0:00:00
+334,"Myrtle Warbler",4/14/1899 0:00:00
+335,"Myrtle Warbler",4/19/1900 0:00:00
+336,"Myrtle Warbler",4/14/1901 0:00:00
+337,"Myrtle Warbler",4/17/1902 0:00:00
+338,"Myrtle Warbler",4/8/1903 0:00:00
+339,"Mourning Warbler",5/13/1899 0:00:00
+340,"Mourning Warbler",5/6/1900 0:00:00
+341,"Mourning Warbler",5/16/1901 0:00:00
+342,"Mourning Warbler",5/2/1902 0:00:00
+343,"Mourning Warbler",5/11/1903 0:00:00
+344,"Meadowlark",3/27/1900 0:00:00
+345,"Meadowlark",3/19/1901 0:00:00
+346,"Meadowlark",3/10/1902 0:00:00
+347,"Meadowlark",3/13/1903 0:00:00
+348,"Marsh Hawk",4/19/1900 0:00:00
+349,"Marsh Hawk",3/25/1901 0:00:00
+350,"Marsh Hawk",4/21/1902 0:00:00
+351,"Marsh Hawk",4/1/1903 0:00:00
+352,"Magnolia Warbler",5/11/1898 0:00:00
+353,"Magnolia Warbler",4/27/1899 0:00:00
+354,"Magnolia Warbler",5/8/1900 0:00:00
+355,"Magnolia Warbler",5/6/1901 0:00:00
+356,"Magnolia Warbler",4/21/1902 0:00:00
+357,"Magnolia Warbler",5/5/1903 0:00:00
+358,"Louisiana Water-Thrush",5/5/1903 0:00:00
+359,"Long-billed Marsh Wren",4/12/1900 0:00:00
+360,"Long-billed Marsh Wren",3/29/1903 0:00:00
+361,"Loggerhead Shrike",4/11/1899 0:00:00
+362,"Loggerhead Shrike",3/9/1900 0:00:00
+363,"Loggerhead Shrike",3/3/1901 0:00:00
+364,"Loggerhead Shrike",3/9/1902 0:00:00
+365,"Loggerhead Shrike",3/1/1903 0:00:00
+366,"Lincoln Sparrow",5/23/1901 0:00:00
+367,"Lincoln Sparrow",5/12/1902 0:00:00
+368,"Lincoln Sparrow",5/10/1903 0:00:00
+369,"Least Flycatcher",4/30/1898 0:00:00
+370,"Least Flycatcher",4/20/1899 0:00:00
+371,"Least Flycatcher",4/30/1900 0:00:00
+372,"Least Flycatcher",5/6/1901 0:00:00
+373,"Least Flycatcher",4/21/1902 0:00:00
+374,"Least Flycatcher",5/9/1903 0:00:00
+375,"Kingbird",4/30/1898 0:00:00
+376,"Kingbird",5/10/1899 0:00:00
+377,"Kingbird",5/6/1900 0:00:00
+378,"Kingbird",5/10/1901 0:00:00
+379,"Kingbird",4/21/1902 0:00:00
+380,"Kingbird",5/5/1903 0:00:00
+381,"Junco",3/9/1898 0:00:00
+382,"Junco",3/14/1899 0:00:00
+383,"Junco",3/23/1900 0:00:00
+384,"Junco",3/18/1901 0:00:00
+385,"Junco",3/8/1902 0:00:00
+386,"Junco",3/13/1903 0:00:00
+387,"Indigo Bunting",5/10/1899 0:00:00
+388,"Indigo Bunting",5/21/1900 0:00:00
+389,"Indigo Bunting",5/10/1901 0:00:00
+390,"Indigo Bunting",5/2/1902 0:00:00
+391,"Indigo Bunting",5/6/1903 0:00:00
+392,"House Wren",5/4/1898 0:00:00
+393,"House Wren",4/30/1899 0:00:00
+394,"House Wren",4/21/1901 0:00:00
+395,"House Wren",4/23/1902 0:00:00
+396,"House Wren",4/12/1903 0:00:00
+397,"Hermit Thrush",4/11/1899 0:00:00
+398,"Hermit Thrush",4/7/1900 0:00:00
+399,"Hermit Thrush",4/5/1901 0:00:00
+400,"Hermit Thrush",4/13/1902 0:00:00
+401,"Hermit Thrush",3/19/1903 0:00:00
+402,"Henslow Sparrow",4/26/1899 0:00:00
+403,"Henslow Sparrow",4/21/1900 0:00:00
+404,"Henslow Sparrow",4/30/1901 0:00:00
+405,"Henslow Sparrow",4/24/1902 0:00:00
+406,"Henslow Sparrow",4/15/1903 0:00:00
+407,"Hairy Woodpecker",5/24/1899 0:00:00
+408,"Hairy Woodpecker",4/19/1900 0:00:00
+409,"Hairy Woodpecker",3/25/1902 0:00:00
+410,"Hairy Woodpecker",3/6/1903 0:00:00
+411,"Grinnell Water-Thrush",4/28/1899 0:00:00
+412,"Grinnell Water-Thrush",4/23/1900 0:00:00
+413,"Grinnell Water-Thrush",4/17/1901 0:00:00
+414,"Grinnell Water-Thrush",4/21/1902 0:00:00
+415,"Grinnell Water-Thrush",4/29/1903 0:00:00
+416,"Great-crested Flycatcher",4/30/1899 0:00:00
+417,"Great-crested Flycatcher",5/11/1901 0:00:00
+418,"Great-crested Flycatcher",4/21/1902 0:00:00
+419,"Great-crested Flycatcher",4/29/1903 0:00:00
+420,"Gray-cheeked Thrush",5/11/1903 0:00:00
+422,"Golden-crowned Kinglet",3/14/1898 0:00:00
+423,"Golden-crowned Kinglet",4/11/1899 0:00:00
+424,"Golden-crowned Kinglet",4/6/1900 0:00:00
+425,"Golden-crowned Kinglet",4/5/1901 0:00:00
+426,"Golden-crowned Kinglet",3/28/1902 0:00:00
+427,"Golden-crowned Kinglet",3/19/1903 0:00:00
+428,"Fox Sparrow",3/30/1898 0:00:00
+429,"Fox Sparrow",3/14/1899 0:00:00
+430,"Fox Sparrow",4/5/1900 0:00:00
+431,"Fox Sparrow",3/18/1901 0:00:00
+432,"Fox Sparrow",3/10/1902 0:00:00
+433,"Fox Sparrow",3/17/1903 0:00:00
+434,"Flicker",3/25/1898 0:00:00
+435,"Flicker",4/11/1899 0:00:00
+436,"Flicker",4/7/1900 0:00:00
+437,"Flicker",3/23/1901 0:00:00
+438,"Flicker",3/24/1902 0:00:00
+439,"Flicker",3/18/1903 0:00:00
+440,"Field Sparrow",4/17/1900 0:00:00
+441,"Field Sparrow",4/5/1901 0:00:00
+442,"Field Sparrow",3/11/1902 0:00:00
+443,"Field Sparrow",3/19/1903 0:00:00
+444,"Downy Woodpecker",4/8/1898 0:00:00
+445,"Downy Woodpecker",3/27/1899 0:00:00
+446,"Downy Woodpecker",4/25/1900 0:00:00
+447,"Downy Woodpecker",4/5/1901 0:00:00
+448,"Downy Woodpecker",3/10/1902 0:00:00
+449,"Downy Woodpecker",3/6/1903 0:00:00
+450,"Dickcissel",5/18/1902 0:00:00
+451,"Crow",3/26/1899 0:00:00
+452,"Crow",3/12/1900 0:00:00
+453,"Crow",3/3/1901 0:00:00
+454,"Crow",3/6/1902 0:00:00
+455,"Crow",3/8/1903 0:00:00
+456,"Cowbird",3/16/1898 0:00:00
+457,"Cowbird",4/10/1899 0:00:00
+458,"Cowbird",4/1/1900 0:00:00
+459,"Cowbird",3/19/1901 0:00:00
+460,"Cowbird",3/1/1902 0:00:00
+461,"Cowbird",3/14/1903 0:00:00
+462,"Chipping Sparrow",4/13/1898 0:00:00
+463,"Chipping Sparrow",4/18/1899 0:00:00
+464,"Chipping Sparrow",4/8/1900 0:00:00
+465,"Chipping Sparrow",4/8/1901 0:00:00
+466,"Chipping Sparrow",4/13/1902 0:00:00
+467,"Chipping Sparrow",4/12/1903 0:00:00
+468,"Chimney Swift",4/30/1898 0:00:00
+469,"Chimney Swift",5/11/1899 0:00:00
+470,"Chimney Swift",4/30/1900 0:00:00
+471,"Chimney Swift",4/17/1901 0:00:00
+472,"Chimney Swift",4/22/1902 0:00:00
+473,"Chimney Swift",5/5/1903 0:00:00
+474,"Chickadee",3/19/1900 0:00:00
+475,"Chickadee",4/13/1901 0:00:00
+476,"Chestnut-sided Warbler",5/10/1898 0:00:00
+477,"Chestnut-sided Warbler",5/30/1899 0:00:00
+478,"Chestnut-sided Warbler",5/3/1900 0:00:00
+479,"Chestnut-sided Warbler",5/7/1901 0:00:00
+480,"Chestnut-sided Warbler",5/2/1902 0:00:00
+481,"Chestnut-sided Warbler",5/9/1903 0:00:00
+482,"Cedar Waxwing",3/27/1899 0:00:00
+483,"Cedar Waxwing",5/16/1901 0:00:00
+484,"Cedar Waxwing",4/24/1902 0:00:00
+485,"Cedar Waxwing",4/5/1903 0:00:00
+486,"Catbird",5/1/1898 0:00:00
+487,"Catbird",4/28/1899 0:00:00
+488,"Catbird",4/30/1900 0:00:00
+489,"Catbird",4/28/1901 0:00:00
+490,"Catbird",3/26/1902 0:00:00
+491,"Catbird",5/5/1903 0:00:00
+492,"Cardinal",4/25/1900 0:00:00
+493,"Cape May Warbler",5/1/1899 0:00:00
+494,"Cape May Warbler",5/2/1900 0:00:00
+495,"Cape May Warbler",5/5/1901 0:00:00
+496,"Cape May Warbler",5/2/1902 0:00:00
+497,"Cape May Warbler",5/9/1903 0:00:00
+498,"Canadian Warbler",5/16/1899 0:00:00
+499,"Canadian Warbler",5/12/1900 0:00:00
+500,"Canadian Warbler",5/16/1901 0:00:00
+501,"Canadian Warbler",5/6/1902 0:00:00
+502,"Canadian Warbler",5/12/1903 0:00:00
+503,"Brown Thrasher",4/24/1898 0:00:00
+504,"Brown Thrasher",4/27/1899 0:00:00
+505,"Brown Thrasher",4/16/1900 0:00:00
+506,"Brown Thrasher",4/24/1901 0:00:00
+507,"Brown Thrasher",4/22/1902 0:00:00
+508,"Brown Thrasher",4/12/1903 0:00:00
+509,"Brown Creeper",4/7/1898 0:00:00
+510,"Brown Creeper",4/6/1899 0:00:00
+511,"Brown Creeper",4/2/1900 0:00:00
+512,"Brown Creeper",4/4/1901 0:00:00
+513,"Brown Creeper",3/21/1902 0:00:00
+514,"Brown Creeper",3/18/1903 0:00:00
+515,"Bronzed Grackle",3/14/1898 0:00:00
+516,"Bronzed Grackle",3/20/1899 0:00:00
+517,"Bronzed Grackle",3/24/1900 0:00:00
+518,"Bronzed Grackle",3/23/1901 0:00:00
+519,"Bronzed Grackle",3/10/1902 0:00:00
+520,"Bronzed Grackle",3/14/1903 0:00:00
+521,"Bobolink",5/8/1900 0:00:00
+522,"Bobolink",5/4/1901 0:00:00
+523,"Bobolink",5/12/1902 0:00:00
+524,"Bobolink",5/8/1903 0:00:00
+525,"Blue-headed Vireo",5/5/1901 0:00:00
+526,"Blue-headed Vireo",5/2/1902 0:00:00
+527,"Blue-headed Vireo",5/8/1903 0:00:00
+528,"Blue-gray Gnatcatcher",4/22/1899 0:00:00
+529,"Blue-gray Gnatcatcher",4/18/1900 0:00:00
+530,"Blue-gray Gnatcatcher",4/28/1901 0:00:00
+531,"Blue-gray Gnatcatcher",4/22/1902 0:00:00
+532,"Blue-gray Gnatcatcher",4/25/1903 0:00:00
+533,"Bluebird",3/8/1898 0:00:00
+534,"Bluebird",4/4/1899 0:00:00
+535,"Bluebird",3/31/1900 0:00:00
+536,"Bluebird",3/17/1901 0:00:00
+537,"Bluebird",3/7/1902 0:00:00
+538,"Bluebird",3/7/1903 0:00:00
+539,"Blue Golden-winged WarblerBlue Golden-winged Warbler",5/2/1902 0:00:00
+540,"Blue Golden-winged Warbler",5/12/1900 0:00:00
+541,"Blue Golden-winged Warbler",5/12/1901 0:00:00
+542,"Black-throated Green Warbler",5/17/1898 0:00:00
+543,"Black-throated Green Warbler",4/23/1899 0:00:00
+544,"Black-throated Green Warbler",4/27/1900 0:00:00
+545,"Black-throated Green Warbler",4/26/1901 0:00:00
+546,"Black-throated Green Warbler",4/28/1902 0:00:00
+547,"Black-throated Green Warbler",5/2/1903 0:00:00
+548,"Black-throated Blue Warbler",5/11/1898 0:00:00
+549,"Black-throated Blue Warbler",5/4/1899 0:00:00
+550,"Black-throated Blue Warbler",5/8/1900 0:00:00
+551,"Black-throated Blue Warbler",5/5/1901 0:00:00
+552,"Black-throated Blue Warbler",5/2/1902 0:00:00
+553,"Black-throated Blue Warbler",5/5/1903 0:00:00
+554,"Black-poll Warbler",5/10/1899 0:00:00
+555,"Black-poll Warbler",5/13/1900 0:00:00
+556,"Black-poll Warbler",5/16/1901 0:00:00
+557,"Black-poll Warbler",5/12/1902 0:00:00
+558,"Black-poll Warbler",5/6/1903 0:00:00
+559,"Blackburnian Warbler",5/10/1898 0:00:00
+560,"Blackburnian Warbler",5/3/1899 0:00:00
+561,"Blackburnian Warbler",4/28/1900 0:00:00
+562,"Blackburnian Warbler",5/10/1901 0:00:00
+563,"Blackburnian Warbler",4/28/1902 0:00:00
+564,"Blackburnian Warbler",4/30/1903 0:00:00
+565,"Black-billed Cuckoo",5/12/1900 0:00:00
+566,"Black-billed Cuckoo",5/15/1901 0:00:00
+567,"Black-billed Cuckoo",5/16/1902 0:00:00
+568,"Black-billed Cuckoo",5/12/1903 0:00:00
+569,"Black and White Creeper",4/30/1898 0:00:00
+570,"Black and White Creeper",4/21/1899 0:00:00
+571,"Black and White Creeper",4/26/1900 0:00:00
+572,"Black and White Creeper",5/4/1901 0:00:00
+573,"Black and White Creeper",4/28/1902 0:00:00
+574,"Black and White Creeper",4/27/1903 0:00:00
+575,"Belted Kingfisher",3/25/1898 0:00:00
+576,"Belted Kingfisher",3/22/1899 0:00:00
+577,"Belted Kingfisher",4/10/1900 0:00:00
+578,"Belted Kingfisher",3/26/1901 0:00:00
+579,"Belted Kingfisher",4/11/1902 0:00:00
+580,"Belted Kingfisher",4/10/1903 0:00:00
+581,"Bay-breasted Warbler",5/4/1899 0:00:00
+582,"Bay-breasted Warbler",5/11/1900 0:00:00
+583,"Bay-breasted Warbler",5/15/1901 0:00:00
+584,"Bay-breasted Warbler",4/22/1902 0:00:00
+585,"Bay-breasted Warbler",5/9/1903 0:00:00
+586,"Barn Swallow",5/1/1898 0:00:00
+587,"Barn Swallow",4/23/1899 0:00:00
+588,"Barn Swallow",4/26/1900 0:00:00
+589,"Barn Swallow",4/10/1901 0:00:00
+590,"Barn Swallow",4/18/1902 0:00:00
+591,"Barn Swallow",4/24/1903 0:00:00
+592,"Baltimore Oriole",5/2/1899 0:00:00
+593,"Baltimore Oriole",5/6/1900 0:00:00
+594,"Baltimore Oriole",5/4/1901 0:00:00
+595,"Baltimore Oriole",5/2/1902 0:00:00
+596,"Baltimore Oriole",5/5/1903 0:00:00
+597,"American Redstart",5/1/1898 0:00:00
+598,"American Redstart",4/28/1899 0:00:00
+599,"American Redstart",5/11/1900 0:00:00
+600,"American Redstart",5/6/1901 0:00:00
+601,"American Redstart",5/2/1902 0:00:00
+602,"American Redstart",5/5/1903 0:00:00
+603,"American Goldfinch",5/6/1898 0:00:00
+604,"American Goldfinch",4/28/1899 0:00:00
+605,"American Goldfinch",5/7/1900 0:00:00
+606,"American Goldfinch",4/30/1901 0:00:00
+607,"American Goldfinch",5/2/1902 0:00:00
+608,"American Goldfinch",5/7/1903 0:00:00
