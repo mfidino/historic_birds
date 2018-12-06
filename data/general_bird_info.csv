@@ -1,0 +1,190 @@
+"ID","BooksCommonName","BooksLatinName","ModernLatinName(ifDifferent)","SurveyedIn","ConservationStatus:2012","Migration","BuildsNest","TypeOfNest","Diet","Family","ModernName","Order","Waterfowl?","SeenToday"
+1,"Blue Jay","Cyanocitta cristata",,"1890s & 2012","Least Concern","Year round","Tree","Cup","omnivore","Corvidae","Blue Jay","Passeriformes",0,0
+2,"Bronzed Grackle","Quiscalus quiscula",,"1890s & 2012","Least Concern","Year round","Tree or building","Cup","omnivore","Icteridae","Common Grackle","Passeriformes",0,1
+3,"Loggerhead shrike","Lanius ludovicianus",,"1890s","Least Concern","Summer (breeding)","Shrub or tree","Cup","carnivore","Laniidae","Loggerhead Shrike","Passeriformes",0,0
+4,"Robin","Merula migratoria","Turdis migratorius","1890s & 2012","Least Concern","Year round","tree or building","Cup","omnivore","Turdidae","American Robin","Passeriformes",0,1
+5,"Junco","Junco hiemalis","Junco hyemalis","1890s","Least Concern","Winter (non-breeding)","ground","Cup","omnivore","Emberizidae","Dark-eyed Junco","Passeriformes",0,0
+6,"Meadowlark","Sturnella magna",,"1890s & 2012","Least Concern","Year round","ground","Cup","omnivore","Icteridae","Eastern Meadowlark","Passeriformes",0,0
+7,"Crow","Corvus americanus","Corvus brachyrynchos","1890s & 2012","Least Concern","Year round","Tree","Cup","omnivore","Corvidae","American Crow","Passeriformes",0,1
+8,"Bluebird","Sialia sialis",,"1890s","Least Concern","Summer (breeding)","Tree","Cavity","omnivore","Turdidae","Eastern Bluebird","Passeriformes",0,1
+9,"Savanna Sparrow","Passerculus sandwichensis",,"1890s & 2012","Least Concern","Summer (breeding)","ground","Cup","omnivore","Emberizidae","Savannah Sparrow","Passeriformes",0,1
+10,"Song Sparrow","Melospiza cinerea","Melospiza melodia","1890s & 2012","Least Concern","Year round","shrub","Cup","omnivore","Emberizidae","Song Sparrow","Passeriformes",0,0
+11,"Cowbird","Molothrus ater",,"1890s & 2012","Least Concern","Year round",,"Nest Parasite","omnivore","Icteridae","Brown-headed Cowbird","Passeriformes",0,0
+12,"Tree Sparrow","Spizella monticola","Spizella arborea","1890s & 2012","Least Concern","Winter (non-breeding)","ground","Cup","omnivore","Emberizidae","American Tree Sparrow","Passeriformes",0,0
+13,"Fox Sparrow","Passarella liaca","Passerella iliaca","1890s & 2012","Least Concern","Migration","ground","Cup","omnivore","Emberizidae","Fox Sparrow","Passeriformes",0,0
+14,"Phoebe","Sayornis phoebe",,"1890s & 2012","Least Concern","Summer (breeding)",,"Cup","omnivore","Tyrannidae","Eastern Phoebe","Passeriformes",0,0
+15,"Towhee","Pipilo erythrophthalmus",,"1890s & 2012","Least Concern","Summer (breeding)","ground","Cup","omnivore","Emberizidae","Eastern Towhee","Passeriformes",0,1
+16,"Downy Woodpecker","Dryobates pubescens","Picoides pubescens","1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Picidae","Downy Woodpecker","Piciformes",0,1
+17,"Golden-crowned kinglet","Regulus satrapa",,"1890s","Least Concern","Winter (non-breeding)","Tree","Cup","omnivore","Regulidae","Golden-crowned Kinglet","Passeriformes",0,0
+18,"Flicker","Colaptes auratus",,"1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Picidae","Northern Flicker","Piciformes",0,1
+19,"Brown Creeper","Certhia familiaris","Certhia americana","1890s & 2012","Least Concern","Winter (non-breeding)","Tree","Cup","omnivore","Certhidae","Brown Creeper","Passeriformes",0,0
+20,"Chickadee","Parus atricapillus",,"1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Paridae","Black capped Chickadee","Passeriformes",0,1
+21,"White-Breasted Nuthatch","Sitta carolinensis",,"1890s","Least Concern","Year round","Tree","Cavity","omnivore","Sittidae","White-breasted Nuthatch","Passeriformes",0,0
+22,"Belted Kingfisher","Ceryle alcyon",,"1890s & 2012","Least Concern","Year round","ground","Burrow","carnivore","Alcedinidae","Belted Kingfisher","Coraciiformes",0,0
+23,"Yellow-Bellied Sapsucker","Sphyrapicus varius",,"1890s","Least Concern","Migration","Tree","Cavity","omnivore","Picidae","Yellow-bellied Sapsucker","Piciformes",0,0
+24,"Rusty Blackbird","Scolecophagus carolinus","Euphagus carolinus","1890s","Vulnerable","Winter (non-breeding)","Tree","Cup","omnivore","Icteridae","Rusty Blackbird","Passeriformes",0,0
+25,"Field Sparrow","Spizella pusilla",,"1890s & 2012","Least Concern","Year round","ground","Cup","omnivore","Emberizidae","Field Sparrow","Passeriformes",0,0
+26,"Hermit thrush","Hylocichla guttata","Catharus guttatus","1890s & 2012","Least Concern","Migration","ground","Cup","omnivore","Turdidae","Hermit thrush","Passeriformes",0,0
+27,"Red-winged blackbird","Agelaius phoeniceus",,"1890s & 2012","Least Concern","Year round","shrub","Cup","omnivore","Icteridae","Red-winged blackbird","Passeriformes",0,1
+28,"Ruby-crowned kinglet","Regulus calendula",,"1890s","Least Concern","Migration","Tree","Globe","omnivore","Regulidae","Ruby-crowned kinglet","Passeriformes",0,1
+29,"Hairy woodpecker","Dryobates villosus","Picoides villosus","1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Picidae","Hairy woodpecker","Piciformes",0,0
+30,"Tree swallow","Iridoprocne bicolor","Tachycineta bicolor","1890s & 2012","Least Concern","Summer (breeding)","Tree","Cavity","omnivore","Hirundinidae","Tree swallow","Passeriformes",0,0
+31,"Cardinal","Cardinalis cardinalis",,"1890s & 2012","Least Concern","Year round","shrub","Cup","omnivore","Cardinalidae","Northern Cardinal","Passeriformes",0,1
+32,"White-throated sparrow","Zonotrichia albicollis",,"1890s & 2012","Least Concern","Winter (non-breeding)","ground","Cup","omnivore","Emberizidae","White-throated sparrow","Passeriformes",0,1
+33,"Marsh hawk","Circus hudsonius","Circus cyaneus","1890s","Least Concern","Year round","ground","Platform","carnivore","Accipitridae","Northern Harrier","Accipitriformes",0,0
+34,"Chipping sparrow","Spizella socialis",,"1890s & 2012","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Emberizidae","Chipping sparrow","Passeriformes",0,0
+35,"Mourning Dove","Zenaida macroura",,"1890s & 2012","Least Concern","Year round","Tree","Cup","seed-eater","Columbiformes","Mourning Dove","Columbidae",0,1
+36,"Winter wren","Olbiorchilus hiemalis","Troglodytes hiemalis","1890s","Least Concern","Winter (non-breeding)","Tree","Cavity","insectivore","Troglodytidae","Winter wren","Passeriformes",0,0
+37,"Vesper sparrow","Pooecetes gramineus",,"1890s","Least Concern","Summer (breeding)","ground","Cup","omnivore","Emberizidae","Vesper sparrow","Passeriformes",0,0
+38,"Myrtle warbler","Dendroica coronata","Setophaga coronata","1890s & 2012","Least Concern","Migration","Tree","Cup","omnivore","Parulidae","Yellow rumped Warbler","Passeriformes",0,0
+39,"Swamp sparrow","Melospiza georgiana",,"1890s","Least Concern","Year round","shrub","Cup","omnivore","Emberizidae","Swamp Sparrow","Passeriformes",0,1
+40,"Purple finch","Carpodacus purpureus",,"1890s","Least Concern","Winter (non-breeding)","Tree","Cup","seed-eater","Fringillidae","Purple finch","Passeriformes",0,0
+41,"Cedar waxwing","Ampelis cedrorum","Bombycilla cedrorum","1890s & 2012","Least Concern","Year round","Tree","Cup","omnivore","Bombycillidae","Cedar waxwing","Passeriformes",0,1
+42,"Wilson thrush","Hylocichla fuscescens","Catharus fuscescens","1890s","Least Concern","Summer (breeding)","ground","Cup","omnivore","Turdidae","Veery","Passeriformes",0,1
+43,"Sparrow hawk","Falco sparverius",,"1890s & 2012","Least Concern","Year round","Tree","Cavity","carnivore","Falconidae","American Kestrel","Falconiformes",0,0
+44,"Barn swallow","Hirundo erythrogastra","Hirundo rustica","1890s & 2012","Least Concern","Summer (breeding)","Building","Cup","insectivore","Hirundinidae","Barn swallow","Passeriformes",0,1
+45,"Brown thrasher","Toxostoma rufum ",,"1890s & 2012","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Mimidae","Brown thrasher","Passeriformes",0,0
+46,"House wren","Troglodytes aedon",,"1890s","Least Concern","Summer (breeding)","Tree","Cavity","insectivore","Troglodytidae","House wren","Passeriformes",0,1
+47,"Blue-gray gnatcatcher","Polioptila caerulea",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","insectivore","Polioptilidae","Blue-gray gnatcatcher","Passeriformes",0,0
+48,"White-crowned sparrow","Zonotrichia leucophrys",,"1890s & 2012","Least Concern","Winter (non-breeding)","ground","Cup","omnivore","Emberizidae","White-crowned sparrow","Passeriformes",0,1
+49,"Palm warbler","Dendroica palmarum","Setophaga palmarum","1890s & 2012","Least Concern","Migration","ground","Cup","omnivore","Parulidae","Palm warbler","Passeriformes",0,1
+50,"Henslow sparrow","Coterniculus henslowii","Ammodramus henslowii","1890s","Near Threatened","Summer (breeding)","ground","Cup","omnivore","Emberizidae","Henslow's Sparrow","Passeriformes",0,0
+51,"Grinnell water-thrush","Seiurus noveboracensis","Parkesia noveboracensis","1890s & 2012","Least Concern","Migration","ground","Cup","carnivore","Parulidae","Northern Waterthrush","Passeriformes",0,0
+52,"catbird","Galeoscoptes carolinensis","Dumetella carolinensis","1890s & 2012","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Mimidae","Gray Catbird","Passeriformes",0,1
+53,"pine warbler","Dendroica vigorsii","Setophaga pinus","1890s","Least Concern","Migration","Tree","Cup","omnivore","Parulidae","pine warbler","Passeriformes",0,0
+54,"red-breasted nuthatch","Sitta canadensis",,"1890s","Least Concern","Winter (non-breeding)","Tree","Cavity","omnivore","Sittidae","red-breasted nuthatch","Passeriformes",0,0
+55,"black and white creeper","Mniotilta varia",,"1890s & 2012","Least Concern","Migration","ground","Cup","omnivore","Parulidae","Black-and-white Warbler","Passeriformes",0,0
+56,"black-throated green warbler",,"Setophaga virens","1890s & 2012","Least Concern","Migration","Tree","Cup","insectivore","Parulidae","black-throated green warbler","Passeriformes",0,0
+57,"red-headed woodpecker","Melanerpes erythrocephalus",,"1890s","Near Threatened","Year round","Tree","Cavity","omnivore","Picidae","red-headed woodpecker","Piciformes",0,0
+58,"mockingbird","Mimus polyglottus",,"1890s","Least Concern","Year round","shrub","Cup","omnivore","Mimidae","Northern Mockingbird","Passeriformes",0,0
+59,"chimney swift","Chaetura pelagica",,"1890s & 2012","Least Concern","Summer (breeding)","Building","Cup","insectivore","Apodidae","chimney swift","Apodiformes",0,1
+60,"olive-backed thrush","Hylocichla ustulata","Catharus ustulatus","1890s & 2012","Least Concern","Migration","shrub","Cup","omnivore","Turdidae","Swainson's thrush","Passeriformes",0,0
+61,"great-crested flycatcher","Myiarchus crinitus",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Cavity","insectivore","Tyrannidae","great crested flycatcher","Passeriformes",0,0
+62,"louisiana water-thrush","Seiurus motacilla","Parkesia motacilla","1890s","Least Concern","Summer (breeding)","ground","Cup","insectivore","Parulidae","louisiana water-thrush","Passeriformes",0,0
+63,"Least flycatcher","Empidonax minimus",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","insectivore","Tyrannidae","Least flycatcher","Passeriformes",0,0
+64,"wood thrush","Hylocichla mustelina",,"1890s","Least Concern","Summer (breeding)","Tree","Cup","omnivore","Turdidae","wood thrush","Passeriformes",0,0
+66,"Magnolia warbler","Dendroica maculosa",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","cup","insectivore","Parulidae","Magnolia warbler","Passeriformes",0,1
+67,"american goldfinch","Astragalinus tristis","Spinus tristis","1890s & 2012","Least Concern","Summer (breeding)","shrub","cup","seed-eater","Fringillidae","american goldfinch","Passeriformes",0,1
+68,"yellow warbler","Dendroica aestiva","Setophaga petechia","1890s & 2012","Least Concern","Summer (breeding)","shrub","cup","insectivore","Parulidae","yellow warbler","Passeriformes",0,1
+69,"kingbird","Tyrannus tyrannus",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","cup","omnivore","Tyrannidae","Eastern kingbird","Passeriformes",0,1
+70,"baltimore oriole","Icterus galbula",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Suspended Cup","omnivore","Icteridae","baltimore oriole","Passeriformes",0,1
+71,"summer tanager","Piranga rubra",,"1890s","Least Concern","Summer (breeding)","Tree","Cup","omnivore","Cardinalidae","summer tanager","Passeriformes",0,0
+72,"yellow-bellied flycatcher","Empidonax flaviventris",,"1890s & 2012","Least Concern","Migration","ground","platform","insectivore","Tyrannidae","yellow-bellied flycatcher","Passeriformes",0,1
+73,"blackburnian warbler","Dendroica blackburniae","Setophaga fusca","1890s & 2012","Least Concern","Migration","Tree","cup","insectivore","Parulidae","blackburnian warbler","Passeriformes",0,0
+74,"ovenbird","Seiurus aurocapillus",,"1890s & 2012","Least Concern","Summer (breeding)","ground","Dome Cup","insectivore","Parulidae","ovenbird","Passeriformes",0,1
+75,"red-eyed vireo","Vireo olivaceus",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Suspended Cup","omnivore","Vireonidae","red-eyed vireo","Passeriformes",0,1
+76,"american redstart","Setophaga ruticilla",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","insectivore","Parulidae","american redstart","Passeriformes",0,1
+77,"cape may warbler","Dendroica tigrina","Setophaga tigrina","1890s & 2012","Least Concern","Migration","Tree","Cup","insectivore","Parulidae","cape may warbler","Passeriformes",0,0
+78,"scarlet tanager","Piranga erythromelas","Piranga olivacea","1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","omnivore","Cardinalidae","scarlet tanager","Passeriformes",0,0
+79,"yellow-throated vireo","Vireo flavifrons",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Suspended Cup","omnivore","Vireonidae","yellow-throated vireo","Passeriformes",0,1
+80,"rose-breasted grosbeak","Zamelodia ludoviciana","Pheucticus ludovicianus","1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","omnivore","Cardinalidae","rose-breasted grosbeak","Passeriformes",0,1
+81,"purple martin","Progne subis",,"1890s","Least Concern","Summer (breeding)","Tree","Cavity","insectivore","Hirundinidae","purple martin","Passeriformes",0,0
+82,"yellow-breasted chat","Icteria virens",,"1890s","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Parulidae","yellow-breasted chat","Passeriformes",0,0
+83,"black-throated blue warbler","Dendroica caerulescens","Setophaga caerulescens","1890s","Least Concern","Migration","shrub","Cup","omnivore","Parulidae","black-throated blue warbler","Passeriformes",0,0
+84,"nashville warbler","Helminthophila rubricapilla","Oreothlypis ruficapilla","1890s & 2012","Least Concern","Migration","ground","Cup","insectivore","Parulidae","nashville warbler","Passeriformes",0,1
+85,"warbling vireo","Vireo gilvus",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Suspended Cup","omnivore","Vireonidae","warbling vireo","Passeriformes",0,1
+86,"blue-headed vireo","Vireo solitarius",,"1890s","Least Concern","Migration","Tree","Suspended Cup","omnivore","Vireonidae","blue-headed vireo","Passeriformes",0,0
+87,"orchard oriole","Icterus spurius",,"1890s","Least Concern","Summer (breeding)","Tree","Suspended Cup","omnivore","Icteridae","orchard oriole","Passeriformes",0,0
+88,"long-billed marsh wren","Telmatodytes palustris","Cistothorus palustris","1890s","Least Concern","Summer (breeding)","shrub","Dome Cup","insectivore","Troglodytidae","Marsh wren","Passeriformes",0,0
+89,"bay-breasted warbler","Dendroica castanea","Setophaga castanea","1890s & 2012","Least Concern","Migration","Tree","Cup","omnivore","Parulidae","bay-breasted warbler","Passeriformes",0,0
+90,"parula warbler","Compsothlypis ameriana","Setophaga americana","1890s","Least Concern","Migration","Tree","Cup","omnivore","Parulidae","Northern parula","Passeriformes",0,1
+91,"wood pewee","Contopus virens",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Cup","insectivore","Tyrannidae","Eastern Wood Pewee","Passeriformes",0,1
+92,"bobolink","Dolichonyx oryzivorus",,"1890s","Least Concern","Summer (breeding)","ground","Platform","omnivore","Icteridae","bobolink","Passeriformes",0,0
+93,"blue golden-winged warbler","Helminthophila chrysoptera","Vermivora chrysoptera","1890s","Near Threatened","Summer (breeding)","ground","Cup","insectivore","Parulidae","Golden-winged warbler","Passeriformes",0,0
+94,"indigo bunting","Cyanospiza cyanea","Passerina cyanea","1890s & 2012","Least Concern","Summer (breeding)","ground","Platform","omnivore","Cardinalidae","indigo bunting","Passeriformes",0,1
+95,"prothonotary warbler","Protonotaria citrea",,"1890s","Least Concern","Summer (breeding)","Tree","Cavity","omnivore","Parulidae","prothonotary warbler","Passeriformes",0,0
+96,"tennessee warbler","Helminthophila peregrina","Oreothlypis peregrina","1890s","Least Concern","Migration","ground","Cup","omnivore","Parulidae","tennessee warbler","Passeriformes",0,0
+97,"mourning warbler","Geothlypis philadelphia",,"1890s","Least Concern","Migration","ground","Cup","insectivore","Parulidae","mourning warbler","Passeriformes",0,0
+98,"chestnut-sided warbler","Dendroica pennsylvanica","Setophaga pensylvanica","1890s & 2012","Least Concern","Migration","shrub","Cup","omnivore","Parulidae","chestnut-sided warbler","Passeriformes",0,1
+99,"whip-poor-will","Antrostomus vociferus","Caprimulgus vociferus","1890s","Least Concern","Summer (breeding)",,"No nest built","insectivore","CAPRIMULGIDAE","whip-poor-will","CAPRIMULGIFORMES",0,0
+100,"cerulean warbler","Dendroica caerulea","Setophaga cerulea","1890s","Vulnerable","Summer (breeding)","Tree","Cup","insectivore","Parulidae","cerulean warbler","Passeriformes",0,1
+101,"hooded warbler","Wilsonia mitrata","Setophaga citrina","1890s & 2012","Least Concern","Migration","shrub","Cup","insectivore","Parulidae","hooded warbler","Passeriformes",0,1
+102,"black-poll warbler","Dendroica striata","Setophaga striata","1890s & 2012","Least Concern","Migration","Tree","Cup","omnivore","Parulidae","blackpoll warbler","Passeriformes",0,0
+103,"yellow-billed cuckoo","Coccyzus americanus",,"1890s","Least Concern","Summer (breeding)","Tree","Platform","omnivore","CUCULIDAE","yellow-billed cuckoo","CUCULIFORMES",0,0
+104,"canadian warbler","Wilsonia canadensis","Cardellina canadensis","1890s & 2012","Least Concern","Migration","ground","Cup","insectivore","Parulidae","Canada Warbler","Passeriformes",0,1
+105,"wilson black-cap warbler","Wilsonia canadensis","Cardellina pusilla","1890s & 2012","Least Concern","Migration","ground","Cup","omnivore","Parulidae","Wilson's warbler","Passeriformes",0,1
+106,"lincoln sparrow","Melospiza lincolni",,"1890s","Least Concern","Migration","ground","Cup","omnivore","Emberizidae","Lincoln's Sparrow","Passeriformes",0,1
+107,"Ruby-throated hummingbird","Trochilus colubris","Archilochus colubris","1890s & 2012","Least Concern","Summer (breeding)","Tree","Small cup","nectar","TROCHILIDAE","Ruby-throated hummingbird","APODIFORMES",0,0
+108,"nighthawk","Chordeiles virginianus","Chordeiles minor","1890s","Least Concern","Summer (breeding)","ground",,"insectivore","CAPRIMULGIDAE","Common nighthawk","CAPRIMULGIFORMES",0,0
+109,"black-billed cuckoo","Coccyzus erythropthalmus",,"1890s","Least Concern","Summer (breeding)","Tree","Cup","omnivore","Cuculidae","black-billed cuckoo","Cuculiformes",0,0
+110,"gray-cheeked thrush","Hylocichla aliciae","Catharus minimus","1890s & 2012","Least Concern","Migration","shrub","Cup","omnivore","Turdidae","gray-cheeked thrush","Passeriformes",0,0
+111,"yellow-headed blackbird","Xanthocephalus xanthocephalus",,"1890s","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Icteridae","yellow-headed blackbird","Passeriformes",0,0
+112,"dickcissel","Spiza americana",,"1890s","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Cardinalidae","dickcissel","Passeriformes",0,0
+113,"connecticut warbler","Geothlypis agilis","Oporornis agilis","1890s","Least Concern","Migration","ground","Cup","omnivore","Parulidae","connecticut warbler","Passeriformes",0,0
+114,"red-bellied woodpecker","Centurus carolinus","Melanerpes carolinus","1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Picidae","Red-bellied Woodpecker","Piciformes",0,0
+115,"Horned Grebe","Cikymbus auritus","Podiceps auritus","1890s","Least Concern","Migration","Floating","Open Bowl","carnivore","Podicipedidae","Horned Grebe","Podicipediformes",1,0
+116,"Pied-billed grebe","Podilymbus podiceps",,"1890s","Least Concern","Summer (breeding)","Floating","Open Bowl","carnivore","Podicipedidae","Pied-billed grebe","Podicipediformes",1,0
+117,"loon","Gavia imber","Gavia immer","1890s","Least Concern","Migration","ground","Mound","carnivore","Gavidae","Common loon","Gaviformes",1,0
+118,"american herring gull","Larus argentatus",,"1890s","Least Concern","Winter (non-breeding)","ground","Depression","omnivore","Laridae","Herring gull","Charadriiformes",1,0
+119,"ring-billed gull","Larus delawarensis",,"1890s & 2012","Least Concern","Year round","ground","Depression","omnivore","Laridae","ring-billed gull","Charadriiformes",1,1
+120,"bonaparte gull","Larus philadelphia","Chroicocephalus philadelphia","1890s","Least Concern","Migration","Tree","Cup","omnivore","Laridae","Bonaparte's Gull","Charadriiformes",1,0
+121,"common tern","Sterna hirundo",,"1890s","Least Concern","Migration","ground","Depression","carnivore","Laridae","common tern","Charadriiformes",1,0
+122,"american merganser","Merganser americanus","Mergus merganser","1890s","Least Concern","Winter (non-breeding)","Tree","Cavity","carnivore","Anatidae","Common merganser","Anseriformes",1,0
+123,"red-breasted merganser","Merganser serrator","Mergus serrator","1890s","Least Concern","Migration","ground","Depression","carnivore","Anatidae","red-breasted merganser","Anseriformes",1,0
+124,"hooded merganser","Lophodytes cucullatus",,"1890s","Least Concern","Year round","Tree","Cavity","carnivore","Anatidae","hooded merganser","Anseriformes",1,0
+125,"mallard","Anas boschas","Anas platyrhynchos","1890s & 2012","Least Concern","Year round","ground","Depression","omnivore","Anatidae","mallard","Anseriformes",1,1
+126,"green-winged teal","Nettion carolinensis","Anas crecca","1890s","Least Concern","Migration","ground","Depression","seed-eater","Anatidae","green-winged teal","Anseriformes",1,0
+127,"blue-winged teal","Querquedula discors","Anas discors","1890s","Least Concern","Year round","ground","Depression","omnivore","Anatidae","blue-winged teal","Anseriformes",1,0
+128,"pintail","Dafila acuta","Anas acuta","1890s","Least Concern","Migration","ground","Depression","omnivore","Anatidae","Northern pintail","Anseriformes",1,0
+129,"wood duck","Aix sponsa",,"1890s & 2012","Least Concern","Year round","Tree","Cavity","omnivore","Anatidae","wood duck","Anseriformes",1,1
+130,"redhead","Aythya americana",,"1890s","Least Concern","Migration","Floating","Open Bowl","herbivore","Anatidae","redhead","Anseriformes",1,0
+131,"lesser scaup duck","Aythya affinis",,"1890s","Least Concern","Migration","ground","Mound","omnivore","Anatidae","Lesser scaup","Anseriformes",1,0
+132,"american golden-eye","Clangula americana","Bucephala clangula","1890s","Least Concern","Winter (non-breeding)","Tree","Cavity","omnivore","Anatidae","Common goldeneye","Anseriformes",1,0
+133,"buffle-head","Charitonetta albeola","Bucephala albeola","1890s","Least Concern","Winter (non-breeding)","Tree","Cavity","omnivore","Anatidae","Bufflehead","Anseriformes",1,0
+134,"old-squaw","Harelda hiemalis","Clangula hyemalis","1890s","Least Concern","Winter (non-breeding)","ground","Depression","omnivore","Anatidae","Long-tailed duck","Anseriformes",1,0
+135,"canada goose","Branta canadensis",,"1890s & 2012","Least Concern","Year round","ground","Open Bowl","herbivore","Anatidae","canada goose","Anseriformes",1,1
+136,"american bittern","Botaurus lentiginosus",,"1890s","Least Concern","Summer (breeding)","ground","Depression","carnivore","Ardeidae","american bittern","Pelecaniformes",1,0
+137,"least bittern","Ardetta exilis","Ixobrychus exilis","1890s","Least Concern","Summer (breeding)","ground","Platform","carnivore","Ardeidae","least bittern","Pelecaniformes",1,0
+138,"green heron","Butorides virescens",,"1890s & 2012","Least Concern","Summer (breeding)","Tree","Basket","carnivore","Ardeidae","green heron","Pelecaniformes",1,1
+139,"sora","Porzana carolina",,"1890s","Least Concern","Summer (breeding)","Floating","Open Bowl","omnivore","Rallidae","sora","Gruiformes",1,0
+140,"american coot","Fulica americana",,"1890s & 2012","Least Concern","Summer (breeding)","Floating","Basket","omnivore","Rallidae","american coot","Gruiformes",1,0
+141,"american woodcock","Philohela minor","Scolopax minor","1890s & 2012","Least Concern","Summer (breeding)","ground","Depression","insectivore","Scolopacidae","american woodcock","Charadriiformes",1,0
+142,"semi-palmated sandpiper
+r","Ereunetes pusillus","Calidris pusilla","1890s","Least Concern","Migration","ground","Depression","insectivore","Scolopacidae","Semipalmated sandpiper","Charadriiformes",1,0
+143,"solitary sandpiper","Helodromas solitarius","Tringa solitaria","1890s","Least Concern","Migration","Tree","Open Bowl","insectivore","Scolopacidae","solitary sandpiper","Charadriiformes",1,0
+144,"spotted sandpiper","Actitis macularia",,"1890s & 2012","Least Concern","Migration","ground","Depression","carnivore","Scolopacidae","spotted sandpiper","Charadriiformes",1,1
+145,"killdeer","Oxyechus vociferus","Charadrius vociferus","1890s","Least Concern","Summer (breeding)","ground","Depression","insectivore","Charadriidae","killdeer","Charadriiformes",1,0
+146,"Black Crowned Night Heron",,"Nycticorax nycticorax","2012","Least Concern","Summer (breeding)","Tree","Basket","carnivore","Ardeidae","Black Crowned Night Heron","Pelecaniformes",1,1
+147,"Caspian Tern",,"Sterna caspia","2012","Least Concern","Migration","ground","Depression","carnivore","Laridae","Caspian Tern","Charadriiformes",1,1
+148,"Clay-colored Sparrow",,"Spizella pallida","2012","Least Concern","Summer (breeding)","shrub","Cup","omnivore","Emberizidae","Clay-colored Sparrow","Passeriformes",0,1
+149,"Western yellow-throat",,"Geothlypis trichas","1890s & 2012","Least Concern","Summer (breeding)","shrub","Cup","insectivore","Parulidae","Common yellowthroat","Passeriformes",0,1
+150,"Cooper's Hawk",,"Accipiter cooperii","2012","Least Concern","Year round","Tree","Open Bowl","carnivore","Accipitridae","Cooper's Hawk","Accipitriformes",0,1
+151,"Domestic Goose",,"Anser anser domesticus","2012","Least Concern","Year round","ground","Depression","herbivore","Anatidae","Domestic Goose","Anseriformes",1,0
+152,"Double Crested Cormorant",,"Phalacrocorax auritus","2012","Least Concern","Migration","ground","Open Bowl","carnivore","Phalacrocoracide","Double Crested Cormorant","Suliformes",1,0
+153,"European Starling",,"Sturnus vulgaris","2012","Least Concern","Year round","Tree","Cavity","omnivore","Sturnidae","European Starling","Passeriformes",0,1
+154,"House Finch",,"Carpodacus mexicanus","2012","Least Concern","Year round","Tree","Cup","seed-eater","Fringillidae","House Finch","Passeriformes",0,1
+155,"English Sparrow",,"Passer domesticus","1890s & 2012","Least Concern","Year round","Building","Cavity","omnivore","Passeridae","House Sparrow","Passeriformes",0,1
+156,"Northern Rough-winged Swallow",,"Stelgidopteryx serripennis","2012","Least Concern","Summer (breeding)","ground","Burrow","insectivore","Hirundinidae","Northern Rough-winged Swallow","Passeriformes",0,0
+157,"Orange Crowned Warbler",,"Oreothlypis celata","2012","Least Concern","Migration","ground","Cup","insectivore","Parulidae","Orange Crowned Warbler","Passeriformes",0,0
+158,"Philadelphia Vireo",,"Vireo philadelphicus","2012","Least Concern","Migration","Tree","Cup","omnivore","Vireonidae","Philadelphia Vireo","Passeriformes",0,1
+159,"Rock Pigeon",,"Columba livia","2012","Least Concern","Year round","Building","Cup","herbivore","Columbidae","Rock Pigeon","Columbiformes",0,1
+160,"Willow Flycatcher",,"Empidonax traillii","2012","Least Concern","Summer (breeding)","shrub","Cup","insectivore","Tyrannidae","Willow Flycatcher","Passeriformes",0,1
+161,"Peregrine Falcon","Falco peregrinus",,"2013","Least Concern","Year round","Building","Cup","carnivore","Falconidae","Peregrine Falcon","Falconiformes",0,0
+162,"Merlin",,,"2013","Least Concern","Migration","Tree","Cup","carnivore","Falconidae","Merlin","Falconiformes",0,0
+163,"Brewer's Blackbird",,"Euphagus cyanocephalus","2013","Least Concern","Migration","shrub","Cup","seed-eater","Icteridae","Brewer's Blackbird","Passeriformes",0,0
+164,"Le Conte's Sparrow",,"Ammodramus leconteii","2013","Least Concern","Migration","ground","Cup","insectivore","Emerizidae","Le Conte's sparrow","Passeriformes",0,0
+165,"Olive-sided flycatcher",,"Contopus cooperi","2013","Least Concern","Migration","Tree","Cup","insectivore","Tyrannidae","Olive-sided flycatcher","Passeriformes",0,0
+166,"Alder Flycatcher",,"Empidonax alnorum","2013","Least Concern","Migration","shrub","Cup","insectivore","Tyrannidae","Alder flycatcher","Passeriformes",0,0
+167,"Bank Swallow",,"Riparia riparia","2013","Least Concern","Summer (breeding)","Vertical banks and bluffs","burrow","insectivore","Hirundinidae","Bank Swallow","Passeriformes",0,0
+168,"Acadian Flycatcher",,"Empidonax virescens","2013","Least Concern","Summer (breeding)","Tree","Cup","insectivore","Tyrannidae","Acadian flycatcher","Passeriformes",0,0
+169,"Blue-winged Warbler",,"Vermivora cyanoptera","2013","Least Concern","Summer (breeding)","ground","Cup","insectivore","Parulidae","Blue-winged Warbler","Passeriformes",0,0
+170,"Virginia Rail",,"Rallus limicola","2013","Least Concern","Summer (breeding)","ground","Basket","insectivore","Rallidae","Virginia Rail","Gruiformes",1,0
+171,"Pine Siskin",,"Spinus pinus","2013","Least Concern","Summer (breeding)","Tree","Cup","seed-eater","Fringillidae","Pine Siskin","Passeriformes",0,0
+172,"Shoveler",,"Anas clypeata","2013","Least Concern","Migration","ground","Small scrape","omnivore","Anatidae","Northern shoveler",,1,0
+173,"greylag",,"Anser anser","2012 & 2013","Least Concern","Year round","ground","Cup","herbivore","Anatidae","greylag goose","Anseriformes",1,0
+174,,,,,,,,,,"Empidonax","Empidonax flycatcher","Passeriformes",0,0
+175,,,,"2012 & 2013","Least Concern","Year round","ground","Cup","omnivore",,"Domestic duck",,1,0
+176,,,,"2013","Least Concern","Summer (breeding)","ground","Cup","omnivore","Anatidae","Gadwall","Anseriformes",1,0
+177,,,,"2013","Least Concern",,,,,,"American wigeon",,1,0
+178,,,,,,,,,,,"American Black Duck",,1,0
+179,,,,,,,,,,,"yellow-throated warbler",,0,0
+180,,,,,,,,,,,"great blue heron",,1,0
+181,,,,,,,,,,,"Turkey Vulture",,0,0
+182,"Brewster's Warbler",,,,,,,,,,"Brewster's Warbler","Passeriformes",0,0
+183,"Red-tailed hawk","Buteo jamaicensis",,,,,,,,,"Red-tailed hawk",,0,0
+184,"Ring-necked duck",,,,,,,,,,"Ring-necked duck",,0,0
+185,"great horned owl",,,"2012","Least Concern","Year round","Tree","cavity","carnivore","Strigidae","great horned owl","Strigiformes",0,0
+186,"ruddy duck",,,"2012","Least Concern","Winter (non-breeding)",,,"omnivore","Anatidae","ruddy duck","Anseriformes",1,0
+187,"long eared owl",,,"2012","Least Concern","Migration","Tree","Cup","carnivore","Strigidae","long eared owl","Strigiformes",0,0
+188,"american pipit",,,"2012","Least Concern","Migration","ground",,"insectivore","Motacillidae","american pipit","Passeriformes",0,0
+189,"cliff swallow",,,"2012","Least Concern","Summer (breeding)",,"Cup","insectivore","Hirundinidae","cliff swallow","Passeriformes",0,0
