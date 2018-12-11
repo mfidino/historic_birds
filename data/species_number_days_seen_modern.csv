@@ -220,9 +220,9 @@
 "219","domestic duck",2014,26
 "220","domestic duck",2015,17
 "221","domestic goose",2012,16
-"222","domestic goose",2013,21
-"223","domestic goose",2014,0
-"224","domestic goose",2015,0
+"222","domestic goose",2013,22
+"223","domestic goose",2014,26
+"224","domestic goose",2015,17
 "225","double crested cormorant",2012,2
 "226","double crested cormorant",2013,2
 "227","double crested cormorant",2014,2
@@ -255,411 +255,403 @@
 "254","eastern wood pewee",2013,12
 "255","eastern wood pewee",2014,8
 "256","eastern wood pewee",2015,7
-"257","empidonax flycatcher",2012,0
-"258","empidonax flycatcher",2013,13
-"259","empidonax flycatcher",2014,12
-"260","empidonax flycatcher",2015,10
-"261","european starling",2012,49
-"262","european starling",2013,64
-"263","european starling",2014,54
-"264","european starling",2015,46
-"265","field sparrow",2012,5
-"266","field sparrow",2013,21
-"267","field sparrow",2014,11
-"268","field sparrow",2015,4
-"269","fox sparrow",2012,1
-"270","fox sparrow",2013,16
-"271","fox sparrow",2014,10
-"272","fox sparrow",2015,9
-"273","gadwall",2012,24
-"274","gadwall",2013,19
-"275","gadwall",2014,1
-"276","gadwall",2015,5
-"277","golden crowned kinglet",2012,0
-"278","golden crowned kinglet",2013,8
-"279","golden crowned kinglet",2014,10
-"280","golden crowned kinglet",2015,8
-"281","golden winged warbler",2012,0
-"282","golden winged warbler",2013,1
-"283","golden winged warbler",2014,1
-"284","golden winged warbler",2015,0
-"285","gray catbird",2012,13
-"286","gray catbird",2013,22
-"287","gray catbird",2014,16
-"288","gray catbird",2015,11
-"289","gray cheeked thrush",2012,1
-"290","gray cheeked thrush",2013,8
-"291","gray cheeked thrush",2014,3
-"292","gray cheeked thrush",2015,1
-"293","great blue heron",2012,0
-"294","great blue heron",2013,1
-"295","great blue heron",2014,9
-"296","great blue heron",2015,2
-"297","great crested flycatcher",2012,1
-"298","great crested flycatcher",2013,6
-"299","great crested flycatcher",2014,3
-"300","great crested flycatcher",2015,5
-"301","great horned owl",2012,0
-"302","great horned owl",2013,0
-"303","great horned owl",2014,0
-"304","great horned owl",2015,1
-"305","green heron",2012,19
-"306","green heron",2013,17
-"307","green heron",2014,14
-"308","green heron",2015,13
-"309","greylag goose",2012,0
-"310","greylag goose",2013,1
-"311","greylag goose",2014,26
-"312","greylag goose",2015,17
-"313","hairy woodpecker",2012,1
-"314","hairy woodpecker",2013,11
-"315","hairy woodpecker",2014,3
-"316","hairy woodpecker",2015,1
-"317","henslow's sparrow",2012,0
-"318","henslow's sparrow",2013,0
-"319","henslow's sparrow",2014,0
-"320","henslow's sparrow",2015,1
-"321","hermit thrush",2012,11
-"322","hermit thrush",2013,19
-"323","hermit thrush",2014,18
-"324","hermit thrush",2015,12
-"325","herring gull",2012,1
-"326","herring gull",2013,22
-"327","herring gull",2014,29
-"328","herring gull",2015,0
-"329","hooded merganser",2012,1
-"330","hooded merganser",2013,22
-"331","hooded merganser",2014,16
-"332","hooded merganser",2015,7
-"333","hooded warbler",2012,2
-"334","hooded warbler",2013,1
-"335","hooded warbler",2014,1
-"336","hooded warbler",2015,1
-"337","horned grebe",2012,0
-"338","horned grebe",2013,14
-"339","horned grebe",2014,0
-"340","horned grebe",2015,0
-"341","house finch",2012,9
-"342","house finch",2013,23
-"343","house finch",2014,17
-"344","house finch",2015,15
-"345","house sparrow",2012,51
-"346","house sparrow",2013,67
-"347","house sparrow",2014,56
-"348","house sparrow",2015,48
-"349","house wren",2012,0
-"350","house wren",2013,21
-"351","house wren",2014,5
-"352","house wren",2015,3
-"353","indigo bunting",2012,7
-"354","indigo bunting",2013,6
-"355","indigo bunting",2014,4
-"356","indigo bunting",2015,4
-"357","killdeer",2012,0
-"358","killdeer",2013,1
-"359","killdeer",2014,0
-"360","killdeer",2015,0
-"361","le conte's sparrow",2012,0
-"362","le conte's sparrow",2013,1
-"363","le conte's sparrow",2014,1
-"364","le conte's sparrow",2015,0
-"365","least flycatcher",2012,2
-"366","least flycatcher",2013,7
-"367","least flycatcher",2014,6
-"368","least flycatcher",2015,6
-"369","lesser scaup",2012,1
-"370","lesser scaup",2013,32
-"371","lesser scaup",2014,25
-"372","lesser scaup",2015,12
-"373","lincoln's sparrow",2012,0
-"374","lincoln's sparrow",2013,15
-"375","lincoln's sparrow",2014,10
-"376","lincoln's sparrow",2015,13
-"377","long eared owl",2012,0
-"378","long eared owl",2013,0
-"379","long eared owl",2014,0
-"380","long eared owl",2015,1
-"381","long tailed duck",2012,0
-"382","long tailed duck",2013,1
-"383","long tailed duck",2014,0
-"384","long tailed duck",2015,0
-"385","louisiana water thrush",2012,0
-"386","louisiana water thrush",2013,1
-"387","louisiana water thrush",2014,3
-"388","louisiana water thrush",2015,0
-"389","magnolia warbler",2012,13
-"390","magnolia warbler",2013,12
-"391","magnolia warbler",2014,13
-"392","magnolia warbler",2015,6
-"393","mallard",2012,55
-"394","mallard",2013,67
-"395","mallard",2014,55
-"396","mallard",2015,48
-"397","marsh wren",2012,1
-"398","marsh wren",2013,4
-"399","marsh wren",2014,2
-"400","marsh wren",2015,0
-"401","mourning dove",2012,11
-"402","mourning dove",2013,17
-"403","mourning dove",2014,16
-"404","mourning dove",2015,6
-"405","mourning warbler",2012,0
-"406","mourning warbler",2013,6
-"407","mourning warbler",2014,3
-"408","mourning warbler",2015,2
-"409","nashville warbler",2012,2
-"410","nashville warbler",2013,15
-"411","nashville warbler",2014,9
-"412","nashville warbler",2015,2
-"413","northern cardinal",2012,15
-"414","northern cardinal",2013,64
-"415","northern cardinal",2014,53
-"416","northern cardinal",2015,47
-"417","northern flicker",2012,22
-"418","northern flicker",2013,37
-"419","northern flicker",2014,31
-"420","northern flicker",2015,21
-"421","northern mockingbird",2012,0
-"422","northern mockingbird",2013,3
-"423","northern mockingbird",2014,0
-"424","northern mockingbird",2015,0
-"425","northern parula",2012,0
-"426","northern parula",2013,4
-"427","northern parula",2014,2
-"428","northern parula",2015,7
-"429","northern rough winged swallow",2012,13
-"430","northern rough winged swallow",2013,32
-"431","northern rough winged swallow",2014,29
-"432","northern rough winged swallow",2015,23
-"433","northern shoveler",2012,10
-"434","northern shoveler",2013,19
-"435","northern shoveler",2014,8
-"436","northern shoveler",2015,0
-"437","northern waterthrush",2012,8
-"438","northern waterthrush",2013,14
-"439","northern waterthrush",2014,18
-"440","northern waterthrush",2015,9
-"441","olive sided flycatcher",2012,0
-"442","olive sided flycatcher",2013,1
-"443","olive sided flycatcher",2014,1
-"444","olive sided flycatcher",2015,1
-"445","orange crowned warbler",2012,3
-"446","orange crowned warbler",2013,3
-"447","orange crowned warbler",2014,1
-"448","orange crowned warbler",2015,0
-"449","ovenbird",2012,3
-"450","ovenbird",2013,10
-"451","ovenbird",2014,5
-"452","ovenbird",2015,2
-"453","palm warbler",2012,13
-"454","palm warbler",2013,25
-"455","palm warbler",2014,24
-"456","palm warbler",2015,15
-"457","philadelphia vireo",2012,1
-"458","philadelphia vireo",2013,3
-"459","philadelphia vireo",2014,2
-"460","philadelphia vireo",2015,0
-"461","pied billed grebe",2012,16
-"462","pied billed grebe",2013,11
-"463","pied billed grebe",2014,6
-"464","pied billed grebe",2015,12
-"465","pine siskin",2012,0
-"466","pine siskin",2013,1
-"467","pine siskin",2014,0
-"468","pine siskin",2015,1
-"469","pine warbler",2012,2
-"470","pine warbler",2013,4
-"471","pine warbler",2014,1
-"472","pine warbler",2015,0
-"473","prothonotary warbler",2012,0
-"474","prothonotary warbler",2013,1
-"475","prothonotary warbler",2014,0
-"476","prothonotary warbler",2015,2
-"477","red bellied woodpecker",2012,2
-"478","red bellied woodpecker",2013,17
-"479","red bellied woodpecker",2014,0
-"480","red bellied woodpecker",2015,14
-"481","red breasted merganser",2012,0
-"482","red breasted merganser",2013,18
-"483","red breasted merganser",2014,32
-"484","red breasted merganser",2015,4
-"485","red breasted nuthatch",2012,1
-"486","red breasted nuthatch",2013,18
-"487","red breasted nuthatch",2014,2
-"488","red breasted nuthatch",2015,0
-"489","red eyed vireo",2012,2
-"490","red eyed vireo",2013,3
-"491","red eyed vireo",2014,6
-"492","red eyed vireo",2015,7
-"493","red headed woodpecker",2012,0
-"494","red headed woodpecker",2013,7
-"495","red headed woodpecker",2014,2
-"496","red headed woodpecker",2015,0
-"497","red tailed hawk",2012,0
-"498","red tailed hawk",2013,0
-"499","red tailed hawk",2014,1
-"500","red tailed hawk",2015,0
-"501","red winged blackbird",2012,53
-"502","red winged blackbird",2013,64
-"503","red winged blackbird",2014,55
-"504","red winged blackbird",2015,43
-"505","redhead",2012,0
-"506","redhead",2013,8
-"507","redhead",2014,12
-"508","redhead",2015,13
-"509","redstart",2012,1
-"510","redstart",2013,0
-"511","redstart",2014,0
-"512","redstart",2015,0
-"513","ring billed gull",2012,47
-"514","ring billed gull",2013,65
-"515","ring billed gull",2014,52
-"516","ring billed gull",2015,44
-"517","ring necked duck",2012,0
-"518","ring necked duck",2013,0
-"519","ring necked duck",2014,2
-"520","ring necked duck",2015,0
-"521","rock pigeon",2012,16
-"522","rock pigeon",2013,65
-"523","rock pigeon",2014,38
-"524","rock pigeon",2015,40
-"525","rose breasted grosbeak",2012,1
-"526","rose breasted grosbeak",2013,9
-"527","rose breasted grosbeak",2014,3
-"528","rose breasted grosbeak",2015,5
-"529","ruby crowned kinglet",2012,0
-"530","ruby crowned kinglet",2013,32
-"531","ruby crowned kinglet",2014,21
-"532","ruby crowned kinglet",2015,25
-"533","ruby throated hummingbird",2012,2
-"534","ruby throated hummingbird",2013,5
-"535","ruby throated hummingbird",2014,1
-"536","ruby throated hummingbird",2015,0
-"537","ruddy duck",2012,0
-"538","ruddy duck",2013,0
-"539","ruddy duck",2014,0
-"540","ruddy duck",2015,2
-"541","rusty blackbird",2012,0
-"542","rusty blackbird",2013,0
-"543","rusty blackbird",2014,0
-"544","rusty blackbird",2015,1
-"545","savannah sparrow",2012,5
-"546","savannah sparrow",2013,10
-"547","savannah sparrow",2014,9
-"548","savannah sparrow",2015,4
-"549","scarlet tanager",2012,4
-"550","scarlet tanager",2013,6
-"551","scarlet tanager",2014,9
-"552","scarlet tanager",2015,2
-"553","song sparrow",2012,36
-"554","song sparrow",2013,48
-"555","song sparrow",2014,46
-"556","song sparrow",2015,40
-"557","sora",2012,4
-"558","sora",2013,1
-"559","sora",2014,0
-"560","sora",2015,0
-"561","spotted sandpiper",2012,3
-"562","spotted sandpiper",2013,3
-"563","spotted sandpiper",2014,9
-"564","spotted sandpiper",2015,1
-"565","summer tanager",2012,0
-"566","summer tanager",2013,0
-"567","summer tanager",2014,0
-"568","summer tanager",2015,1
-"569","swainson's thrush",2012,2
-"570","swainson's thrush",2013,9
-"571","swainson's thrush",2014,11
-"572","swainson's thrush",2015,12
-"573","swamp sparrow",2012,0
-"574","swamp sparrow",2013,30
-"575","swamp sparrow",2014,22
-"576","swamp sparrow",2015,19
-"577","tennessee warbler",2012,0
-"578","tennessee warbler",2013,3
-"579","tennessee warbler",2014,0
-"580","tennessee warbler",2015,0
-"581","tree swallow",2012,2
-"582","tree swallow",2013,8
-"583","tree swallow",2014,0
-"584","tree swallow",2015,4
-"585","veery",2012,0
-"586","veery",2013,7
-"587","veery",2014,1
-"588","veery",2015,4
-"589","vesper sparrow",2012,0
-"590","vesper sparrow",2013,6
-"591","vesper sparrow",2014,0
-"592","vesper sparrow",2015,2
-"593","virginia rail",2012,0
-"594","virginia rail",2013,1
-"595","virginia rail",2014,0
-"596","virginia rail",2015,0
-"597","warbling vireo",2012,13
-"598","warbling vireo",2013,15
-"599","warbling vireo",2014,12
-"600","warbling vireo",2015,9
-"601","white breasted nuthatch",2012,0
-"602","white breasted nuthatch",2013,3
-"603","white breasted nuthatch",2014,0
-"604","white breasted nuthatch",2015,1
-"605","white crowned sparrow",2012,14
-"606","white crowned sparrow",2013,22
-"607","white crowned sparrow",2014,18
-"608","white crowned sparrow",2015,12
-"609","white throated sparrow",2012,11
-"610","white throated sparrow",2013,26
-"611","white throated sparrow",2014,21
-"612","white throated sparrow",2015,18
-"613","willow flycatcher",2012,4
-"614","willow flycatcher",2013,4
-"615","willow flycatcher",2014,2
-"616","willow flycatcher",2015,7
-"617","wilson's warbler",2012,7
-"618","wilson's warbler",2013,14
-"619","wilson's warbler",2014,6
-"620","wilson's warbler",2015,8
-"621","winter wren",2012,0
-"622","winter wren",2013,3
-"623","winter wren",2014,0
-"624","winter wren",2015,1
-"625","wood duck",2012,37
-"626","wood duck",2013,60
-"627","wood duck",2014,45
-"628","wood duck",2015,39
-"629","wood thrush",2012,0
-"630","wood thrush",2013,4
-"631","wood thrush",2014,5
-"632","wood thrush",2015,2
-"633","yellow bellied flycatcher",2012,1
-"634","yellow bellied flycatcher",2013,4
-"635","yellow bellied flycatcher",2014,8
-"636","yellow bellied flycatcher",2015,4
-"637","yellow bellied sapsucker",2012,0
-"638","yellow bellied sapsucker",2013,11
-"639","yellow bellied sapsucker",2014,12
-"640","yellow bellied sapsucker",2015,18
-"641","yellow billed cuckoo",2012,0
-"642","yellow billed cuckoo",2013,2
-"643","yellow billed cuckoo",2014,0
-"644","yellow billed cuckoo",2015,0
-"645","yellow breasted chat",2012,0
-"646","yellow breasted chat",2013,1
-"647","yellow breasted chat",2014,1
-"648","yellow breasted chat",2015,0
-"649","yellow rumped warbler",2012,14
-"650","yellow rumped warbler",2013,33
-"651","yellow rumped warbler",2014,28
-"652","yellow rumped warbler",2015,17
-"653","yellow throated vireo",2012,1
-"654","yellow throated vireo",2013,5
-"655","yellow throated vireo",2014,0
-"656","yellow throated vireo",2015,1
-"657","yellow throated warbler",2012,0
-"658","yellow throated warbler",2013,0
-"659","yellow throated warbler",2014,2
-"660","yellow throated warbler",2015,0
-"661","yellow warbler",2012,11
-"662","yellow warbler",2013,22
-"663","yellow warbler",2014,18
-"664","yellow warbler",2015,14
+"257","european starling",2012,49
+"258","european starling",2013,64
+"259","european starling",2014,54
+"260","european starling",2015,46
+"261","field sparrow",2012,5
+"262","field sparrow",2013,21
+"263","field sparrow",2014,11
+"264","field sparrow",2015,4
+"265","fox sparrow",2012,1
+"266","fox sparrow",2013,16
+"267","fox sparrow",2014,10
+"268","fox sparrow",2015,9
+"269","gadwall",2012,24
+"270","gadwall",2013,19
+"271","gadwall",2014,1
+"272","gadwall",2015,5
+"273","golden crowned kinglet",2012,0
+"274","golden crowned kinglet",2013,8
+"275","golden crowned kinglet",2014,10
+"276","golden crowned kinglet",2015,8
+"277","golden winged warbler",2012,0
+"278","golden winged warbler",2013,1
+"279","golden winged warbler",2014,1
+"280","golden winged warbler",2015,0
+"281","gray catbird",2012,13
+"282","gray catbird",2013,22
+"283","gray catbird",2014,16
+"284","gray catbird",2015,11
+"285","gray cheeked thrush",2012,1
+"286","gray cheeked thrush",2013,8
+"287","gray cheeked thrush",2014,3
+"288","gray cheeked thrush",2015,1
+"289","great blue heron",2012,0
+"290","great blue heron",2013,1
+"291","great blue heron",2014,9
+"292","great blue heron",2015,2
+"293","great crested flycatcher",2012,1
+"294","great crested flycatcher",2013,6
+"295","great crested flycatcher",2014,3
+"296","great crested flycatcher",2015,5
+"297","great horned owl",2012,0
+"298","great horned owl",2013,0
+"299","great horned owl",2014,0
+"300","great horned owl",2015,1
+"301","green heron",2012,19
+"302","green heron",2013,17
+"303","green heron",2014,14
+"304","green heron",2015,13
+"305","hairy woodpecker",2012,1
+"306","hairy woodpecker",2013,11
+"307","hairy woodpecker",2014,3
+"308","hairy woodpecker",2015,1
+"309","henslow's sparrow",2012,0
+"310","henslow's sparrow",2013,0
+"311","henslow's sparrow",2014,0
+"312","henslow's sparrow",2015,1
+"313","hermit thrush",2012,11
+"314","hermit thrush",2013,19
+"315","hermit thrush",2014,18
+"316","hermit thrush",2015,12
+"317","herring gull",2012,1
+"318","herring gull",2013,22
+"319","herring gull",2014,29
+"320","herring gull",2015,0
+"321","hooded merganser",2012,1
+"322","hooded merganser",2013,22
+"323","hooded merganser",2014,16
+"324","hooded merganser",2015,7
+"325","hooded warbler",2012,2
+"326","hooded warbler",2013,1
+"327","hooded warbler",2014,1
+"328","hooded warbler",2015,1
+"329","horned grebe",2012,0
+"330","horned grebe",2013,14
+"331","horned grebe",2014,0
+"332","horned grebe",2015,0
+"333","house finch",2012,9
+"334","house finch",2013,23
+"335","house finch",2014,17
+"336","house finch",2015,15
+"337","house sparrow",2012,51
+"338","house sparrow",2013,67
+"339","house sparrow",2014,56
+"340","house sparrow",2015,48
+"341","house wren",2012,0
+"342","house wren",2013,21
+"343","house wren",2014,5
+"344","house wren",2015,3
+"345","indigo bunting",2012,7
+"346","indigo bunting",2013,6
+"347","indigo bunting",2014,4
+"348","indigo bunting",2015,4
+"349","killdeer",2012,0
+"350","killdeer",2013,1
+"351","killdeer",2014,0
+"352","killdeer",2015,0
+"353","le conte's sparrow",2012,0
+"354","le conte's sparrow",2013,1
+"355","le conte's sparrow",2014,1
+"356","le conte's sparrow",2015,0
+"357","least flycatcher",2012,2
+"358","least flycatcher",2013,7
+"359","least flycatcher",2014,6
+"360","least flycatcher",2015,6
+"361","lesser scaup",2012,1
+"362","lesser scaup",2013,32
+"363","lesser scaup",2014,25
+"364","lesser scaup",2015,12
+"365","lincoln's sparrow",2012,0
+"366","lincoln's sparrow",2013,15
+"367","lincoln's sparrow",2014,10
+"368","lincoln's sparrow",2015,13
+"369","long eared owl",2012,0
+"370","long eared owl",2013,0
+"371","long eared owl",2014,0
+"372","long eared owl",2015,1
+"373","long tailed duck",2012,0
+"374","long tailed duck",2013,1
+"375","long tailed duck",2014,0
+"376","long tailed duck",2015,0
+"377","louisiana water thrush",2012,0
+"378","louisiana water thrush",2013,1
+"379","louisiana water thrush",2014,3
+"380","louisiana water thrush",2015,0
+"381","magnolia warbler",2012,13
+"382","magnolia warbler",2013,12
+"383","magnolia warbler",2014,13
+"384","magnolia warbler",2015,6
+"385","mallard",2012,55
+"386","mallard",2013,67
+"387","mallard",2014,55
+"388","mallard",2015,48
+"389","marsh wren",2012,1
+"390","marsh wren",2013,4
+"391","marsh wren",2014,2
+"392","marsh wren",2015,0
+"393","mourning dove",2012,11
+"394","mourning dove",2013,17
+"395","mourning dove",2014,16
+"396","mourning dove",2015,6
+"397","mourning warbler",2012,0
+"398","mourning warbler",2013,6
+"399","mourning warbler",2014,3
+"400","mourning warbler",2015,2
+"401","nashville warbler",2012,2
+"402","nashville warbler",2013,15
+"403","nashville warbler",2014,9
+"404","nashville warbler",2015,2
+"405","northern cardinal",2012,15
+"406","northern cardinal",2013,64
+"407","northern cardinal",2014,53
+"408","northern cardinal",2015,47
+"409","northern flicker",2012,22
+"410","northern flicker",2013,37
+"411","northern flicker",2014,31
+"412","northern flicker",2015,21
+"413","northern mockingbird",2012,0
+"414","northern mockingbird",2013,3
+"415","northern mockingbird",2014,0
+"416","northern mockingbird",2015,0
+"417","northern parula",2012,0
+"418","northern parula",2013,4
+"419","northern parula",2014,2
+"420","northern parula",2015,7
+"421","northern rough winged swallow",2012,13
+"422","northern rough winged swallow",2013,32
+"423","northern rough winged swallow",2014,29
+"424","northern rough winged swallow",2015,23
+"425","northern shoveler",2012,10
+"426","northern shoveler",2013,19
+"427","northern shoveler",2014,8
+"428","northern shoveler",2015,0
+"429","northern waterthrush",2012,8
+"430","northern waterthrush",2013,14
+"431","northern waterthrush",2014,18
+"432","northern waterthrush",2015,9
+"433","olive sided flycatcher",2012,0
+"434","olive sided flycatcher",2013,1
+"435","olive sided flycatcher",2014,1
+"436","olive sided flycatcher",2015,1
+"437","orange crowned warbler",2012,3
+"438","orange crowned warbler",2013,3
+"439","orange crowned warbler",2014,1
+"440","orange crowned warbler",2015,0
+"441","ovenbird",2012,3
+"442","ovenbird",2013,10
+"443","ovenbird",2014,5
+"444","ovenbird",2015,2
+"445","palm warbler",2012,13
+"446","palm warbler",2013,25
+"447","palm warbler",2014,24
+"448","palm warbler",2015,15
+"449","philadelphia vireo",2012,1
+"450","philadelphia vireo",2013,3
+"451","philadelphia vireo",2014,2
+"452","philadelphia vireo",2015,0
+"453","pied billed grebe",2012,16
+"454","pied billed grebe",2013,11
+"455","pied billed grebe",2014,6
+"456","pied billed grebe",2015,12
+"457","pine siskin",2012,0
+"458","pine siskin",2013,1
+"459","pine siskin",2014,0
+"460","pine siskin",2015,1
+"461","pine warbler",2012,2
+"462","pine warbler",2013,4
+"463","pine warbler",2014,1
+"464","pine warbler",2015,0
+"465","prothonotary warbler",2012,0
+"466","prothonotary warbler",2013,1
+"467","prothonotary warbler",2014,0
+"468","prothonotary warbler",2015,2
+"469","red bellied woodpecker",2012,2
+"470","red bellied woodpecker",2013,17
+"471","red bellied woodpecker",2014,0
+"472","red bellied woodpecker",2015,14
+"473","red breasted merganser",2012,0
+"474","red breasted merganser",2013,18
+"475","red breasted merganser",2014,32
+"476","red breasted merganser",2015,4
+"477","red breasted nuthatch",2012,1
+"478","red breasted nuthatch",2013,19
+"479","red breasted nuthatch",2014,1
+"480","red breasted nuthatch",2015,0
+"481","red eyed vireo",2012,2
+"482","red eyed vireo",2013,3
+"483","red eyed vireo",2014,6
+"484","red eyed vireo",2015,7
+"485","red headed woodpecker",2012,0
+"486","red headed woodpecker",2013,7
+"487","red headed woodpecker",2014,2
+"488","red headed woodpecker",2015,0
+"489","red tailed hawk",2012,0
+"490","red tailed hawk",2013,0
+"491","red tailed hawk",2014,1
+"492","red tailed hawk",2015,0
+"493","red winged blackbird",2012,53
+"494","red winged blackbird",2013,64
+"495","red winged blackbird",2014,55
+"496","red winged blackbird",2015,43
+"497","redhead",2012,0
+"498","redhead",2013,8
+"499","redhead",2014,12
+"500","redhead",2015,13
+"501","redstart",2012,1
+"502","redstart",2013,0
+"503","redstart",2014,0
+"504","redstart",2015,0
+"505","ring billed gull",2012,47
+"506","ring billed gull",2013,65
+"507","ring billed gull",2014,52
+"508","ring billed gull",2015,44
+"509","ring necked duck",2012,0
+"510","ring necked duck",2013,0
+"511","ring necked duck",2014,2
+"512","ring necked duck",2015,0
+"513","rock pigeon",2012,16
+"514","rock pigeon",2013,65
+"515","rock pigeon",2014,38
+"516","rock pigeon",2015,40
+"517","rose breasted grosbeak",2012,1
+"518","rose breasted grosbeak",2013,9
+"519","rose breasted grosbeak",2014,3
+"520","rose breasted grosbeak",2015,5
+"521","ruby crowned kinglet",2012,0
+"522","ruby crowned kinglet",2013,32
+"523","ruby crowned kinglet",2014,21
+"524","ruby crowned kinglet",2015,25
+"525","ruby throated hummingbird",2012,2
+"526","ruby throated hummingbird",2013,5
+"527","ruby throated hummingbird",2014,1
+"528","ruby throated hummingbird",2015,0
+"529","ruddy duck",2012,0
+"530","ruddy duck",2013,0
+"531","ruddy duck",2014,0
+"532","ruddy duck",2015,2
+"533","rusty blackbird",2012,0
+"534","rusty blackbird",2013,0
+"535","rusty blackbird",2014,0
+"536","rusty blackbird",2015,1
+"537","savannah sparrow",2012,5
+"538","savannah sparrow",2013,10
+"539","savannah sparrow",2014,9
+"540","savannah sparrow",2015,4
+"541","scarlet tanager",2012,4
+"542","scarlet tanager",2013,6
+"543","scarlet tanager",2014,9
+"544","scarlet tanager",2015,2
+"545","song sparrow",2012,36
+"546","song sparrow",2013,48
+"547","song sparrow",2014,46
+"548","song sparrow",2015,40
+"549","sora",2012,4
+"550","sora",2013,1
+"551","sora",2014,0
+"552","sora",2015,0
+"553","spotted sandpiper",2012,3
+"554","spotted sandpiper",2013,3
+"555","spotted sandpiper",2014,9
+"556","spotted sandpiper",2015,1
+"557","summer tanager",2012,0
+"558","summer tanager",2013,0
+"559","summer tanager",2014,0
+"560","summer tanager",2015,1
+"561","swainson's thrush",2012,2
+"562","swainson's thrush",2013,9
+"563","swainson's thrush",2014,11
+"564","swainson's thrush",2015,12
+"565","swamp sparrow",2012,0
+"566","swamp sparrow",2013,30
+"567","swamp sparrow",2014,22
+"568","swamp sparrow",2015,19
+"569","tennessee warbler",2012,0
+"570","tennessee warbler",2013,3
+"571","tennessee warbler",2014,0
+"572","tennessee warbler",2015,0
+"573","tree swallow",2012,2
+"574","tree swallow",2013,8
+"575","tree swallow",2014,0
+"576","tree swallow",2015,4
+"577","veery",2012,0
+"578","veery",2013,7
+"579","veery",2014,1
+"580","veery",2015,4
+"581","vesper sparrow",2012,0
+"582","vesper sparrow",2013,6
+"583","vesper sparrow",2014,0
+"584","vesper sparrow",2015,2
+"585","virginia rail",2012,0
+"586","virginia rail",2013,1
+"587","virginia rail",2014,0
+"588","virginia rail",2015,0
+"589","warbling vireo",2012,13
+"590","warbling vireo",2013,15
+"591","warbling vireo",2014,12
+"592","warbling vireo",2015,9
+"593","white breasted nuthatch",2012,0
+"594","white breasted nuthatch",2013,3
+"595","white breasted nuthatch",2014,0
+"596","white breasted nuthatch",2015,1
+"597","white crowned sparrow",2012,14
+"598","white crowned sparrow",2013,22
+"599","white crowned sparrow",2014,18
+"600","white crowned sparrow",2015,12
+"601","white throated sparrow",2012,11
+"602","white throated sparrow",2013,26
+"603","white throated sparrow",2014,21
+"604","white throated sparrow",2015,18
+"605","willow flycatcher",2012,4
+"606","willow flycatcher",2013,4
+"607","willow flycatcher",2014,2
+"608","willow flycatcher",2015,7
+"609","wilson's warbler",2012,7
+"610","wilson's warbler",2013,14
+"611","wilson's warbler",2014,6
+"612","wilson's warbler",2015,8
+"613","winter wren",2012,0
+"614","winter wren",2013,3
+"615","winter wren",2014,0
+"616","winter wren",2015,1
+"617","wood duck",2012,37
+"618","wood duck",2013,60
+"619","wood duck",2014,45
+"620","wood duck",2015,39
+"621","wood thrush",2012,0
+"622","wood thrush",2013,4
+"623","wood thrush",2014,5
+"624","wood thrush",2015,2
+"625","yellow bellied flycatcher",2012,1
+"626","yellow bellied flycatcher",2013,4
+"627","yellow bellied flycatcher",2014,8
+"628","yellow bellied flycatcher",2015,4
+"629","yellow bellied sapsucker",2012,0
+"630","yellow bellied sapsucker",2013,11
+"631","yellow bellied sapsucker",2014,12
+"632","yellow bellied sapsucker",2015,18
+"633","yellow billed cuckoo",2012,0
+"634","yellow billed cuckoo",2013,2
+"635","yellow billed cuckoo",2014,0
+"636","yellow billed cuckoo",2015,0
+"637","yellow breasted chat",2012,0
+"638","yellow breasted chat",2013,1
+"639","yellow breasted chat",2014,1
+"640","yellow breasted chat",2015,0
+"641","yellow rumped warbler",2012,14
+"642","yellow rumped warbler",2013,33
+"643","yellow rumped warbler",2014,28
+"644","yellow rumped warbler",2015,17
+"645","yellow throated vireo",2012,1
+"646","yellow throated vireo",2013,5
+"647","yellow throated vireo",2014,0
+"648","yellow throated vireo",2015,1
+"649","yellow throated warbler",2012,0
+"650","yellow throated warbler",2013,0
+"651","yellow throated warbler",2014,2
+"652","yellow throated warbler",2015,0
+"653","yellow warbler",2012,11
+"654","yellow warbler",2013,22
+"655","yellow warbler",2014,18
+"656","yellow warbler",2015,14

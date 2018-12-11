@@ -3,6 +3,8 @@
 md <- read.csv("./data/Fidino_data.csv", header = TRUE,
 							 stringsAsFactors = FALSE)
 
+md <- md[-which(md$ModernName == "Empidonax flycatcher"),]
+
 
 # get only transect 2 or NA
 md <- md[md$Transect == 2 | is.na(md$Transect),]
@@ -46,17 +48,15 @@ md$ModernName[md$ModernName == "grackle"] <- "common grackle"
 md$ModernName[md$ModernName == "domestic goose"] <- "toulouse goose (domestic goose breed)"
 md$ModernName[md$ModernName == "pigeon"] <- "rock pigeon"
 md$ModernName[md$ModernName == "toulouse goose (domestic goose breed)"] <- "domestic goose"
+md$ModernName[md$ModernName == "greylag goose"] <- "domestic goose"
 t(t(sort(unique(md$ModernName))))
 
-which(year(md$Date) == 7314)
-year(md$Date)[7314] <- 2014
+tc <- which(year(md$Date) == 7314)
+year(md$Date)[tc] <- 2014
 
-md$Date[7314] <- mdy("3-1-2014")
-md$Date[md$Date == "7314-03-01"] <- mdy("3-1-2014")
+md$Date[tc] <- mdy("3-1-2014")
 
 # find 2016 data
-
-md[md$Year == 2016,]
 
 # change 4/24/2018 to 4/24/2015
 md$Date[md$Date == "2018-04-24"] <- mdy("4-24-2015")
@@ -68,7 +68,6 @@ md$Date[md$Date == "2018-04-17"] <- mdy("4-17-2015")
 md$Date[md$Date == "2016-03-11"] <- mdy("3-11-2014")
 md$Date[md$Date == "2016-03-10"] <- mdy("3-10-2014")
 
-md[which(year(md$Date) > 2015),]
 # get minimum date per year for each species
 md$Year <- year(md$Date)
 
