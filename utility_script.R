@@ -13,3 +13,15 @@
 		require(packages[i], character.only=T, quietly=quiet, 
 						warn.conflicts=warn.conflicts)
 }
+
+clean_names <- function(names = NULL){
+	
+	# remove all dashes and replace with space
+	names <- names %>% 
+		gsub("-", " ", .) %>% 
+		gsub("'", "", .) %>% 
+		tolower(.)
+	
+return(names)
+	
+}

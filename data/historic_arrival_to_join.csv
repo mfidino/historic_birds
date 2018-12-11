@@ -1,0 +1,1330 @@
+"","CommonName","Year","ArrivalDate","ob","ArrivalDateJulian"
+"1","mourning dove","1903",1903-04-01,"Walter",91
+"2","marsh hawk","1899",1899-04-25,"Walter",115
+"3","sparrow hawk","1898",1898-05-18,"Walter",138
+"4","yellow billed cuckoo","1898",1898-05-19,"Walter",139
+"5","black billed cuckoo","1899",1899-05-27,"Walter",147
+"6","belted kingfisher","1897",1897-03-28,"Walter",87
+"7","hairy woodpecker","1898",1898-04-11,"Walter",101
+"8","downy woodpecker","1897",1897-04-07,"Walter",97
+"9","yellow bellied sapsucker","1897",1897-04-25,"Walter",115
+"10","red bellied woodpecker","1898",1898-05-22,"Walter",142
+"11","red headed woodpecker","1897",1897-04-26,"Walter",116
+"12","northern flicker","1897",1897-04-15,"Walter",105
+"13","whip poor will","1898",1898-05-21,"Walter",141
+"14","common nighthawk","1899",1899-05-10,"Walter",130
+"15","chimney swift","1897",1897-05-01,"Walter",121
+"16","ruby throated hummingbird","1898",1898-05-19,"Walter",139
+"17","kingbird","1897",1897-04-29,"Walter",119
+"18","great crested flycatcher","1898",1898-05-03,"Walter",123
+"19","eastern phoebe","1897",1897-04-07,"Walter",97
+"20","wood pewee","1897",1897-04-27,"Walter",117
+"21","yellow bellied flycatcher","1900",1900-04-29,"Walter",119
+"22","least flycatcher","1897",1897-05-12,"Walter",132
+"24","american crow","1898",1898-03-09,"Walter",68
+"25","bobolink","1898",1898-05-14,"Walter",134
+"26","brown headed cowbird","1897",1897-04-04,"Walter",94
+"27","yellow headed blackbird","1901",1901-05-17,"Walter",137
+"28","red winged blackbird","1898",1898-05-07,"Walter",127
+"29","eastern meadowlark","1898",1898-03-14,"Walter",73
+"30","orchard oriole","1898",1898-05-15,"Walter",135
+"31","baltimore oriole","1898",1898-04-30,"Walter",120
+"32","rusty blackbird","1900",1900-04-19,"Walter",109
+"33","bronzed grackle","1897",1897-03-29,"Walter",88
+"34","purple finch","1898",1898-04-24,"Walter",114
+"35","american goldfinch","1897",1897-04-25,"Walter",115
+"36","vesper sparrow","1900",1900-04-22,"Walter",112
+"37","savanna sparrow","1903",1903-03-19,"Walter",78
+"38","henslow sparrow","1898",1898-04-29,"Walter",119
+"39","white crowned sparrow","1897",1897-05-05,"Walter",125
+"40","white throated sparrow","1897",1897-04-26,"Walter",116
+"41","american tree sparrow","1900",1900-04-06,"Walter",96
+"42","chipping sparrow","1897",1897-04-15,"Walter",105
+"43","field sparrow","1899",1899-04-23,"Walter",113
+"44","dark eyed junco","1897",1897-03-28,"Walter",87
+"45","song sparrow","1897",1897-04-08,"Walter",98
+"46","lincoln sparrow","1900",1900-05-10,"Walter",130
+"47","swamp sparrow","1898",1898-05-07,"Walter",127
+"48","fox sparrow","1897",1897-04-08,"Walter",98
+"49","eastern towhee","1897",1897-04-07,"Walter",97
+"50","northern cardinal","1897",1897-03-28,"Walter",87
+"51","rose breasted grosbeak","1899",1899-05-10,"Walter",130
+"52","indigo bunting","1898",1898-05-14,"Walter",134
+"53","dickcissel","1901",1901-05-16,"Walter",136
+"54","scarlet tanager","1898",1898-05-14,"Walter",134
+"55","summer tanager","1899",1899-05-04,"Walter",124
+"56","purple martin","1898",1898-05-25,"Walter",145
+"57","barn swallow","1897",1897-04-18,"Walter",108
+"58","tree swallow","1898",1898-05-11,"Walter",131
+"59","cedar waxwing","1898",1898-04-11,"Walter",101
+"60","loggerhead shrike","1898",1898-03-14,"Walter",73
+"61","red eyed vireo","1898",1898-05-10,"Walter",130
+"62","warbling vireo","1897",1897-04-27,"Walter",117
+"63","yellow throated vireo","1898",1898-05-01,"Walter",121
+"64","blue headed vireo","1900",1900-05-17,"Walter",137
+"65","black and white creeper","1897",1897-04-28,"Walter",118
+"66","prothonotary warbler","1899",1899-05-16,"Walter",136
+"67","blue golden winged warbler","1898",1898-05-14,"Walter",134
+"68","nashville warbler","1898",1898-05-10,"Walter",130
+"69","tennessee warbler","1898",1898-05-11,"Walter",131
+"70","parula warbler","1898",1898-05-11,"Walter",131
+"71","cape may warbler","1898",1898-05-13,"Walter",133
+"72","yellow warbler","1897",1897-05-11,"Walter",131
+"73","black throated blue warbler","1897",1897-05-11,"Walter",131
+"74","myrtle warbler","1897",1897-04-14,"Walter",104
+"75","magnolia warbler","1897",1897-04-26,"Walter",116
+"76","cerulean warbler","1900",1900-05-12,"Walter",132
+"77","chestnut sided warbler","1897",1897-05-21,"Walter",141
+"78","bay breasted warbler","1898",1898-05-20,"Walter",140
+"79","black poll warbler","1898",1898-05-19,"Walter",139
+"80","blackburnian warbler","1897",1897-05-12,"Walter",132
+"81","black throated green warbler","1897",1897-04-18,"Walter",108
+"82","pine warbler","1900",1900-04-26,"Walter",116
+"83","palm warbler","1898",1898-04-29,"Walter",119
+"84","ovenbird","1897",1897-05-11,"Walter",131
+"85","grinnell water thrush","1898",1898-04-30,"Walter",120
+"86","louisiana water thrush","1902",1902-04-27,"Walter",117
+"87","connecticut warbler","1903",1903-05-20,"Walter",140
+"88","mourning warbler","1898",1898-05-20,"Walter",140
+"89","western yellow throat","1897",1897-04-26,"Walter",116
+"90","yellow breasted chat","1902",1902-05-02,"Walter",122
+"91","hooded warbler","1903",1903-05-12,"Walter",132
+"92","wilson black cap warbler","1897",1897-05-21,"Walter",141
+"93","canadian warbler","1898",1898-05-19,"Walter",139
+"94","american redstart","1897",1897-05-11,"Walter",131
+"95","northern mockingbird","1901",1901-04-29,"Walter",119
+"96","gray catbird","1897",1897-04-26,"Walter",116
+"97","brown thrasher","1897",1897-04-26,"Walter",116
+"98","house wren","1897",1897-04-14,"Walter",104
+"99","winter wren","1897",1897-04-08,"Walter",98
+"100","long billed marsh wren","1898",1898-04-14,"Walter",104
+"101","brown creeper","1897",1897-04-07,"Walter",97
+"102","white breasted nuthatch","1897",1897-04-07,"Walter",97
+"103","red breasted nuthatch","1900",1900-05-03,"Walter",123
+"104","black capped chickadee","1898",1898-04-01,"Walter",91
+"105","golden crowned kinglet","1897",1897-04-07,"Walter",97
+"106","ruby crowned kinglet","1897",1897-04-14,"Walter",104
+"107","blue gray gnatcatcher","1898",1898-04-25,"Walter",115
+"108","wood thrush","1897",1897-04-18,"Walter",108
+"109","wilsons thrush","1897",1897-05-11,"Walter",131
+"110","gray cheeked thrush","1902",1902-05-21,"Walter",141
+"111","olive backed thrush","1898",1898-05-01,"Walter",121
+"112","hermit thrush","1898",1898-03-31,"Walter",90
+"113","american robin","1897",1897-03-28,"Walter",87
+"114","eastern bluebird","1897",1897-03-28,"Walter",87
+"115","mourning dove","1898",1898-05-09,"Walter",129
+"116","mourning dove","1899",1899-03-25,"Walter",84
+"117","mourning dove","1900",1900-04-06,"Walter",96
+"118","mourning dove","1901",1901-04-10,"Walter",100
+"119","mourning dove","1902",1902-04-26,"Walter",116
+"120","yellow throated vireo","1900",1900-05-12,"Walter",132
+"121","yellow throated vireo","1901",1901-05-05,"Walter",125
+"122","yellow throated vireo","1902",1902-04-28,"Walter",118
+"123","yellow throated vireo","1903",1903-05-12,"Walter",132
+"124","yellow breasted chat","1903",1903-05-11,"Walter",131
+"125","yellow billed cuckoo","1899",1899-05-01,"Walter",121
+"126","yellow billed cuckoo","1900",1900-05-16,"Walter",136
+"127","yellow billed cuckoo","1901",1901-05-17,"Walter",137
+"128","yellow billed cuckoo","1902",1902-05-17,"Walter",137
+"129","yellow billed cuckoo","1903",1903-05-12,"Walter",132
+"130","yellow bellied sapsucker","1898",1898-03-30,"Walter",89
+"131","yellow bellied sapsucker","1899",1899-04-08,"Walter",98
+"132","yellow bellied sapsucker","1900",1900-04-06,"Walter",96
+"133","yellow bellied sapsucker","1901",1901-03-19,"Walter",78
+"134","yellow bellied sapsucker","1902",1902-03-27,"Walter",86
+"135","yellow bellied sapsucker","1903",1903-04-01,"Walter",91
+"136","yellow bellied flycatcher","1902",1902-05-01,"Walter",121
+"137","yellow bellied flycatcher","1903",1903-05-12,"Walter",132
+"138","yellow warbler","1898",1898-04-30,"Walter",120
+"139","yellow warbler","1899",1899-04-29,"Walter",119
+"140","yellow warbler","1900",1900-04-30,"Walter",120
+"141","yellow warbler","1901",1901-05-06,"Walter",126
+"142","yellow warbler","1902",1902-05-02,"Walter",122
+"143","yellow warbler","1903",1903-04-29,"Walter",119
+"144","wood thrush","1898",1898-05-03,"Walter",123
+"145","wood thrush","1899",1899-05-01,"Walter",121
+"146","wood thrush","1901",1901-05-04,"Walter",124
+"147","wood thrush","1902",1902-04-29,"Walter",119
+"148","wood thrush","1903",1903-05-12,"Walter",132
+"149","wood pewee","1898",1898-05-19,"Walter",139
+"150","wood pewee","1899",1899-05-10,"Walter",130
+"151","wood pewee","1900",1900-05-11,"Walter",131
+"152","wood pewee","1901",1901-05-16,"Walter",136
+"153","wood pewee","1902",1902-04-28,"Walter",118
+"154","wood pewee","1903",1903-05-12,"Walter",132
+"155","winter wren","1898",1898-04-25,"Walter",115
+"156","winter wren","1899",1899-04-30,"Walter",120
+"157","winter wren","1901",1901-03-22,"Walter",81
+"158","winter wren","1902",1902-04-19,"Walter",109
+"159","winter wren","1903",1903-04-08,"Walter",98
+"160","wilsons thrush","1898",1898-04-10,"Walter",100
+"161","wilsons thrush","1899",1899-04-12,"Walter",102
+"162","wilsons thrush","1900",1900-04-07,"Walter",97
+"163","wilsons thrush","1901",1901-04-11,"Walter",101
+"164","wilsons thrush","1902",1902-04-26,"Walter",116
+"165","wilsons thrush","1903",1903-04-08,"Walter",98
+"166","wilson black cap warbler","1898",1898-05-06,"Walter",126
+"167","wilson black cap warbler","1899",1899-05-22,"Walter",142
+"168","wilson black cap warbler","1900",1900-05-10,"Walter",130
+"169","wilson black cap warbler","1901",1901-05-16,"Walter",136
+"170","wilson black cap warbler","1902",1902-05-03,"Walter",123
+"171","wilson black cap warbler","1903",1903-05-17,"Walter",137
+"172","white throated sparrow","1898",1898-04-13,"Walter",103
+"173","white throated sparrow","1899",1899-04-19,"Walter",109
+"174","white throated sparrow","1900",1900-04-21,"Walter",111
+"175","white throated sparrow","1901",1901-04-17,"Walter",107
+"176","white throated sparrow","1902",1902-03-24,"Walter",83
+"177","white throated sparrow","1903",1903-03-21,"Walter",80
+"178","white crowned sparrow","1898",1898-05-09,"Walter",129
+"179","white crowned sparrow","1899",1899-04-29,"Walter",119
+"180","white crowned sparrow","1900",1900-05-02,"Walter",122
+"181","white crowned sparrow","1901",1901-04-20,"Walter",110
+"182","white crowned sparrow","1902",1902-03-11,"Walter",70
+"183","white crowned sparrow","1903",1903-04-29,"Walter",119
+"184","white breasted nuthatch","1898",1898-03-29,"Walter",88
+"185","white breasted nuthatch","1899",1899-04-11,"Walter",101
+"186","white breasted nuthatch","1900",1900-04-02,"Walter",92
+"187","white breasted nuthatch","1901",1901-03-18,"Walter",77
+"188","white breasted nuthatch","1902",1902-03-31,"Walter",90
+"189","white breasted nuthatch","1903",1903-04-02,"Walter",92
+"190","whip poor will","1899",1899-04-30,"Walter",120
+"191","whip poor will","1901",1901-05-09,"Walter",129
+"192","whip poor will","1903",1903-05-17,"Walter",137
+"193","western yellow throat","1898",1898-05-01,"Walter",121
+"194","western yellow throat","1899",1899-04-28,"Walter",118
+"195","western yellow throat","1900",1900-05-05,"Walter",125
+"196","western yellow throat","1901",1901-05-05,"Walter",125
+"197","western yellow throat","1902",1902-05-02,"Walter",122
+"198","western yellow throat","1903",1903-05-01,"Walter",121
+"199","warbling vireo","1898",1898-05-15,"Walter",135
+"200","warbling vireo","1899",1899-05-12,"Walter",132
+"201","warbling vireo","1900",1900-05-06,"Walter",126
+"202","warbling vireo","1901",1901-05-11,"Walter",131
+"203","warbling vireo","1902",1902-05-07,"Walter",127
+"204","warbling vireo","1903",1903-05-05,"Walter",125
+"205","vesper sparrow","1902",1902-04-18,"Walter",108
+"206","vesper sparrow","1903",1903-04-01,"Walter",91
+"207","tree swallow","1899",1899-04-12,"Walter",102
+"208","tree swallow","1900",1900-04-18,"Walter",108
+"209","tree swallow","1901",1901-04-12,"Walter",102
+"210","tree swallow","1902",1902-03-11,"Walter",70
+"211","tree swallow","1903",1903-04-01,"Walter",91
+"212","american tree sparrow","1901",1901-04-05,"Walter",95
+"213","american tree sparrow","1902",1902-03-07,"Walter",66
+"214","american tree sparrow","1903",1903-03-13,"Walter",72
+"215","eastern towhee","1898",1898-03-17,"Walter",76
+"216","eastern towhee","1899",1899-04-11,"Walter",101
+"217","eastern towhee","1900",1900-04-07,"Walter",97
+"218","eastern towhee","1901",1901-03-25,"Walter",84
+"219","eastern towhee","1902",1902-03-10,"Walter",69
+"220","eastern towhee","1903",1903-03-18,"Walter",77
+"221","swamp sparrow","1899",1899-04-20,"Walter",110
+"222","swamp sparrow","1899",1899-04-20,"Walter",110
+"223","swamp sparrow","1900",1900-04-21,"Walter",111
+"224","swamp sparrow","1902",1902-03-11,"Walter",70
+"225","swamp sparrow","1903",1903-04-12,"Walter",102
+"226","sparrow hawk","1903",1903-04-30,"Walter",120
+"227","sparrow hawk","1902",1902-03-21,"Walter",80
+"228","sparrow hawk","1901",1901-03-24,"Walter",83
+"229","sparrow hawk","1900",1900-04-18,"Walter",108
+"230","sparrow hawk","1899",1899-04-25,"Walter",115
+"231","song sparrow","1898",1898-03-15,"Walter",74
+"232","song sparrow","1899",1899-03-19,"Walter",78
+"233","song sparrow","1900",1900-03-27,"Walter",86
+"234","song sparrow","1901",1901-03-18,"Walter",77
+"235","song sparrow","1902",1902-03-08,"Walter",67
+"236","song sparrow","1903",1903-03-12,"Walter",71
+"237","scarlet tanager","1899",1899-05-04,"Walter",124
+"238","scarlet tanager","1900",1900-05-02,"Walter",122
+"239","scarlet tanager","1901",1901-05-05,"Walter",125
+"240","scarlet tanager","1902",1902-05-03,"Walter",123
+"241","scarlet tanager","1903",1903-05-05,"Walter",125
+"242","rusty blackbird","1901",1901-04-05,"Walter",95
+"243","rusty blackbird","1903",1903-03-17,"Walter",76
+"244","ruby throated hummingbird","1899",1899-05-09,"Walter",129
+"245","ruby throated hummingbird","1900",1900-05-13,"Walter",133
+"246","ruby throated hummingbird","1901",1901-05-16,"Walter",136
+"247","ruby throated hummingbird","1902",1902-05-17,"Walter",137
+"248","ruby throated hummingbird","1903",1903-05-13,"Walter",133
+"249","ruby crowned kinglet","1898",1898-04-01,"Walter",91
+"250","ruby crowned kinglet","1899",1899-04-13,"Walter",103
+"251","ruby crowned kinglet","1900",1900-04-07,"Walter",97
+"252","ruby crowned kinglet","1902",1902-04-17,"Walter",107
+"253","ruby crowned kinglet","1902",1902-04-13,"Walter",103
+"254","ruby crowned kinglet","1903",1903-03-19,"Walter",78
+"255","rose breasted grosbeak","1900",1900-05-11,"Walter",131
+"256","rose breasted grosbeak","1901",1901-05-04,"Walter",124
+"257","rose breasted grosbeak","1902",1902-04-28,"Walter",118
+"258","rose breasted grosbeak","1903",1903-05-09,"Walter",129
+"259","american robin","1898",1898-03-09,"Walter",68
+"260","american robin","1899",1899-03-04,"Walter",63
+"261","american robin","1900",1900-03-24,"Walter",83
+"262","american robin","1901",1901-03-14,"Walter",73
+"263","american robin","1902",1902-03-10,"Walter",69
+"264","american robin","1903",1903-03-07,"Walter",66
+"265","red winged blackbird","1900",1900-04-18,"Walter",108
+"266","red winged blackbird","1901",1901-03-22,"Walter",81
+"267","red winged blackbird","1902",1902-03-26,"Walter",85
+"268","red winged blackbird","1903",1903-03-17,"Walter",76
+"269","red headed woodpecker","1898",1898-04-29,"Walter",119
+"270","red headed woodpecker","1899",1899-04-28,"Walter",118
+"271","red headed woodpecker","1900",1900-05-06,"Walter",126
+"272","red headed woodpecker","1901",1901-04-27,"Walter",117
+"273","red headed woodpecker","1902",1902-04-27,"Walter",117
+"274","red headed woodpecker","1903",1903-04-28,"Walter",118
+"275","red eyed vireo","1899",1899-04-29,"Walter",119
+"276","red eyed vireo","1900",1900-05-12,"Walter",132
+"277","red eyed vireo","1901",1901-05-04,"Walter",124
+"278","red eyed vireo","1902",1902-05-02,"Walter",122
+"279","red eyed vireo","1903",1903-05-04,"Walter",124
+"280","red breasted nuthatch","1902",1902-04-22,"Walter",112
+"281","red breasted nuthatch","1903",1903-04-28,"Walter",118
+"282","purple martin","1899",1899-05-30,"Walter",150
+"283","purple martin","1901",1901-04-27,"Walter",117
+"284","purple martin","1902",1902-04-23,"Walter",113
+"285","purple martin","1903",1903-04-17,"Walter",107
+"286","purple finch","1900",1900-04-15,"Walter",105
+"287","purple finch","1902",1902-04-11,"Walter",101
+"288","purple finch","1903",1903-04-15,"Walter",105
+"289","prothonotary warbler","1902",1902-04-27,"Walter",117
+"290","prothonotary warbler","1903",1903-05-19,"Walter",139
+"291","pine warbler","1901",1901-04-30,"Walter",120
+"292","pine warbler","1902",1902-04-21,"Walter",111
+"293","pine warbler","1903",1903-04-22,"Walter",112
+"294","eastern phoebe","1898",1898-03-20,"Walter",79
+"295","eastern phoebe","1899",1899-04-17,"Walter",107
+"296","eastern phoebe","1900",1900-04-01,"Walter",91
+"297","eastern phoebe","1901",1901-03-18,"Walter",77
+"298","eastern phoebe","1902",1902-03-15,"Walter",74
+"299","eastern phoebe","1903",1903-03-17,"Walter",76
+"300","parula warbler","1901",1901-05-12,"Walter",132
+"301","parula warbler","1902",1902-05-03,"Walter",123
+"302","parula warbler","1903",1903-05-09,"Walter",129
+"303","palm warbler","1899",1899-04-20,"Walter",110
+"304","palm warbler","1900",1900-04-27,"Walter",117
+"305","palm warbler","1901",1901-04-26,"Walter",116
+"306","palm warbler","1902",1902-04-21,"Walter",111
+"307","palm warbler","1903",1903-04-22,"Walter",112
+"308","ovenbird","1898",1898-05-01,"Walter",121
+"309","ovenbird","1899",1899-05-03,"Walter",123
+"310","ovenbird","1900",1900-05-05,"Walter",125
+"311","ovenbird","1901",1901-05-05,"Walter",125
+"312","ovenbird","1902",1902-05-01,"Walter",121
+"313","ovenbird","1903",1903-05-06,"Walter",126
+"314","orchard oriole","1899",1899-05-06,"Walter",126
+"315","orchard oriole","1900",1900-05-11,"Walter",131
+"316","orchard oriole","1901",1901-05-10,"Walter",130
+"317","orchard oriole","1902",1902-05-02,"Walter",122
+"318","orchard oriole","1903",1903-05-05,"Walter",125
+"319","olive backed thrush","1899",1899-05-04,"Walter",124
+"320","olive backed thrush","1900",1900-05-08,"Walter",128
+"321","olive backed thrush","1901",1901-04-30,"Walter",120
+"322","olive backed thrush","1902",1902-04-22,"Walter",112
+"323","olive backed thrush","1903",1903-04-29,"Walter",119
+"324","common nighthawk","1900",1900-05-13,"Walter",133
+"325","common nighthawk","1901",1901-05-18,"Walter",138
+"326","common nighthawk","1902",1902-05-18,"Walter",138
+"327","common nighthawk","1903",1903-05-18,"Walter",138
+"328","nashville warbler","1899",1899-05-04,"Walter",124
+"329","nashville warbler","1900",1900-05-09,"Walter",129
+"330","nashville warbler","1901",1901-05-19,"Walter",139
+"331","nashville warbler","1902",1902-05-02,"Walter",122
+"332","nashville warbler","1903",1903-05-01,"Walter",121
+"333","myrtle warbler","1898",1898-04-16,"Walter",106
+"334","myrtle warbler","1899",1899-04-14,"Walter",104
+"335","myrtle warbler","1900",1900-04-19,"Walter",109
+"336","myrtle warbler","1901",1901-04-14,"Walter",104
+"337","myrtle warbler","1902",1902-04-17,"Walter",107
+"338","myrtle warbler","1903",1903-04-08,"Walter",98
+"339","mourning warbler","1899",1899-05-13,"Walter",133
+"340","mourning warbler","1900",1900-05-06,"Walter",126
+"341","mourning warbler","1901",1901-05-16,"Walter",136
+"342","mourning warbler","1902",1902-05-02,"Walter",122
+"343","mourning warbler","1903",1903-05-11,"Walter",131
+"344","eastern meadowlark","1900",1900-03-27,"Walter",86
+"345","eastern meadowlark","1901",1901-03-19,"Walter",78
+"346","eastern meadowlark","1902",1902-03-10,"Walter",69
+"347","eastern meadowlark","1903",1903-03-13,"Walter",72
+"348","marsh hawk","1900",1900-04-19,"Walter",109
+"349","marsh hawk","1901",1901-03-25,"Walter",84
+"350","marsh hawk","1902",1902-04-21,"Walter",111
+"351","marsh hawk","1903",1903-04-01,"Walter",91
+"352","magnolia warbler","1898",1898-05-11,"Walter",131
+"353","magnolia warbler","1899",1899-04-27,"Walter",117
+"354","magnolia warbler","1900",1900-05-08,"Walter",128
+"355","magnolia warbler","1901",1901-05-06,"Walter",126
+"356","magnolia warbler","1902",1902-04-21,"Walter",111
+"357","magnolia warbler","1903",1903-05-05,"Walter",125
+"358","louisiana water thrush","1903",1903-05-05,"Walter",125
+"359","long billed marsh wren","1900",1900-04-12,"Walter",102
+"360","long billed marsh wren","1903",1903-03-29,"Walter",88
+"361","loggerhead shrike","1899",1899-04-11,"Walter",101
+"362","loggerhead shrike","1900",1900-03-09,"Walter",68
+"363","loggerhead shrike","1901",1901-03-03,"Walter",62
+"364","loggerhead shrike","1902",1902-03-09,"Walter",68
+"365","loggerhead shrike","1903",1903-03-01,"Walter",60
+"366","lincoln sparrow","1901",1901-05-23,"Walter",143
+"367","lincoln sparrow","1902",1902-05-12,"Walter",132
+"368","lincoln sparrow","1903",1903-05-10,"Walter",130
+"369","least flycatcher","1898",1898-04-30,"Walter",120
+"370","least flycatcher","1899",1899-04-20,"Walter",110
+"371","least flycatcher","1900",1900-04-30,"Walter",120
+"372","least flycatcher","1901",1901-05-06,"Walter",126
+"373","least flycatcher","1902",1902-04-21,"Walter",111
+"374","least flycatcher","1903",1903-05-09,"Walter",129
+"375","kingbird","1898",1898-04-30,"Walter",120
+"376","kingbird","1899",1899-05-10,"Walter",130
+"377","kingbird","1900",1900-05-06,"Walter",126
+"378","kingbird","1901",1901-05-10,"Walter",130
+"379","kingbird","1902",1902-04-21,"Walter",111
+"380","kingbird","1903",1903-05-05,"Walter",125
+"381","dark eyed junco","1898",1898-03-09,"Walter",68
+"382","dark eyed junco","1899",1899-03-14,"Walter",73
+"383","dark eyed junco","1900",1900-03-23,"Walter",82
+"384","dark eyed junco","1901",1901-03-18,"Walter",77
+"385","dark eyed junco","1902",1902-03-08,"Walter",67
+"386","dark eyed junco","1903",1903-03-13,"Walter",72
+"387","indigo bunting","1899",1899-05-10,"Walter",130
+"388","indigo bunting","1900",1900-05-21,"Walter",141
+"389","indigo bunting","1901",1901-05-10,"Walter",130
+"390","indigo bunting","1902",1902-05-02,"Walter",122
+"391","indigo bunting","1903",1903-05-06,"Walter",126
+"392","house wren","1898",1898-05-04,"Walter",124
+"393","house wren","1899",1899-04-30,"Walter",120
+"394","house wren","1901",1901-04-21,"Walter",111
+"395","house wren","1902",1902-04-23,"Walter",113
+"396","house wren","1903",1903-04-12,"Walter",102
+"397","hermit thrush","1899",1899-04-11,"Walter",101
+"398","hermit thrush","1900",1900-04-07,"Walter",97
+"399","hermit thrush","1901",1901-04-05,"Walter",95
+"400","hermit thrush","1902",1902-04-13,"Walter",103
+"401","hermit thrush","1903",1903-03-19,"Walter",78
+"402","henslow sparrow","1899",1899-04-26,"Walter",116
+"403","henslow sparrow","1900",1900-04-21,"Walter",111
+"404","henslow sparrow","1901",1901-04-30,"Walter",120
+"405","henslow sparrow","1902",1902-04-24,"Walter",114
+"406","henslow sparrow","1903",1903-04-15,"Walter",105
+"407","hairy woodpecker","1899",1899-05-24,"Walter",144
+"408","hairy woodpecker","1900",1900-04-19,"Walter",109
+"409","hairy woodpecker","1902",1902-03-25,"Walter",84
+"410","hairy woodpecker","1903",1903-03-06,"Walter",65
+"411","grinnell water thrush","1899",1899-04-28,"Walter",118
+"412","grinnell water thrush","1900",1900-04-23,"Walter",113
+"413","grinnell water thrush","1901",1901-04-17,"Walter",107
+"414","grinnell water thrush","1902",1902-04-21,"Walter",111
+"415","grinnell water thrush","1903",1903-04-29,"Walter",119
+"416","great crested flycatcher","1899",1899-04-30,"Walter",120
+"417","great crested flycatcher","1901",1901-05-11,"Walter",131
+"418","great crested flycatcher","1902",1902-04-21,"Walter",111
+"419","great crested flycatcher","1903",1903-04-29,"Walter",119
+"420","gray cheeked thrush","1903",1903-05-11,"Walter",131
+"421","golden crowned kinglet","1898",1898-03-14,"Walter",73
+"422","golden crowned kinglet","1899",1899-04-11,"Walter",101
+"423","golden crowned kinglet","1900",1900-04-06,"Walter",96
+"424","golden crowned kinglet","1901",1901-04-05,"Walter",95
+"425","golden crowned kinglet","1902",1902-03-28,"Walter",87
+"426","golden crowned kinglet","1903",1903-03-19,"Walter",78
+"427","fox sparrow","1898",1898-03-30,"Walter",89
+"428","fox sparrow","1899",1899-03-14,"Walter",73
+"429","fox sparrow","1900",1900-04-05,"Walter",95
+"430","fox sparrow","1901",1901-03-18,"Walter",77
+"431","fox sparrow","1902",1902-03-10,"Walter",69
+"432","fox sparrow","1903",1903-03-17,"Walter",76
+"433","northern flicker","1898",1898-03-25,"Walter",84
+"434","northern flicker","1899",1899-04-11,"Walter",101
+"435","northern flicker","1900",1900-04-07,"Walter",97
+"436","northern flicker","1901",1901-03-23,"Walter",82
+"437","northern flicker","1902",1902-03-24,"Walter",83
+"438","northern flicker","1903",1903-03-18,"Walter",77
+"439","field sparrow","1900",1900-04-17,"Walter",107
+"440","field sparrow","1901",1901-04-05,"Walter",95
+"441","field sparrow","1902",1902-03-11,"Walter",70
+"442","field sparrow","1903",1903-03-19,"Walter",78
+"443","downy woodpecker","1898",1898-04-08,"Walter",98
+"444","downy woodpecker","1899",1899-03-27,"Walter",86
+"445","downy woodpecker","1900",1900-04-25,"Walter",115
+"446","downy woodpecker","1901",1901-04-05,"Walter",95
+"447","downy woodpecker","1902",1902-03-10,"Walter",69
+"448","downy woodpecker","1903",1903-03-06,"Walter",65
+"449","dickcissel","1902",1902-05-18,"Walter",138
+"450","american crow","1899",1899-03-26,"Walter",85
+"451","american crow","1900",1900-03-12,"Walter",71
+"452","american crow","1901",1901-03-03,"Walter",62
+"453","american crow","1902",1902-03-06,"Walter",65
+"454","american crow","1903",1903-03-08,"Walter",67
+"455","brown headed cowbird","1898",1898-03-16,"Walter",75
+"456","brown headed cowbird","1899",1899-04-10,"Walter",100
+"457","brown headed cowbird","1900",1900-04-01,"Walter",91
+"458","brown headed cowbird","1901",1901-03-19,"Walter",78
+"459","brown headed cowbird","1902",1902-03-01,"Walter",60
+"460","brown headed cowbird","1903",1903-03-14,"Walter",73
+"461","chipping sparrow","1898",1898-04-13,"Walter",103
+"462","chipping sparrow","1899",1899-04-18,"Walter",108
+"463","chipping sparrow","1900",1900-04-08,"Walter",98
+"464","chipping sparrow","1901",1901-04-08,"Walter",98
+"465","chipping sparrow","1902",1902-04-13,"Walter",103
+"466","chipping sparrow","1903",1903-04-12,"Walter",102
+"467","chimney swift","1898",1898-04-30,"Walter",120
+"468","chimney swift","1899",1899-05-11,"Walter",131
+"469","chimney swift","1900",1900-04-30,"Walter",120
+"470","chimney swift","1901",1901-04-17,"Walter",107
+"471","chimney swift","1902",1902-04-22,"Walter",112
+"472","chimney swift","1903",1903-05-05,"Walter",125
+"473","black capped chickadee","1900",1900-03-19,"Walter",78
+"474","black capped chickadee","1901",1901-04-13,"Walter",103
+"475","chestnut sided warbler","1898",1898-05-10,"Walter",130
+"476","chestnut sided warbler","1899",1899-05-30,"Walter",150
+"477","chestnut sided warbler","1900",1900-05-03,"Walter",123
+"478","chestnut sided warbler","1901",1901-05-07,"Walter",127
+"479","chestnut sided warbler","1902",1902-05-02,"Walter",122
+"480","chestnut sided warbler","1903",1903-05-09,"Walter",129
+"481","cedar waxwing","1899",1899-03-27,"Walter",86
+"482","cedar waxwing","1901",1901-05-16,"Walter",136
+"483","cedar waxwing","1902",1902-04-24,"Walter",114
+"484","cedar waxwing","1903",1903-04-05,"Walter",95
+"485","gray catbird","1898",1898-05-01,"Walter",121
+"486","gray catbird","1899",1899-04-28,"Walter",118
+"487","gray catbird","1900",1900-04-30,"Walter",120
+"488","gray catbird","1901",1901-04-28,"Walter",118
+"489","gray catbird","1902",1902-03-26,"Walter",85
+"490","gray catbird","1903",1903-05-05,"Walter",125
+"491","northern cardinal","1900",1900-04-25,"Walter",115
+"492","cape may warbler","1899",1899-05-01,"Walter",121
+"493","cape may warbler","1900",1900-05-02,"Walter",122
+"494","cape may warbler","1901",1901-05-05,"Walter",125
+"495","cape may warbler","1902",1902-05-02,"Walter",122
+"496","cape may warbler","1903",1903-05-09,"Walter",129
+"497","canadian warbler","1899",1899-05-16,"Walter",136
+"498","canadian warbler","1900",1900-05-12,"Walter",132
+"499","canadian warbler","1901",1901-05-16,"Walter",136
+"500","canadian warbler","1902",1902-05-06,"Walter",126
+"501","canadian warbler","1903",1903-05-12,"Walter",132
+"502","brown thrasher","1898",1898-04-24,"Walter",114
+"503","brown thrasher","1899",1899-04-27,"Walter",117
+"504","brown thrasher","1900",1900-04-16,"Walter",106
+"505","brown thrasher","1901",1901-04-24,"Walter",114
+"506","brown thrasher","1902",1902-04-22,"Walter",112
+"507","brown thrasher","1903",1903-04-12,"Walter",102
+"508","brown creeper","1898",1898-04-07,"Walter",97
+"509","brown creeper","1899",1899-04-06,"Walter",96
+"510","brown creeper","1900",1900-04-02,"Walter",92
+"511","brown creeper","1901",1901-04-04,"Walter",94
+"512","brown creeper","1902",1902-03-21,"Walter",80
+"513","brown creeper","1903",1903-03-18,"Walter",77
+"514","bronzed grackle","1898",1898-03-14,"Walter",73
+"515","bronzed grackle","1899",1899-03-20,"Walter",79
+"516","bronzed grackle","1900",1900-03-24,"Walter",83
+"517","bronzed grackle","1901",1901-03-23,"Walter",82
+"518","bronzed grackle","1902",1902-03-10,"Walter",69
+"519","bronzed grackle","1903",1903-03-14,"Walter",73
+"520","bobolink","1900",1900-05-08,"Walter",128
+"521","bobolink","1901",1901-05-04,"Walter",124
+"522","bobolink","1902",1902-05-12,"Walter",132
+"523","bobolink","1903",1903-05-08,"Walter",128
+"524","blue headed vireo","1901",1901-05-05,"Walter",125
+"525","blue headed vireo","1902",1902-05-02,"Walter",122
+"526","blue headed vireo","1903",1903-05-08,"Walter",128
+"527","blue gray gnatcatcher","1899",1899-04-22,"Walter",112
+"528","blue gray gnatcatcher","1900",1900-04-18,"Walter",108
+"529","blue gray gnatcatcher","1901",1901-04-28,"Walter",118
+"530","blue gray gnatcatcher","1902",1902-04-22,"Walter",112
+"531","blue gray gnatcatcher","1903",1903-04-25,"Walter",115
+"532","eastern bluebird","1898",1898-03-08,"Walter",67
+"533","eastern bluebird","1899",1899-04-04,"Walter",94
+"534","eastern bluebird","1900",1900-03-31,"Walter",90
+"535","eastern bluebird","1901",1901-03-17,"Walter",76
+"536","eastern bluebird","1902",1902-03-07,"Walter",66
+"537","eastern bluebird","1903",1903-03-07,"Walter",66
+"538","blue golden winged warbler","1902",1902-05-02,"Walter",122
+"539","blue golden winged warbler","1900",1900-05-12,"Walter",132
+"540","blue golden winged warbler","1901",1901-05-12,"Walter",132
+"541","black throated green warbler","1898",1898-05-17,"Walter",137
+"542","black throated green warbler","1899",1899-04-23,"Walter",113
+"543","black throated green warbler","1900",1900-04-27,"Walter",117
+"544","black throated green warbler","1901",1901-04-26,"Walter",116
+"545","black throated green warbler","1902",1902-04-28,"Walter",118
+"546","black throated green warbler","1903",1903-05-02,"Walter",122
+"547","black throated blue warbler","1898",1898-05-11,"Walter",131
+"548","black throated blue warbler","1899",1899-05-04,"Walter",124
+"549","black throated blue warbler","1900",1900-05-08,"Walter",128
+"550","black throated blue warbler","1901",1901-05-05,"Walter",125
+"551","black throated blue warbler","1902",1902-05-02,"Walter",122
+"552","black throated blue warbler","1903",1903-05-05,"Walter",125
+"553","black poll warbler","1899",1899-05-10,"Walter",130
+"554","black poll warbler","1900",1900-05-13,"Walter",133
+"555","black poll warbler","1901",1901-05-16,"Walter",136
+"556","black poll warbler","1902",1902-05-12,"Walter",132
+"557","black poll warbler","1903",1903-05-06,"Walter",126
+"558","blackburnian warbler","1898",1898-05-10,"Walter",130
+"559","blackburnian warbler","1899",1899-05-03,"Walter",123
+"560","blackburnian warbler","1900",1900-04-28,"Walter",118
+"561","blackburnian warbler","1901",1901-05-10,"Walter",130
+"562","blackburnian warbler","1902",1902-04-28,"Walter",118
+"563","blackburnian warbler","1903",1903-04-30,"Walter",120
+"564","black billed cuckoo","1900",1900-05-12,"Walter",132
+"565","black billed cuckoo","1901",1901-05-15,"Walter",135
+"566","black billed cuckoo","1902",1902-05-16,"Walter",136
+"567","black billed cuckoo","1903",1903-05-12,"Walter",132
+"568","black and white creeper","1898",1898-04-30,"Walter",120
+"569","black and white creeper","1899",1899-04-21,"Walter",111
+"570","black and white creeper","1900",1900-04-26,"Walter",116
+"571","black and white creeper","1901",1901-05-04,"Walter",124
+"572","black and white creeper","1902",1902-04-28,"Walter",118
+"573","black and white creeper","1903",1903-04-27,"Walter",117
+"574","belted kingfisher","1898",1898-03-25,"Walter",84
+"575","belted kingfisher","1899",1899-03-22,"Walter",81
+"576","belted kingfisher","1900",1900-04-10,"Walter",100
+"577","belted kingfisher","1901",1901-03-26,"Walter",85
+"578","belted kingfisher","1902",1902-04-11,"Walter",101
+"579","belted kingfisher","1903",1903-04-10,"Walter",100
+"580","bay breasted warbler","1899",1899-05-04,"Walter",124
+"581","bay breasted warbler","1900",1900-05-11,"Walter",131
+"582","bay breasted warbler","1901",1901-05-15,"Walter",135
+"583","bay breasted warbler","1902",1902-04-22,"Walter",112
+"584","bay breasted warbler","1903",1903-05-09,"Walter",129
+"585","barn swallow","1898",1898-05-01,"Walter",121
+"586","barn swallow","1899",1899-04-23,"Walter",113
+"587","barn swallow","1900",1900-04-26,"Walter",116
+"588","barn swallow","1901",1901-04-10,"Walter",100
+"589","barn swallow","1902",1902-04-18,"Walter",108
+"590","barn swallow","1903",1903-04-24,"Walter",114
+"591","baltimore oriole","1899",1899-05-02,"Walter",122
+"592","baltimore oriole","1900",1900-05-06,"Walter",126
+"593","baltimore oriole","1901",1901-05-04,"Walter",124
+"594","baltimore oriole","1902",1902-05-02,"Walter",122
+"595","baltimore oriole","1903",1903-05-05,"Walter",125
+"596","american redstart","1898",1898-05-01,"Walter",121
+"597","american redstart","1899",1899-04-28,"Walter",118
+"598","american redstart","1900",1900-05-11,"Walter",131
+"599","american redstart","1901",1901-05-06,"Walter",126
+"600","american redstart","1902",1902-05-02,"Walter",122
+"601","american redstart","1903",1903-05-05,"Walter",125
+"602","american goldfinch","1898",1898-05-06,"Walter",126
+"603","american goldfinch","1899",1899-04-28,"Walter",118
+"604","american goldfinch","1900",1900-05-07,"Walter",127
+"605","american goldfinch","1901",1901-04-30,"Walter",120
+"606","american goldfinch","1902",1902-05-02,"Walter",122
+"607","american goldfinch","1903",1903-05-07,"Walter",127
+"608","american bittern","1928",1928-05-18,"Dreuth",139
+"609","american bittern","1930",1930-04-12,"Dreuth",102
+"610","american bittern","1931",1931-05-02,"Dreuth",122
+"611","american bittern","1932",1932-05-03,"Dreuth",124
+"612","american coot","1928",1928-04-01,"Dreuth",92
+"613","american coot","1929",1929-03-12,"Dreuth",71
+"614","american coot","1930",1930-04-11,"Dreuth",101
+"615","american coot","1931",1931-04-20,"Dreuth",110
+"616","american coot","1932",1932-04-07,"Dreuth",98
+"617","american crow","1927",1927-03-13,"Dreuth",72
+"618","american crow","1928",1928-03-11,"Dreuth",71
+"619","american crow","1930",1930-03-10,"Dreuth",69
+"620","american crow","1931",1931-03-22,"Dreuth",81
+"621","american crow","1932",1932-03-18,"Dreuth",78
+"622","american goldfinch","1927",1927-05-15,"Dreuth",135
+"623","american goldfinch","1928",1928-05-12,"Dreuth",133
+"624","american goldfinch","1929",1929-04-29,"Dreuth",119
+"625","american goldfinch","1930",1930-04-30,"Dreuth",120
+"626","american goldfinch","1931",1931-05-13,"Dreuth",133
+"627","american goldfinch","1932",1932-05-06,"Dreuth",127
+"628","american kestrel","1932",1932-03-31,"Dreuth",91
+"629","american redstart","1927",1927-05-21,"Dreuth",141
+"630","american redstart","1928",1928-05-01,"Dreuth",122
+"631","american redstart","1929",1929-05-10,"Dreuth",130
+"632","american redstart","1930",1930-05-02,"Dreuth",122
+"633","american redstart","1931",1931-05-10,"Dreuth",130
+"634","american redstart","1932",1932-05-04,"Dreuth",125
+"635","american robin","1927",1927-03-13,"Dreuth",72
+"636","american robin","1928",1928-03-21,"Dreuth",81
+"637","american robin","1929",1929-03-02,"Dreuth",61
+"638","american robin","1930",1930-03-01,"Dreuth",60
+"639","american robin","1931",1931-03-03,"Dreuth",62
+"640","american robin","1932",1932-03-11,"Dreuth",71
+"641","american tree sparrow","1927",1927-03-13,"Dreuth",72
+"642","american tree sparrow","1928",1928-03-25,"Dreuth",85
+"643","american tree sparrow","1929",1929-03-06,"Dreuth",65
+"644","american tree sparrow","1930",1930-03-16,"Dreuth",75
+"645","american tree sparrow","1931",1931-03-21,"Dreuth",80
+"646","american tree sparrow","1932",1932-03-30,"Dreuth",90
+"647","american wigeon","1931",1931-03-23,"Dreuth",82
+"648","american wigeon","1932",1932-03-29,"Dreuth",89
+"649","american woodcock","1932",1932-03-30,"Dreuth",90
+"650","bachmans sparrow","1932",1932-04-07,"Dreuth",98
+"651","baltimore oriole","1928",1928-05-03,"Dreuth",124
+"652","baltimore oriole","1929",1929-04-25,"Dreuth",115
+"653","baltimore oriole","1930",1930-05-02,"Dreuth",122
+"654","baltimore oriole","1931",1931-05-10,"Dreuth",130
+"655","baltimore oriole","1932",1932-05-03,"Dreuth",124
+"656","bank swallow","1931",1931-05-07,"Dreuth",127
+"657","bank swallow","1932",1932-05-06,"Dreuth",127
+"658","barn swallow","1927",1927-05-15,"Dreuth",135
+"659","barn swallow","1928",1928-04-29,"Dreuth",120
+"660","barn swallow","1929",1929-04-24,"Dreuth",114
+"661","barn swallow","1931",1931-05-07,"Dreuth",127
+"662","barn swallow","1932",1932-04-28,"Dreuth",119
+"663","bay breasted warbler","1927",1927-05-22,"Dreuth",142
+"664","bay breasted warbler","1928",1928-05-16,"Dreuth",137
+"665","bay breasted warbler","1929",1929-05-15,"Dreuth",135
+"666","bay breasted warbler","1930",1930-05-07,"Dreuth",127
+"667","bay breasted warbler","1932",1932-05-14,"Dreuth",135
+"668","belted kingfisher","1928",1928-04-01,"Dreuth",92
+"669","belted kingfisher","1929",1929-03-26,"Dreuth",85
+"670","belted kingfisher","1930",1930-04-06,"Dreuth",96
+"671","belted kingfisher","1931",1931-04-05,"Dreuth",95
+"672","belted kingfisher","1932",1932-04-02,"Dreuth",93
+"673","bewicks wren","1929",1929-04-05,"Dreuth",95
+"674","bewicks wren","1932",1932-04-13,"Dreuth",104
+"675","black and white warbler","1927",1927-05-07,"Dreuth",127
+"676","black and white warbler","1928",1928-05-03,"Dreuth",124
+"677","black and white warbler","1929",1929-04-24,"Dreuth",114
+"678","black and white warbler","1930",1930-05-01,"Dreuth",121
+"679","black and white warbler","1931",1931-05-04,"Dreuth",124
+"680","black and white warbler","1932",1932-04-29,"Dreuth",120
+"681","black billed cuckoo","1928",1928-05-15,"Dreuth",136
+"682","black billed cuckoo","1929",1929-05-31,"Dreuth",151
+"683","black billed cuckoo","1931",1931-05-18,"Dreuth",138
+"684","black billed cuckoo","1932",1932-05-06,"Dreuth",127
+"685","black capped chickadee","1929",1929-03-14,"Dreuth",73
+"686","black capped chickadee","1930",1930-05-02,"Dreuth",122
+"687","black poll warbler","1927",1927-05-15,"Dreuth",135
+"688","black poll warbler","1928",1928-05-15,"Dreuth",136
+"689","black poll warbler","1929",1929-05-15,"Dreuth",135
+"690","black poll warbler","1930",1930-05-03,"Dreuth",123
+"691","black poll warbler","1932",1932-05-14,"Dreuth",135
+"692","black scoter","1931",1931-05-13,"Dreuth",133
+"693","black tern","1930",1930-05-11,"Dreuth",131
+"694","black tern","1932",1932-05-10,"Dreuth",131
+"695","black throated blue warbler","1927",1927-05-15,"Dreuth",135
+"696","black throated blue warbler","1928",1928-05-15,"Dreuth",136
+"697","black throated blue warbler","1929",1929-05-10,"Dreuth",130
+"698","black throated blue warbler","1930",1930-05-08,"Dreuth",128
+"699","black throated blue warbler","1931",1931-05-14,"Dreuth",134
+"700","black throated blue warbler","1932",1932-05-07,"Dreuth",128
+"701","black throated green warbler","1927",1927-05-07,"Dreuth",127
+"702","black throated green warbler","1928",1928-05-10,"Dreuth",131
+"703","black throated green warbler","1929",1929-05-06,"Dreuth",126
+"704","black throated green warbler","1930",1930-05-01,"Dreuth",121
+"705","black throated green warbler","1931",1931-05-10,"Dreuth",130
+"706","black throated green warbler","1932",1932-05-05,"Dreuth",126
+"707","blackburnian warbler","1927",1927-05-15,"Dreuth",135
+"708","blackburnian warbler","1928",1928-05-10,"Dreuth",131
+"709","blackburnian warbler","1929",1929-05-11,"Dreuth",131
+"710","blackburnian warbler","1930",1930-05-09,"Dreuth",129
+"711","blackburnian warbler","1931",1931-05-10,"Dreuth",130
+"712","blackburnian warbler","1932",1932-05-08,"Dreuth",129
+"713","blue gray gnatcatcher","1928",1928-04-29,"Dreuth",120
+"714","blue gray gnatcatcher","1929",1929-04-25,"Dreuth",115
+"715","blue gray gnatcatcher","1930",1930-05-02,"Dreuth",122
+"716","blue gray gnatcatcher","1931",1931-05-07,"Dreuth",127
+"717","blue gray gnatcatcher","1932",1932-05-06,"Dreuth",127
+"718","blue headed vireo","1927",1927-05-15,"Dreuth",135
+"719","blue headed vireo","1928",1928-05-14,"Dreuth",135
+"720","blue headed vireo","1929",1929-05-08,"Dreuth",128
+"721","blue headed vireo","1930",1930-04-29,"Dreuth",119
+"722","blue headed vireo","1931",1931-05-07,"Dreuth",127
+"723","blue headed vireo","1932",1932-04-29,"Dreuth",120
+"724","blue jay","1927",1927-05-01,"Dreuth",121
+"725","blue jay","1928",1928-05-04,"Dreuth",125
+"726","blue jay","1929",1929-04-25,"Dreuth",115
+"727","blue jay","1930",1930-04-23,"Dreuth",113
+"728","blue jay","1931",1931-04-17,"Dreuth",107
+"729","blue jay","1932",1932-04-26,"Dreuth",117
+"730","blue winged teal","1930",1930-04-29,"Dreuth",119
+"731","blue winged teal","1931",1931-04-17,"Dreuth",107
+"732","blue winged teal","1932",1932-04-03,"Dreuth",94
+"733","bobolink","1927",1927-05-08,"Dreuth",128
+"734","bobolink","1928",1928-04-29,"Dreuth",120
+"735","bobolink","1929",1929-05-06,"Dreuth",126
+"736","bobolink","1930",1930-05-05,"Dreuth",125
+"737","bobolink","1931",1931-05-15,"Dreuth",135
+"738","bobolink","1932",1932-05-07,"Dreuth",128
+"739","bonapartes gull","1927",1927-03-20,"Dreuth",79
+"740","bonapartes gull","1928",1928-04-08,"Dreuth",99
+"741","bonapartes gull","1929",1929-03-29,"Dreuth",88
+"742","bonapartes gull","1930",1930-04-03,"Dreuth",93
+"743","bonapartes gull","1931",1931-04-04,"Dreuth",94
+"744","bonapartes gull","1932",1932-04-03,"Dreuth",94
+"745","brown creeper","1927",1927-03-20,"Dreuth",79
+"746","brown creeper","1928",1928-03-25,"Dreuth",85
+"747","brown creeper","1929",1929-03-25,"Dreuth",84
+"748","brown creeper","1930",1930-04-02,"Dreuth",92
+"749","brown creeper","1931",1931-04-01,"Dreuth",91
+"750","brown creeper","1932",1932-04-03,"Dreuth",94
+"751","brown headed cowbird","1927",1927-04-10,"Dreuth",100
+"752","brown headed cowbird","1928",1928-03-25,"Dreuth",85
+"753","brown headed cowbird","1929",1929-03-30,"Dreuth",89
+"754","brown headed cowbird","1930",1930-04-01,"Dreuth",91
+"755","brown headed cowbird","1931",1931-03-23,"Dreuth",82
+"756","brown headed cowbird","1932",1932-03-28,"Dreuth",88
+"757","brown thrasher","1927",1927-04-17,"Dreuth",107
+"758","brown thrasher","1928",1928-05-02,"Dreuth",123
+"759","brown thrasher","1929",1929-04-06,"Dreuth",96
+"760","brown thrasher","1930",1930-04-17,"Dreuth",107
+"761","brown thrasher","1931",1931-04-13,"Dreuth",103
+"762","brown thrasher","1932",1932-04-07,"Dreuth",98
+"763","bufflehead","1929",1929-04-16,"Dreuth",106
+"764","bufflehead","1930",1930-04-11,"Dreuth",101
+"765","canada goose","1931",1931-05-20,"Dreuth",140
+"766","canadian warbler","1927",1927-05-22,"Dreuth",142
+"767","canadian warbler","1928",1928-05-18,"Dreuth",139
+"768","canadian warbler","1929",1929-05-18,"Dreuth",138
+"769","canadian warbler","1930",1930-05-09,"Dreuth",129
+"770","canadian warbler","1931",1931-05-16,"Dreuth",136
+"771","canadian warbler","1932",1932-05-14,"Dreuth",135
+"772","canvasback","1928",1928-04-08,"Dreuth",99
+"773","canvasback","1932",1932-04-02,"Dreuth",93
+"774","cape may warbler","1927",1927-05-15,"Dreuth",135
+"775","cape may warbler","1928",1928-05-12,"Dreuth",133
+"776","cape may warbler","1929",1929-05-11,"Dreuth",131
+"777","cape may warbler","1930",1930-05-09,"Dreuth",129
+"778","cape may warbler","1931",1931-05-16,"Dreuth",136
+"779","cape may warbler","1932",1932-05-10,"Dreuth",131
+"780","cedar waxwing","1929",1929-05-27,"Dreuth",147
+"781","cedar waxwing","1931",1931-03-21,"Dreuth",80
+"782","cedar waxwing","1932",1932-03-11,"Dreuth",71
+"783","chestnut sided warbler","1927",1927-05-15,"Dreuth",135
+"784","chestnut sided warbler","1928",1928-05-10,"Dreuth",131
+"785","chestnut sided warbler","1929",1929-05-11,"Dreuth",131
+"786","chestnut sided warbler","1930",1930-05-02,"Dreuth",122
+"787","chestnut sided warbler","1931",1931-05-15,"Dreuth",135
+"788","chestnut sided warbler","1932",1932-05-08,"Dreuth",129
+"789","chimney swift","1928",1928-05-14,"Dreuth",135
+"790","chimney swift","1929",1929-05-01,"Dreuth",121
+"791","chimney swift","1930",1930-05-03,"Dreuth",123
+"792","chimney swift","1931",1931-05-19,"Dreuth",139
+"793","chimney swift","1932",1932-05-03,"Dreuth",124
+"794","chipping sparrow","1927",1927-05-08,"Dreuth",128
+"795","chipping sparrow","1928",1928-04-29,"Dreuth",120
+"796","chipping sparrow","1929",1929-04-23,"Dreuth",113
+"797","chipping sparrow","1930",1930-04-11,"Dreuth",101
+"798","chipping sparrow","1931",1931-05-01,"Dreuth",121
+"799","chipping sparrow","1932",1932-04-20,"Dreuth",111
+"800","clay colored sparrow","1928",1928-05-10,"Dreuth",131
+"801","clay colored sparrow","1929",1929-05-07,"Dreuth",127
+"802","clay colored sparrow","1930",1930-05-02,"Dreuth",122
+"803","clay colored sparrow","1931",1931-05-05,"Dreuth",125
+"804","cliff swallow","1931",1931-05-21,"Dreuth",141
+"805","common goldeneye","1927",1927-03-06,"Dreuth",65
+"806","common goldeneye","1928",1928-03-04,"Dreuth",64
+"807","common goldeneye","1929",1929-03-01,"Dreuth",60
+"808","common goldeneye","1930",1930-03-01,"Dreuth",60
+"809","common goldeneye","1931",1931-03-02,"Dreuth",61
+"810","common goldeneye","1932",1932-03-11,"Dreuth",71
+"811","common grackle","1927",1927-03-13,"Dreuth",72
+"812","common loon","1927",1927-04-17,"Dreuth",107
+"813","common loon","1929",1929-04-23,"Dreuth",113
+"814","common loon","1931",1931-04-23,"Dreuth",113
+"815","common loon","1932",1932-04-28,"Dreuth",119
+"816","common merganser","1927",1927-03-06,"Dreuth",65
+"817","common merganser","1928",1928-03-04,"Dreuth",64
+"818","common merganser","1929",1929-03-17,"Dreuth",76
+"819","common merganser","1930",1930-03-24,"Dreuth",83
+"820","common merganser","1932",1932-03-11,"Dreuth",71
+"821","common nighthawk","1928",1928-05-21,"Dreuth",142
+"822","common nighthawk","1929",1929-05-26,"Dreuth",146
+"823","common nighthawk","1931",1931-05-29,"Dreuth",149
+"824","common nighthawk","1932",1932-05-20,"Dreuth",141
+"825","common tern","1927",1927-04-24,"Dreuth",114
+"826","common tern","1928",1928-04-29,"Dreuth",120
+"827","common tern","1929",1929-04-14,"Dreuth",104
+"828","common tern","1930",1930-04-25,"Dreuth",115
+"829","common tern","1931",1931-05-05,"Dreuth",125
+"830","common tern","1932",1932-05-08,"Dreuth",129
+"831","common yellowthroat","1927",1927-05-15,"Dreuth",135
+"832","common yellowthroat","1928",1928-05-04,"Dreuth",125
+"833","common yellowthroat","1929",1929-05-06,"Dreuth",126
+"834","common yellowthroat","1930",1930-05-02,"Dreuth",122
+"835","common yellowthroat","1931",1931-05-05,"Dreuth",125
+"836","common yellowthroat","1932",1932-04-28,"Dreuth",119
+"837","connecticut warbler","1928",1928-05-30,"Dreuth",151
+"838","connecticut warbler","1929",1929-05-23,"Dreuth",143
+"839","connecticut warbler","1930",1930-05-22,"Dreuth",142
+"840","connecticut warbler","1931",1931-05-18,"Dreuth",138
+"841","connecticut warbler","1932",1932-05-31,"Dreuth",152
+"842","dark eyed junco","1927",1927-03-13,"Dreuth",72
+"843","dark eyed junco","1928",1928-03-25,"Dreuth",85
+"844","dark eyed junco","1929",1929-03-11,"Dreuth",70
+"845","dark eyed junco","1930",1930-03-06,"Dreuth",65
+"846","dark eyed junco","1931",1931-03-20,"Dreuth",79
+"847","dark eyed junco","1932",1932-03-16,"Dreuth",76
+"848","dickcissel","1929",1929-05-11,"Dreuth",131
+"849","dickcissel","1930",1930-05-22,"Dreuth",142
+"850","downy woodpecker","1928",1928-04-01,"Dreuth",92
+"851","downy woodpecker","1929",1929-03-08,"Dreuth",67
+"852","downy woodpecker","1930",1930-03-05,"Dreuth",64
+"853","downy woodpecker","1931",1931-03-21,"Dreuth",80
+"854","downy woodpecker","1932",1932-04-02,"Dreuth",93
+"855","eastern bluebird","1927",1927-03-13,"Dreuth",72
+"856","eastern bluebird","1928",1928-04-08,"Dreuth",99
+"857","eastern bluebird","1929",1929-03-12,"Dreuth",71
+"858","eastern bluebird","1930",1930-03-10,"Dreuth",69
+"859","eastern bluebird","1931",1931-04-05,"Dreuth",95
+"860","eastern bluebird","1932",1932-03-29,"Dreuth",89
+"861","eastern kingbird","1928",1928-04-29,"Dreuth",120
+"862","eastern kingbird","1929",1929-05-10,"Dreuth",130
+"863","eastern kingbird","1930",1930-05-06,"Dreuth",126
+"864","eastern kingbird","1931",1931-05-15,"Dreuth",135
+"865","eastern kingbird","1932",1932-05-06,"Dreuth",127
+"866","eastern meadowlark","1927",1927-03-13,"Dreuth",72
+"867","eastern meadowlark","1928",1928-04-01,"Dreuth",92
+"868","eastern meadowlark","1929",1929-03-11,"Dreuth",70
+"869","eastern meadowlark","1930",1930-03-16,"Dreuth",75
+"870","eastern meadowlark","1931",1931-03-21,"Dreuth",80
+"871","eastern meadowlark","1932",1932-03-28,"Dreuth",88
+"872","eastern phoebe","1928",1928-04-08,"Dreuth",99
+"873","eastern phoebe","1929",1929-03-23,"Dreuth",82
+"874","eastern phoebe","1930",1930-04-01,"Dreuth",91
+"875","eastern phoebe","1931",1931-03-24,"Dreuth",83
+"876","eastern phoebe","1932",1932-03-30,"Dreuth",90
+"877","eastern screech owl","1928",1928-05-31,"Dreuth",152
+"878","eastern towhee","1927",1927-04-10,"Dreuth",100
+"879","eastern towhee","1928",1928-05-02,"Dreuth",123
+"880","eastern towhee","1929",1929-03-12,"Dreuth",71
+"881","eastern towhee","1930",1930-04-03,"Dreuth",93
+"882","eastern towhee","1931",1931-04-08,"Dreuth",98
+"883","eastern towhee","1932",1932-03-31,"Dreuth",91
+"884","eastern wood pewee","1927",1927-05-22,"Dreuth",142
+"885","eastern wood pewee","1928",1928-05-16,"Dreuth",137
+"886","eastern wood pewee","1929",1929-05-18,"Dreuth",138
+"887","eastern wood pewee","1930",1930-05-12,"Dreuth",132
+"888","eastern wood pewee","1931",1931-05-18,"Dreuth",138
+"889","eastern wood pewee","1932",1932-05-14,"Dreuth",135
+"890","european starling","1930",1930-04-27,"Dreuth",117
+"891","european starling","1931",1931-03-11,"Dreuth",70
+"892","european starling","1932",1932-03-18,"Dreuth",78
+"893","field sparrow","1927",1927-03-27,"Dreuth",86
+"894","field sparrow","1928",1928-04-29,"Dreuth",120
+"895","field sparrow","1929",1929-03-25,"Dreuth",84
+"896","field sparrow","1930",1930-03-16,"Dreuth",75
+"897","field sparrow","1931",1931-04-08,"Dreuth",98
+"898","field sparrow","1932",1932-03-28,"Dreuth",88
+"899","fox sparrow","1927",1927-03-13,"Dreuth",72
+"900","fox sparrow","1928",1928-03-25,"Dreuth",85
+"901","fox sparrow","1929",1929-03-12,"Dreuth",71
+"902","fox sparrow","1930",1930-03-17,"Dreuth",76
+"903","fox sparrow","1931",1931-04-08,"Dreuth",98
+"904","fox sparrow","1932",1932-03-30,"Dreuth",90
+"905","glaucous gull","1928",1928-04-22,"Dreuth",113
+"906","golden crowned kinglet","1927",1927-04-10,"Dreuth",100
+"907","golden crowned kinglet","1928",1928-03-25,"Dreuth",85
+"908","golden crowned kinglet","1929",1929-04-02,"Dreuth",92
+"909","golden crowned kinglet","1930",1930-04-01,"Dreuth",91
+"910","golden crowned kinglet","1931",1931-04-02,"Dreuth",92
+"911","golden crowned kinglet","1932",1932-03-29,"Dreuth",89
+"912","golden winged warbler","1930",1930-05-05,"Dreuth",125
+"913","golden winged warbler","1931",1931-05-15,"Dreuth",135
+"914","grackle","1928",1928-04-01,"Dreuth",92
+"915","grackle","1929",1929-03-12,"Dreuth",71
+"916","grackle","1930",1930-03-01,"Dreuth",60
+"917","grackle","1931",1931-03-19,"Dreuth",78
+"918","grackle","1932",1932-03-11,"Dreuth",71
+"919","grasshopper sparrow","1927",1927-04-17,"Dreuth",107
+"920","grasshopper sparrow","1929",1929-04-24,"Dreuth",114
+"921","grasshopper sparrow","1930",1930-04-17,"Dreuth",107
+"922","grasshopper sparrow","1931",1931-04-09,"Dreuth",99
+"923","grasshopper sparrow","1932",1932-03-30,"Dreuth",90
+"924","gray catbird","1927",1927-05-15,"Dreuth",135
+"925","gray catbird","1928",1928-05-04,"Dreuth",125
+"926","gray catbird","1929",1929-05-03,"Dreuth",123
+"927","gray catbird","1931",1931-05-07,"Dreuth",127
+"928","gray catbird","1932",1932-05-05,"Dreuth",126
+"929","gray cheeked thrush","1927",1927-05-15,"Dreuth",135
+"930","gray cheeked thrush","1928",1928-05-03,"Dreuth",124
+"931","gray cheeked thrush","1929",1929-04-25,"Dreuth",115
+"932","gray cheeked thrush","1930",1930-05-02,"Dreuth",122
+"933","gray cheeked thrush","1931",1931-05-16,"Dreuth",136
+"934","gray cheeked thrush","1932",1932-05-06,"Dreuth",127
+"935","great crested flycatcher","1928",1928-05-03,"Dreuth",124
+"936","great crested flycatcher","1929",1929-05-11,"Dreuth",131
+"937","great crested flycatcher","1930",1930-05-02,"Dreuth",122
+"938","great crested flycatcher","1931",1931-05-10,"Dreuth",130
+"939","great crested flycatcher","1932",1932-05-06,"Dreuth",127
+"940","greater scaup","1932",1932-04-11,"Dreuth",102
+"941","green heron","1927",1927-05-08,"Dreuth",128
+"942","green heron","1928",1928-05-04,"Dreuth",125
+"943","green heron","1929",1929-04-25,"Dreuth",115
+"944","green heron","1930",1930-04-29,"Dreuth",119
+"945","green heron","1931",1931-05-10,"Dreuth",130
+"946","green heron","1932",1932-05-06,"Dreuth",127
+"947","grey catbird","1930",1930-05-01,"Dreuth",121
+"948","harris sparrow","1930",1930-05-14,"Dreuth",134
+"949","harris sparrow","1931",1931-05-15,"Dreuth",135
+"950","henslows sparrow","1928",1928-05-02,"Dreuth",123
+"951","henslows sparrow","1929",1929-04-05,"Dreuth",95
+"952","henslows sparrow","1930",1930-04-17,"Dreuth",107
+"953","henslows sparrow","1932",1932-04-22,"Dreuth",113
+"954","hermit thrush","1928",1928-04-08,"Dreuth",99
+"955","hermit thrush","1929",1929-03-23,"Dreuth",82
+"956","hermit thrush","1930",1930-04-01,"Dreuth",91
+"957","hermit thrush","1931",1931-04-01,"Dreuth",91
+"958","hermit thrush","1932",1932-03-30,"Dreuth",90
+"959","herring gull","1927",1927-03-06,"Dreuth",65
+"960","herring gull","1928",1928-03-04,"Dreuth",64
+"961","herring gull","1929",1929-03-01,"Dreuth",60
+"962","herring gull","1930",1930-03-01,"Dreuth",60
+"963","herring gull","1931",1931-03-02,"Dreuth",61
+"964","herring gull","1932",1932-03-11,"Dreuth",71
+"965","hooded merganser","1931",1931-04-06,"Dreuth",96
+"966","hooded warbler","1931",1931-05-27,"Dreuth",147
+"967","horned grebe","1928",1928-04-15,"Dreuth",106
+"968","horned grebe","1929",1929-04-16,"Dreuth",106
+"969","horned grebe","1930",1930-04-29,"Dreuth",119
+"970","horned lark","1930",1930-03-06,"Dreuth",65
+"971","horned lark","1931",1931-03-30,"Dreuth",89
+"972","house wren","1927",1927-04-24,"Dreuth",114
+"973","house wren","1928",1928-05-03,"Dreuth",124
+"974","house wren","1929",1929-04-24,"Dreuth",114
+"975","house wren","1930",1930-04-30,"Dreuth",120
+"976","house wren","1931",1931-05-05,"Dreuth",125
+"977","house wren","1932",1932-04-29,"Dreuth",120
+"978","indigo bunting","1927",1927-05-15,"Dreuth",135
+"979","indigo bunting","1928",1928-05-03,"Dreuth",124
+"980","indigo bunting","1929",1929-05-11,"Dreuth",131
+"981","indigo bunting","1930",1930-05-05,"Dreuth",125
+"982","indigo bunting","1931",1931-05-18,"Dreuth",138
+"983","indigo bunting","1932",1932-05-13,"Dreuth",134
+"984","killdeer","1928",1928-04-01,"Dreuth",92
+"985","killdeer","1929",1929-03-12,"Dreuth",71
+"986","killdeer","1930",1930-03-10,"Dreuth",69
+"987","killdeer","1931",1931-03-21,"Dreuth",80
+"988","killdeer","1932",1932-03-28,"Dreuth",88
+"989","king rail","1929",1929-05-06,"Dreuth",126
+"990","king rail","1931",1931-05-25,"Dreuth",145
+"991","king rail","1932",1932-04-29,"Dreuth",120
+"992","lapland longspur","1930",1930-04-11,"Dreuth",101
+"993","least flycatcher","1927",1927-05-08,"Dreuth",128
+"994","least flycatcher","1928",1928-05-03,"Dreuth",124
+"995","least flycatcher","1929",1929-04-27,"Dreuth",117
+"996","least flycatcher","1930",1930-04-29,"Dreuth",119
+"997","least flycatcher","1931",1931-05-07,"Dreuth",127
+"998","least flycatcher","1932",1932-04-04,"Dreuth",95
+"999","lecontes sparrow","1932",1932-03-30,"Dreuth",90
+"1000","lesser scaup","1927",1927-03-06,"Dreuth",65
+"1001","lesser scaup","1928",1928-03-11,"Dreuth",71
+"1002","lesser scaup","1929",1929-03-21,"Dreuth",80
+"1003","lesser scaup","1930",1930-04-02,"Dreuth",92
+"1004","lesser scaup","1931",1931-04-11,"Dreuth",101
+"1005","lesser scaup","1932",1932-04-13,"Dreuth",104
+"1006","lincolns sparrow","1927",1927-05-01,"Dreuth",121
+"1007","lincolns sparrow","1928",1928-05-01,"Dreuth",122
+"1008","lincolns sparrow","1929",1929-04-30,"Dreuth",120
+"1009","lincolns sparrow","1930",1930-05-01,"Dreuth",121
+"1010","lincolns sparrow","1931",1931-05-05,"Dreuth",125
+"1011","lincolns sparrow","1932",1932-05-03,"Dreuth",124
+"1012","long tailed duck","1927",1927-03-06,"Dreuth",65
+"1013","long tailed duck","1928",1928-03-04,"Dreuth",64
+"1014","long tailed duck","1929",1929-03-01,"Dreuth",60
+"1015","long tailed duck","1930",1930-03-01,"Dreuth",60
+"1016","long tailed duck","1931",1931-03-02,"Dreuth",61
+"1017","long tailed duck","1932",1932-03-29,"Dreuth",89
+"1018","magnolia warbler","1927",1927-05-15,"Dreuth",135
+"1019","magnolia warbler","1928",1928-05-03,"Dreuth",124
+"1020","magnolia warbler","1929",1929-05-11,"Dreuth",131
+"1021","magnolia warbler","1930",1930-05-02,"Dreuth",122
+"1022","magnolia warbler","1931",1931-05-15,"Dreuth",135
+"1023","magnolia warbler","1932",1932-05-05,"Dreuth",126
+"1024","marsh wren","1928",1928-05-02,"Dreuth",123
+"1025","marsh wren","1929",1929-04-22,"Dreuth",112
+"1026","marsh wren","1930",1930-05-13,"Dreuth",133
+"1027","marsh wren","1931",1931-05-27,"Dreuth",147
+"1028","marsh wren","1932",1932-05-03,"Dreuth",124
+"1029","mourning dove","1928",1928-05-08,"Dreuth",129
+"1030","mourning dove","1929",1929-03-27,"Dreuth",86
+"1031","mourning dove","1930",1930-04-09,"Dreuth",99
+"1032","mourning dove","1931",1931-04-16,"Dreuth",106
+"1033","mourning dove","1932",1932-04-02,"Dreuth",93
+"1034","mourning warbler","1927",1927-05-22,"Dreuth",142
+"1035","mourning warbler","1928",1928-05-18,"Dreuth",139
+"1036","mourning warbler","1929",1929-05-16,"Dreuth",136
+"1037","mourning warbler","1930",1930-05-08,"Dreuth",128
+"1038","mourning warbler","1931",1931-05-18,"Dreuth",138
+"1039","mourning warbler","1932",1932-05-14,"Dreuth",135
+"1040","nashville warbler","1927",1927-05-15,"Dreuth",135
+"1041","nashville warbler","1928",1928-05-06,"Dreuth",127
+"1042","nashville warbler","1929",1929-05-07,"Dreuth",127
+"1043","nashville warbler","1930",1930-05-07,"Dreuth",127
+"1044","nashville warbler","1931",1931-05-10,"Dreuth",130
+"1045","nashville warbler","1932",1932-05-03,"Dreuth",124
+"1046","northern cardinal","1927",1927-05-07,"Dreuth",127
+"1047","northern cardinal","1928",1928-03-25,"Dreuth",85
+"1048","northern cardinal","1929",1929-04-18,"Dreuth",108
+"1049","northern cardinal","1930",1930-04-03,"Dreuth",93
+"1050","northern cardinal","1932",1932-05-21,"Dreuth",142
+"1051","northern flicker","1928",1928-04-01,"Dreuth",92
+"1052","northern flicker","1929",1929-03-21,"Dreuth",80
+"1053","northern flicker","1930",1930-03-16,"Dreuth",75
+"1054","northern flicker","1931",1931-04-08,"Dreuth",98
+"1055","northern flicker","1932",1932-03-30,"Dreuth",90
+"1056","northern mockingbird","1929",1929-05-15,"Dreuth",135
+"1057","northern parula","1928",1928-05-18,"Dreuth",139
+"1058","northern parula","1929",1929-05-16,"Dreuth",136
+"1059","northern parula","1930",1930-05-07,"Dreuth",127
+"1060","northern parula","1931",1931-04-12,"Dreuth",102
+"1061","northern parula","1932",1932-04-23,"Dreuth",114
+"1062","northern rough winged swallow","1929",1929-05-19,"Dreuth",139
+"1063","northern rough winged swallow","1931",1931-04-30,"Dreuth",120
+"1064","northern rough winged swallow","1932",1932-05-05,"Dreuth",126
+"1065","northern shoveler","1931",1931-04-05,"Dreuth",95
+"1066","northern shoveler","1932",1932-03-29,"Dreuth",89
+"1067","northern waterthrush","1927",1927-05-15,"Dreuth",135
+"1068","northern waterthrush","1928",1928-05-03,"Dreuth",124
+"1069","northern waterthrush","1929",1929-04-29,"Dreuth",119
+"1070","northern waterthrush","1930",1930-04-29,"Dreuth",119
+"1071","northern waterthrush","1931",1931-05-07,"Dreuth",127
+"1072","northern waterthrush","1932",1932-05-03,"Dreuth",124
+"1073","olive sided flycatcher","1927",1927-05-21,"Dreuth",141
+"1074","olive sided flycatcher","1929",1929-05-23,"Dreuth",143
+"1075","orange crowned warbler","1927",1927-05-07,"Dreuth",127
+"1076","orange crowned warbler","1928",1928-05-01,"Dreuth",122
+"1077","orange crowned warbler","1929",1929-05-07,"Dreuth",127
+"1078","orange crowned warbler","1930",1930-05-02,"Dreuth",122
+"1079","orange crowned warbler","1931",1931-05-07,"Dreuth",127
+"1080","orange crowned warbler","1932",1932-05-08,"Dreuth",129
+"1081","orchard oriole","1929",1929-04-30,"Dreuth",120
+"1082","ovenbird","1927",1927-05-21,"Dreuth",141
+"1083","ovenbird","1928",1928-05-03,"Dreuth",124
+"1084","ovenbird","1929",1929-05-01,"Dreuth",121
+"1085","ovenbird","1930",1930-04-29,"Dreuth",119
+"1086","ovenbird","1931",1931-05-09,"Dreuth",129
+"1087","ovenbird","1932",1932-05-05,"Dreuth",126
+"1088","palm warbler","1927",1927-05-01,"Dreuth",121
+"1089","palm warbler","1928",1928-05-02,"Dreuth",123
+"1090","palm warbler","1929",1929-04-23,"Dreuth",113
+"1091","palm warbler","1930",1930-04-27,"Dreuth",117
+"1092","palm warbler","1931",1931-04-20,"Dreuth",110
+"1093","palm warbler","1932",1932-04-29,"Dreuth",120
+"1094","philadelphia vireo","1927",1927-05-29,"Dreuth",149
+"1095","philadelphia vireo","1928",1928-05-22,"Dreuth",143
+"1096","philadelphia vireo","1929",1929-05-23,"Dreuth",143
+"1097","philadelphia vireo","1930",1930-05-23,"Dreuth",143
+"1098","philadelphia vireo","1931",1931-05-19,"Dreuth",139
+"1099","philadelphia vireo","1932",1932-05-21,"Dreuth",142
+"1100","pie billed grebe","1928",1928-04-01,"Dreuth",92
+"1101","pie billed grebe","1929",1929-04-04,"Dreuth",94
+"1102","pie billed grebe","1930",1930-04-01,"Dreuth",91
+"1103","pie billed grebe","1931",1931-04-18,"Dreuth",108
+"1104","pine warbler","1928",1928-05-03,"Dreuth",124
+"1105","pine warbler","1929",1929-04-24,"Dreuth",114
+"1106","pine warbler","1932",1932-04-29,"Dreuth",120
+"1107","prairie warbler","1929",1929-05-17,"Dreuth",137
+"1108","prairie warbler","1932",1932-05-05,"Dreuth",126
+"1109","prothonotary warbler","1928",1928-05-05,"Dreuth",126
+"1110","prothonotary warbler","1930",1930-05-11,"Dreuth",131
+"1111","purple finch","1927",1927-04-17,"Dreuth",107
+"1112","purple finch","1928",1928-04-29,"Dreuth",120
+"1113","purple finch","1929",1929-03-12,"Dreuth",71
+"1114","purple finch","1930",1930-04-27,"Dreuth",117
+"1115","purple finch","1931",1931-04-08,"Dreuth",98
+"1116","purple finch","1932",1932-04-07,"Dreuth",98
+"1117","purple martin","1927",1927-04-17,"Dreuth",107
+"1118","purple martin","1928",1928-04-29,"Dreuth",120
+"1119","purple martin","1929",1929-04-05,"Dreuth",95
+"1120","purple martin","1930",1930-04-11,"Dreuth",101
+"1121","purple martin","1931",1931-04-20,"Dreuth",110
+"1122","purple martin","1932",1932-04-14,"Dreuth",105
+"1123","red bellied woodpecker","1932",1932-04-30,"Dreuth",121
+"1124","red breasted merganser","1927",1927-03-13,"Dreuth",72
+"1125","red breasted merganser","1928",1928-03-18,"Dreuth",78
+"1126","red breasted merganser","1929",1929-04-02,"Dreuth",92
+"1127","red breasted merganser","1930",1930-03-07,"Dreuth",66
+"1128","red breasted merganser","1931",1931-03-20,"Dreuth",79
+"1129","red breasted merganser","1932",1932-03-18,"Dreuth",78
+"1130","red breasted nuthatch","1927",1927-05-01,"Dreuth",121
+"1131","red breasted nuthatch","1928",1928-05-24,"Dreuth",145
+"1132","red breasted nuthatch","1929",1929-05-24,"Dreuth",144
+"1133","red breasted nuthatch","1930",1930-05-02,"Dreuth",122
+"1134","red breasted nuthatch","1931",1931-05-14,"Dreuth",134
+"1135","red breasted nuthatch","1932",1932-04-25,"Dreuth",116
+"1136","red eyed vireo","1927",1927-05-22,"Dreuth",142
+"1137","red eyed vireo","1928",1928-05-29,"Dreuth",150
+"1138","red eyed vireo","1929",1929-05-27,"Dreuth",147
+"1139","red eyed vireo","1930",1930-05-12,"Dreuth",132
+"1140","red eyed vireo","1931",1931-05-16,"Dreuth",136
+"1141","red eyed vireo","1932",1932-05-09,"Dreuth",130
+"1142","red headed woodpecker","1928",1928-05-03,"Dreuth",124
+"1143","red headed woodpecker","1929",1929-04-24,"Dreuth",114
+"1144","red headed woodpecker","1930",1930-04-30,"Dreuth",120
+"1145","red headed woodpecker","1931",1931-04-20,"Dreuth",110
+"1146","red headed woodpecker","1932",1932-04-28,"Dreuth",119
+"1147","red throated loon","1928",1928-05-15,"Dreuth",136
+"1148","red throated loon","1931",1931-05-15,"Dreuth",135
+"1149","red winged blackbird","1927",1927-03-06,"Dreuth",65
+"1150","red winged blackbird","1928",1928-03-18,"Dreuth",78
+"1151","red winged blackbird","1929",1929-03-12,"Dreuth",71
+"1152","red winged blackbird","1930",1930-03-09,"Dreuth",68
+"1153","red winged blackbird","1931",1931-03-03,"Dreuth",62
+"1154","red winged blackbird","1932",1932-03-31,"Dreuth",91
+"1155","redhead","1928",1928-04-01,"Dreuth",92
+"1156","redhead","1929",1929-03-14,"Dreuth",73
+"1157","redhead","1932",1932-03-11,"Dreuth",71
+"1158","ring billed gull","1928",1928-04-08,"Dreuth",99
+"1159","ring billed gull","1930",1930-04-02,"Dreuth",92
+"1160","ring billed gull","1932",1932-03-29,"Dreuth",89
+"1161","ring necked duck","1931",1931-04-07,"Dreuth",97
+"1162","rose breasted grosbeak","1927",1927-05-08,"Dreuth",128
+"1163","rose breasted grosbeak","1928",1928-05-03,"Dreuth",124
+"1164","rose breasted grosbeak","1929",1929-05-10,"Dreuth",130
+"1165","rose breasted grosbeak","1930",1930-05-04,"Dreuth",124
+"1166","rose breasted grosbeak","1931",1931-05-16,"Dreuth",136
+"1167","rose breasted grosbeak","1932",1932-05-06,"Dreuth",127
+"1168","ruby crowned kinglet","1927",1927-04-17,"Dreuth",107
+"1169","ruby crowned kinglet","1928",1928-04-22,"Dreuth",113
+"1170","ruby crowned kinglet","1929",1929-04-05,"Dreuth",95
+"1171","ruby crowned kinglet","1930",1930-04-09,"Dreuth",99
+"1172","ruby crowned kinglet","1931",1931-04-12,"Dreuth",102
+"1173","ruby crowned kinglet","1932",1932-04-07,"Dreuth",98
+"1174","ruby throated hummingbird","1928",1928-05-15,"Dreuth",136
+"1175","ruby throated hummingbird","1929",1929-05-16,"Dreuth",136
+"1176","ruby throated hummingbird","1930",1930-05-12,"Dreuth",132
+"1177","ruby throated hummingbird","1931",1931-05-27,"Dreuth",147
+"1178","ruby throated hummingbird","1932",1932-05-21,"Dreuth",142
+"1179","ruddy duck","1928",1928-04-08,"Dreuth",99
+"1180","ruddy duck","1929",1929-04-04,"Dreuth",94
+"1181","rusty blackbird","1927",1927-04-17,"Dreuth",107
+"1182","rusty blackbird","1929",1929-03-18,"Dreuth",77
+"1183","rusty blackbird","1930",1930-04-01,"Dreuth",91
+"1184","rusty blackbird","1931",1931-04-08,"Dreuth",98
+"1185","rusty blackbird","1932",1932-03-30,"Dreuth",90
+"1186","sanderling","1929",1929-05-31,"Dreuth",151
+"1187","sanderling","1930",1930-05-14,"Dreuth",134
+"1188","savanna sparrow","1927",1927-04-17,"Dreuth",107
+"1189","savanna sparrow","1928",1928-04-29,"Dreuth",120
+"1190","savanna sparrow","1929",1929-03-23,"Dreuth",82
+"1191","savanna sparrow","1930",1930-04-12,"Dreuth",102
+"1192","savanna sparrow","1931",1931-04-09,"Dreuth",99
+"1193","savanna sparrow","1932",1932-03-30,"Dreuth",90
+"1194","scarlet tanager","1927",1927-05-15,"Dreuth",135
+"1195","scarlet tanager","1928",1928-05-17,"Dreuth",138
+"1196","scarlet tanager","1929",1929-05-23,"Dreuth",143
+"1197","scarlet tanager","1930",1930-05-05,"Dreuth",125
+"1198","scarlet tanager","1931",1931-05-15,"Dreuth",135
+"1199","scarlet tanager","1932",1932-05-06,"Dreuth",127
+"1200","screech owl","1931",1931-05-10,"Dreuth",130
+"1201","sharp shinned hawk","1931",1931-05-16,"Dreuth",136
+"1202","solitary sandpiper","1928",1928-05-04,"Dreuth",125
+"1203","solitary sandpiper","1929",1929-05-11,"Dreuth",131
+"1204","solitary sandpiper","1930",1930-05-14,"Dreuth",134
+"1205","solitary sandpiper","1931",1931-05-19,"Dreuth",139
+"1206","solitary sandpiper","1932",1932-04-29,"Dreuth",120
+"1207","song sparrow","1927",1927-03-13,"Dreuth",72
+"1208","song sparrow","1928",1928-03-11,"Dreuth",71
+"1209","song sparrow","1929",1929-03-11,"Dreuth",70
+"1210","song sparrow","1930",1930-03-05,"Dreuth",64
+"1211","song sparrow","1931",1931-03-21,"Dreuth",80
+"1212","song sparrow","1932",1932-03-28,"Dreuth",88
+"1213","sora","1927",1927-05-01,"Dreuth",121
+"1214","sora","1929",1929-04-22,"Dreuth",112
+"1215","sora","1930",1930-04-24,"Dreuth",114
+"1216","sora","1931",1931-05-15,"Dreuth",135
+"1217","sora","1932",1932-04-21,"Dreuth",112
+"1218","spotted sandpiper","1928",1928-05-06,"Dreuth",127
+"1219","spotted sandpiper","1929",1929-05-04,"Dreuth",124
+"1220","spotted sandpiper","1930",1930-04-29,"Dreuth",119
+"1221","spotted sandpiper","1931",1931-05-04,"Dreuth",124
+"1222","spotted sandpiper","1932",1932-05-05,"Dreuth",126
+"1223","summer tanager","1931",1931-05-14,"Dreuth",134
+"1224","swainsons thrush","1927",1927-05-07,"Dreuth",127
+"1225","swainsons thrush","1928",1928-05-03,"Dreuth",124
+"1226","swainsons thrush","1929",1929-04-24,"Dreuth",114
+"1227","swainsons thrush","1930",1930-04-30,"Dreuth",120
+"1228","swainsons thrush","1931",1931-05-09,"Dreuth",129
+"1229","swainsons thrush","1932",1932-04-30,"Dreuth",121
+"1230","swamp sparrow","1927",1927-03-20,"Dreuth",79
+"1231","swamp sparrow","1928",1928-03-25,"Dreuth",85
+"1232","swamp sparrow","1929",1929-03-14,"Dreuth",73
+"1233","swamp sparrow","1930",1930-03-17,"Dreuth",76
+"1234","swamp sparrow","1931",1931-04-02,"Dreuth",92
+"1235","swamp sparrow","1932",1932-04-02,"Dreuth",93
+"1236","tennessee warbler","1927",1927-05-07,"Dreuth",127
+"1237","tennessee warbler","1928",1928-05-12,"Dreuth",133
+"1238","tennessee warbler","1929",1929-05-18,"Dreuth",138
+"1239","tennessee warbler","1930",1930-05-02,"Dreuth",122
+"1240","tennessee warbler","1931",1931-05-18,"Dreuth",138
+"1241","tennessee warbler","1932",1932-05-19,"Dreuth",140
+"1242","tree swallow","1929",1929-04-26,"Dreuth",116
+"1243","tree swallow","1931",1931-05-22,"Dreuth",142
+"1244","tree swallow","1932",1932-04-16,"Dreuth",107
+"1245","veery","1927",1927-05-15,"Dreuth",135
+"1246","veery","1928",1928-05-03,"Dreuth",124
+"1247","veery","1929",1929-05-06,"Dreuth",126
+"1248","veery","1930",1930-04-30,"Dreuth",120
+"1249","veery","1931",1931-05-16,"Dreuth",136
+"1250","veery","1932",1932-05-06,"Dreuth",127
+"1251","vesper sparrow","1927",1927-04-10,"Dreuth",100
+"1252","vesper sparrow","1929",1929-04-05,"Dreuth",95
+"1253","vesper sparrow","1930",1930-04-09,"Dreuth",99
+"1254","vesper sparrow","1931",1931-04-12,"Dreuth",102
+"1255","vesper sparrow","1932",1932-04-05,"Dreuth",96
+"1256","virginia rail","1930",1930-04-29,"Dreuth",119
+"1257","warbling vireo","1927",1927-05-15,"Dreuth",135
+"1258","warbling vireo","1928",1928-05-20,"Dreuth",141
+"1259","warbling vireo","1929",1929-05-27,"Dreuth",147
+"1260","warbling vireo","1930",1930-05-03,"Dreuth",123
+"1261","warbling vireo","1931",1931-05-05,"Dreuth",125
+"1262","warbling vireo","1932",1932-05-07,"Dreuth",128
+"1263","whip poor will","1931",1931-05-15,"Dreuth",135
+"1264","whip poor will","1932",1932-04-28,"Dreuth",119
+"1265","white breasted nuthatch","1928",1928-04-15,"Dreuth",106
+"1266","white breasted nuthatch","1930",1930-03-20,"Dreuth",79
+"1267","white crowned sparrow","1927",1927-05-08,"Dreuth",128
+"1268","white crowned sparrow","1928",1928-05-03,"Dreuth",124
+"1269","white crowned sparrow","1929",1929-04-29,"Dreuth",119
+"1270","white crowned sparrow","1930",1930-04-27,"Dreuth",117
+"1271","white crowned sparrow","1931",1931-05-02,"Dreuth",122
+"1272","white crowned sparrow","1932",1932-05-03,"Dreuth",124
+"1273","white throated sparrow","1927",1927-04-17,"Dreuth",107
+"1274","white throated sparrow","1928",1928-04-22,"Dreuth",113
+"1275","white throated sparrow","1929",1929-03-26,"Dreuth",85
+"1276","white throated sparrow","1930",1930-04-12,"Dreuth",102
+"1277","white throated sparrow","1931",1931-04-13,"Dreuth",103
+"1278","white throated sparrow","1932",1932-04-16,"Dreuth",107
+"1279","wilsons snipe","1930",1930-05-13,"Dreuth",133
+"1280","wilsons snipe","1931",1931-04-14,"Dreuth",104
+"1281","wilsons snipe","1932",1932-04-25,"Dreuth",116
+"1282","wilsons thrush","1928",1928-05-05,"Dreuth",126
+"1283","wilsons thrush","1929",1929-05-16,"Dreuth",136
+"1284","wilsons thrush","1930",1930-05-04,"Dreuth",124
+"1285","wilsons warbler","1927",1927-05-15,"Dreuth",135
+"1286","wilsons warbler","1928",1928-05-17,"Dreuth",138
+"1287","wilsons warbler","1929",1929-05-11,"Dreuth",131
+"1288","wilsons warbler","1930",1930-05-07,"Dreuth",127
+"1289","wilsons warbler","1931",1931-05-16,"Dreuth",136
+"1290","wilsons warbler","1932",1932-05-08,"Dreuth",129
+"1291","winter wren","1929",1929-04-08,"Dreuth",98
+"1292","winter wren","1931",1931-04-15,"Dreuth",105
+"1293","winter wren","1932",1932-04-23,"Dreuth",114
+"1294","wood thrush","1927",1927-05-07,"Dreuth",127
+"1295","wood thrush","1928",1928-05-04,"Dreuth",125
+"1296","wood thrush","1929",1929-05-10,"Dreuth",130
+"1297","wood thrush","1930",1930-05-02,"Dreuth",122
+"1298","wood thrush","1931",1931-05-14,"Dreuth",134
+"1299","wood thrush","1932",1932-05-06,"Dreuth",127
+"1300","yellow bellied flycatcher","1927",1927-05-21,"Dreuth",141
+"1301","yellow bellied flycatcher","1928",1928-05-11,"Dreuth",132
+"1302","yellow bellied flycatcher","1929",1929-05-26,"Dreuth",146
+"1303","yellow bellied flycatcher","1930",1930-05-12,"Dreuth",132
+"1304","yellow bellied flycatcher","1931",1931-05-16,"Dreuth",136
+"1305","yellow bellied flycatcher","1932",1932-05-15,"Dreuth",136
+"1306","yellow bellied sapsucker","1928",1928-04-08,"Dreuth",99
+"1307","yellow bellied sapsucker","1929",1929-03-23,"Dreuth",82
+"1308","yellow bellied sapsucker","1930",1930-04-01,"Dreuth",91
+"1309","yellow bellied sapsucker","1931",1931-04-08,"Dreuth",98
+"1310","yellow bellied sapsucker","1932",1932-04-03,"Dreuth",94
+"1311","yellow billed cuckoo","1929",1929-05-27,"Dreuth",147
+"1312","yellow billed cuckoo","1930",1930-05-24,"Dreuth",144
+"1313","yellow billed cuckoo","1932",1932-05-14,"Dreuth",135
+"1314","yellow breasted chat","1928",1928-05-04,"Dreuth",125
+"1315","yellow breasted chat","1930",1930-05-12,"Dreuth",132
+"1316","yellow headed blackbird","1929",1929-04-22,"Dreuth",112
+"1317","yellow rumped warbler","1927",1927-04-17,"Dreuth",107
+"1318","yellow rumped warbler","1928",1928-04-22,"Dreuth",113
+"1319","yellow rumped warbler","1929",1929-04-05,"Dreuth",95
+"1320","yellow rumped warbler","1930",1930-04-10,"Dreuth",100
+"1321","yellow rumped warbler","1931",1931-04-09,"Dreuth",99
+"1322","yellow rumped warbler","1932",1932-04-07,"Dreuth",98
+"1323","yellow throated vireo","1929",1929-05-15,"Dreuth",135
+"1324","yellow throated vireo","1931",1931-05-16,"Dreuth",136
+"1325","yellow warbler","1927",1927-05-15,"Dreuth",135
+"1326","yellow warbler","1928",1928-05-03,"Dreuth",124
+"1327","yellow warbler","1929",1929-05-01,"Dreuth",121
+"1328","yellow warbler","1930",1930-05-03,"Dreuth",123
+"1329","yellow warbler","1931",1931-05-05,"Dreuth",125
+"1330","yellow warbler","1932",1932-04-29,"Dreuth",120

@@ -2,7 +2,8 @@ library(lubridate)
 library(dplyr)
 library(reshape2)
 
-dreuth_data <- read.csv("./Data/DreuthData.csv", stringsAsFactors = FALSE)[,-c(4:5)]
+dreuth_data <- read.csv("./data/DreuthData.csv",
+												stringsAsFactors = FALSE)[,c("ID", "ModernName", "Date")]
 
 # fix typos
 dreuth_data[which(dreuth_data$ModernName == "american widgeon"),"ModernName"] <- "american wigeon"
@@ -50,23 +51,28 @@ dreuth_data$year <- format(dreuth_data$date_fix, "%Y")
 year(dreuth_data[which(dreuth_data$year == "1027" | dreuth_data$year == "0197"),"date_fix"]) <- 1927
 dreuth_data[which(dreuth_data$year == "1027" | dreuth_data$year == "0197"),"year"] <- format(as.Date("1927", "%Y"), "%Y")
 
+dreuth_data$ModernName <- clean_names(dreuth_data$ModernName)
+
 # summarize to get first arrival each year for each species
-drueth_arrival <- dreuth_data %>% 
+dreuth_arrival <- dreuth_data %>% 
   group_by(ModernName,year) %>% 
   summarize(first_arrive = min(date_fix)) %>%
   as.data.frame(.)
-colnames(drueth_arrival) <- c("CommonName", "Year", "ArrivalDate")
+colnames(dreuth_arrival) <- c("CommonName", "Year", "ArrivalDate")
 
 # summarize to get days detected for each year
-drueth_detections <- dreuth_data %>% 
+dreuth_detections <- dreuth_data %>% 
   group_by(ModernName, year) %>% 
-  summarize(days_detected = length(unique(date_fix))) %>% 
-  as.data.frame(.)
-colnames(drueth_detections) <- c("CommonName", "Year", "DaysDetected")
+  summarize(days_detected = n_distinct(date_fix)) %>% 
+  as.data.frame(., stringsAsFactors = FALSE)
+colnames(dreuth_detections) <- c("CommonName", "Year", "DaysDetected")
+
+dreuth_detections$ob <- "Dreuth"
 
 # load data from Wild Birds in City Parks
 # historical number of days seen
-WBCP_detections <- read.csv("./Data/HistoricNumberOfDaysSeen.csv", stringsAsFactors = FALSE)
+WBCP_detections <- read.csv("./data/HistoricNumberOfDaysSeen.csv", 
+														stringsAsFactors = FALSE)
 
 # function for correcting names in WBCP book
 correctNames <- function(dat){
@@ -94,14 +100,17 @@ correctNames <- function(dat){
 }
 
 WBCP_days <- correctNames(WBCP_detections)
+WBCP_days$BooksCommonName <- clean_names(WBCP_days$BooksCommonName)
+
 
 # convert to long form to match Dreuth data
 book_long <- melt(WBCP_days[,2:8])
 # match columnnames
 colnames(book_long) <- c("CommonName", "Year", "DaysDetected")
+book_long$ob <- "Walter"
 
 # combine datasets
-days_combo <- rbind(drueth_detections, book_long)
+days_combo <- rbind(book_long, dreuth_detections)
 # get rid of the X in the date variable for the book data
 days_combo$Year <- gsub("X", "", days_combo$Year)
 
@@ -115,6 +124,7 @@ WBCP_arrival <- read.csv("./Data/HistoricTableofArrival2.csv", stringsAsFactors 
 
 # fix names
 WBCP_arrival_fixed <- correctNames(WBCP_arrival)
+WBCP_arrival_fixed$BooksCommonName <- clean_names(WBCP_arrival_fixed$BooksCommonName)
 # format date
 WBCP_arrival_fixed$DateFixed <- as.Date(WBCP_arrival_fixed$Date, "%m/%d/%Y")
 WBCP_arrival_fixed$Year <- year(WBCP_arrival_fixed$DateFixed)
@@ -122,9 +132,13 @@ WBCP_arrival_fixed$Year <- year(WBCP_arrival_fixed$DateFixed)
 # combine datasets
 # match columnnames
 colnames(WBCP_arrival_fixed) <- c("ID", "CommonName", "Date", "ArrivalDate", "Year")
+WBCP_arrival_fixed$ob <- "Walter"
+dreuth_arrival$ob <- "Dreuth"
 # combine in long form
-arrival_combo <- rbind(drueth_arrival, WBCP_arrival_fixed[,c("CommonName", "Year", "ArrivalDate")])
+arrival_combo <- rbind( WBCP_arrival_fixed[,c("CommonName", "Year", "ArrivalDate","ob")],
+												dreuth_arrival)
 arrival_combo$ArrivalDateJulian <- as.numeric(format(arrival_combo$ArrivalDate, format="%j"))
+arrival_combo <- arrival_combo[complete.cases(arrival_combo),]
 # to wide
 arrival_wide <- dcast(arrival_combo[,c("CommonName","Year","ArrivalDateJulian")], 
                       CommonName~Year, value.var = "ArrivalDateJulian",
@@ -136,3 +150,6 @@ arrival_wide[arrival_wide == 0] <- NA
 # particularly if we are only using migrating species
 
 # objects with data are 'days_combo', 'days_wide', 'arrival_combo', 'arrival_wide'
+
+write.csv(arrival_combo, "./data/historic_arrival_to_join.csv")
+write.csv(days_combo, "./data/historic_days_to_join.csv")
