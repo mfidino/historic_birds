@@ -3,8 +3,6 @@
 md <- read.csv("./data/Fidino_data.csv", header = TRUE,
 							 stringsAsFactors = FALSE)
 
-library(lubridate)
-library(dplyr)
 
 # get only transect 2 or NA
 md <- md[md$Transect == 2 | is.na(md$Transect),]
