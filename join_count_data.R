@@ -3,16 +3,11 @@
 mod_day_seen <- read.csv("./data/species_number_days_seen_modern.csv", 
 								stringsAsFactors = FALSE)
 mod_day_seen$ModernName <- clean_names(mod_day_seen$ModernName)
-mod_day_seen$ModernName[mod_day_seen$ModernName == "redstart"] <- "american redstart"
-mod_day_seen$ModernName[mod_day_seen$ModernName == "common golden eye"] <- "common goldeneye"
-mod_day_seen$ModernName[mod_day_seen$ModernName == "le contes sparrow"] <- "lecontes sparrow"
+
+
 mod_day_seen$ob <- "Fidino"
 mod_arrival <- read.csv("./data/modern_arrival.csv",
 												stringsAsFactors = FALSE)
-mod_arrival$ModernName <- clean_names(mod_arrival$ModernName)
-mod_arrival$ModernName[mod_arrival$ModernName == "redstart"] <- "american redstart"
-mod_arrival$ModernName[mod_arrival$ModernName == "common golden eye"] <- "common goldeneye"
-mod_arrival$ModernName[mod_arrival$ModernName == "le contes sparrow"] <- "lecontes sparrow"
 
 mod_arrival$ob <- "Fidino"
 
@@ -29,6 +24,8 @@ colnames(hist_day_seen) <- colnames(mod_day_seen)
 
 sp_table <- read.csv("./data/general_bird_info.csv",
 										 stringsAsFactors = FALSE)
+sp_table$ModernName[sp_table$ModernName == "lousiana water thrush"] <-
+	"lousiana waterthrush"
 
 sp_table$BooksCommonName <- clean_names(sp_table$BooksCommonName)
 sp_table$ModernName <- clean_names(sp_table$ModernName)
@@ -45,10 +42,6 @@ for(species in 1:length(unq_spe)){
 	}
 }
 
-hist_day_seen$ModernName[hist_day_seen$ModernName == "grey catbird"] <- "gray catbird"
-hist_day_seen$ModernName[hist_day_seen$ModernName == "wilsons thrush"] <- "veery"
-hist_day_seen$ModernName[hist_day_seen$ModernName == "pie billed grebe"] <- "pied billed grebe"
-hist_day_seen$ModernName[hist_day_seen$ModernName == "grackle"] <- "common grackle"
 
 unq_spe <- sort(unique(hist_day_seen$ModernName))
 years <- sort(unique(hist_day_seen$Year))
@@ -67,5 +60,12 @@ dayseen$DaysSeen[is.na(dayseen$DaysSeen)] <- 0
 
 sort(unique(dayseen$ModernName))
 
-write.csv()
+test <- foreign::read.dbf("data/LIST18.DBF")
 
+test$COMMONNAME <- clean_names(test$COMMONNAME)
+test$COMMONNAME[test$COMMONNAME == "harriss sparrow"] <- "harris sparrow"
+
+hm <- which(!unique(dayseen$ModernName) %in% test$COMMONNAME)
+unique(dayseen$ModernName)[hm]
+
+write.csv(dayseen, "./data/clean_days_seen_per_year.csv", row.names = FALSE)

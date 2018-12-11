@@ -1,6 +1,4 @@
-library(lubridate)
-library(dplyr)
-library(reshape2)
+
 
 dreuth_data <- read.csv("./data/DreuthData.csv",
 												stringsAsFactors = FALSE)[,c("ID", "ModernName", "Date")]
@@ -36,6 +34,15 @@ dreuth_data[which(dreuth_data$ModernName == " northern flicker"),"ModernName"] <
 dreuth_data[which(dreuth_data$ModernName == "northern flicker "),"ModernName"] <- "northern flicker"
 dreuth_data[which(dreuth_data$ModernName == "rough-winged swallow"),"ModernName"] <- "northern rough-winged swallow"
 dreuth_data[which(dreuth_data$ModernName == "wilson thrush"),"ModernName"] <- "northern rough-winged swallow"
+dreuth_data[which(dreuth_data$ModernName == "screech owl"),"ModernName"] <- "eastern screech owl"
+dreuth_data[which(dreuth_data$ModernName == "grey catbird"),"ModernName"] <- "gray catbird"
+dreuth_data[which(dreuth_data$ModernName == "grackle"),"ModernName"] <- "common grackle"
+dreuth_data$ModernName[agrep("whip poor will", dreuth_data$ModernName)] <- "eastern whip poor will"
+dreuth_data$ModernName[agrep("pie billed grebe", dreuth_data$ModernName)] <- "pied billed grebe"
+dreuth_data$ModernName[agrep("wilsons thrush", dreuth_data$ModernName)] <- "veery"
+
+
+
 
 # format date
 dreuth_data$date_fix <- as.Date(dreuth_data$Date, "%m/%d/%Y")
@@ -93,15 +100,21 @@ correctNames <- function(dat){
   dat[which(dat$BooksCommonName == "cardinal"),"BooksCommonName"] <- "northern cardinal"
   dat[which(dat$BooksCommonName == "towhee"),"BooksCommonName"] <- "eastern towhee"
   dat[which(dat$BooksCommonName == "junco"),"BooksCommonName"] <- "dark-eyed junco"
-  dat[which(dat$BooksCommonName == "wilson thrush"),"BooksCommonName"] <- "wilson's thrush"
+  dat[which(dat$BooksCommonName == "wilson thrush"),"BooksCommonName"] <- "veery"
   dat[which(dat$BooksCommonName == "tree sparrow"),"BooksCommonName"] <- "american tree sparrow"
   dat[which(dat$BooksCommonName == "blue golden-winged warblerblue golden-winged warbler"),"BooksCommonName"] <- "blue golden-winged warbler"
   return(dat)
 }
 
+
+
 WBCP_days <- correctNames(WBCP_detections)
 WBCP_days$BooksCommonName <- clean_names(WBCP_days$BooksCommonName)
+WBCP_days$BooksCommonName[agrep("louisiana water thrush", WBCP_days$BooksCommonName)] <-
+	"louisiana waterthrush"
 
+WBCP_days$BooksCommonName[agrep("whip poor will", WBCP_days$BooksCommonName)] <-
+	"eastern whip poor will"
 
 # convert to long form to match Dreuth data
 book_long <- melt(WBCP_days[,2:8])

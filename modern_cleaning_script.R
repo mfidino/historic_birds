@@ -31,8 +31,8 @@ colnames(md) <- c("ModernName", "Date", "Time", "Location", "n","Observer","Weat
 # check the names
 sort(unique(md$ModernName))
 
-# make all lowercase
-md$ModernName <- tolower(md$ModernName)
+md$ModernName <- clean_names(md$ModernName)
+
 
 # drop modern with no species name
 md <- md[-which(md$ModernName == ""),]
@@ -41,7 +41,6 @@ md <- md[-which(md$ModernName == ""),]
 md <- md[-which(md$ModernName == "delete"),]
 
 # drop dashes
-md$ModernName <- gsub("-", " ", md$ModernName)
 
 md$ModernName[md$ModernName == "domestic duck species"] <- "domestic duck"
 md$ModernName[md$ModernName == "grackle"] <- "common grackle"
@@ -49,7 +48,16 @@ md$ModernName[md$ModernName == "domestic goose"] <- "toulouse goose (domestic go
 md$ModernName[md$ModernName == "pigeon"] <- "rock pigeon"
 md$ModernName[md$ModernName == "toulouse goose (domestic goose breed)"] <- "domestic goose"
 md$ModernName[md$ModernName == "greylag goose"] <- "domestic goose"
-t(t(sort(unique(md$ModernName))))
+md <- md[-which(md$ModernName == "domestic goose"), ]
+md <- md[-which(md$ModernName == "domestic duck"), ]
+
+
+md$ModernName[md$ModernName == "redstart"] <- "american redstart"
+md$ModernName[md$ModernName == "common golden eye"] <- "common goldeneye"
+md$ModernName[md$ModernName == "louisiana water thrush"] <- "louisiana waterthrush"
+md$ModernName[md$ModernName == "le contes sparrow"] <- "lecontes sparrow"
+
+
 
 tc <- which(year(md$Date) == 7314)
 year(md$Date)[tc] <- 2014
@@ -124,41 +132,5 @@ for(i in 2012:2015){
 
 write.csv(sp_day, "./data/modern_species_rich_daily.csv")
 
-plot(sp_day$sp_rich[sp_day$Year == 2012] ~ sp_day$jul[sp_day$Year == 2012],
-		 pch = 16, bty = "l", xlab = "Julian day", ylab = "Species richness",
-		 ylim = c(0, 70))
-l1 <- loess(sp_day$sp_rich[sp_day$Year == 2012] ~ sp_day$jul[sp_day$Year == 2012])
-p1 <- predict(l1)
 
-lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2012], lwd = 2 ) 
-
-
-points(sp_day$sp_rich[sp_day$Year == 2013] ~ sp_day$jul[sp_day$Year == 2013],
-			 pch = 16, col = "red")
-
-l1 <- loess(sp_day$sp_rich[sp_day$Year == 2013] ~ sp_day$jul[sp_day$Year == 2013])
-p1 <- predict(l1)
-
-lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2013], lwd = 2, col = "red" ) 
-
-
-
-points(sp_day$sp_rich[sp_day$Year == 2014] ~ sp_day$jul[sp_day$Year == 2014],
-			 pch = 16, col = "purple")
-
-l1 <- loess(sp_day$sp_rich[sp_day$Year == 2014] ~ sp_day$jul[sp_day$Year == 2014])
-p1 <- predict(l1)
-
-lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2014], lwd = 2, col = "purple" ) 
-points(sp_day$sp_rich[sp_day$Year == 2015] ~ sp_day$jul[sp_day$Year == 2015],
-			 pch = 16, col = "grey")
-
-l1 <- loess(sp_day$sp_rich[sp_day$Year == 2015] ~ sp_day$jul[sp_day$Year == 2015])
-p1 <- predict(l1)
-
-lines(y = p1 ,x = sp_day$jul[sp_day$Year == 2015], lwd = 2, col = "gray" )
-
-
-
-plot(sp_rich_day)
 
