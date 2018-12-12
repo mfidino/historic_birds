@@ -62,10 +62,18 @@ sort(unique(dayseen$ModernName))
 
 test <- foreign::read.dbf("data/LIST18.DBF")
 
-test$COMMONNAME <- clean_names(test$COMMONNAME)
-test$COMMONNAME[test$COMMONNAME == "harriss sparrow"] <- "harris sparrow"
+test$lowername <- clean_names(test$COMMONNAME)
+test$lowername[test$lowername == "harriss sparrow"] <- "harris sparrow"
 
-hm <- which(!unique(dayseen$ModernName) %in% test$COMMONNAME)
-unique(dayseen$ModernName)[hm]
+test <- data.frame(apply(test, 2, as.character), stringsAsFactors = FALSE)
+
+test$COMMONNAME[2045] <- "Golden-winged Warbler"
+
+write.csv(test, "./data/species_codes.csv", row.names = FALSE)
+
+hm <- left_join(dayseen, test[,c("COMMONNAME", "lowername")],
+								by = c("ModernName" = "lowername"))
+
+unq_spe <- sort(unique(hm$COMMONNAME))
 
 write.csv(dayseen, "./data/clean_days_seen_per_year.csv", row.names = FALSE)
