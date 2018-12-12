@@ -93,3 +93,58 @@ unq_spe[3]
 test <- read.csv("species_info.csv", header = TRUE, stringsAsFactors = FALSE)
 
 which(!as.character(unq_spe) %in% test$species)
+
+
+# scrape family
+
+scrape_family <- function(species = NULL){
+spurl <- species <- as.character(species)
+# step 1: replace space with _
+if(length(grep("\\s", spurl)) == 1){
+	spurl <- gsub("\\s", "_", spurl)
+}
+# step 2" remove '
+if(length(grep("'", spurl)) == 1){
+	spurl <- gsub("'", "", spurl)
+}
+# step 3: make into URL
+abburl <- paste0("https://www.allaboutbirds.org/guide/",
+								 spurl, "/overview")
+#
+# try to pull html from site
+site_html <- read_html(abburl)
+
+# if this is the correct url then the species name should
+#  be in an h1 header
+species_name <- html_text(html_nodes(site_html, "h1"))
+# grab only the nchar of species name
+species_name <- substring(species_name, 1, nchar(as.character(species)))
+
+if(length(agrep(species, species_name)) == 1){
+	
+	# get subheaders
+	fam_text <- html_nodes(site_html, ".species-info")[1] %>% 
+		html_nodes(., "li") %>% html_text(.)
+	fam_text <- strsplit(fam_text, ":") %>% sapply(., "[", 2) %>% trimws(.)
+	
+	to_ret <- matrix(c(species, fam_text), ncol = 3, nrow = 1)
+	colnames(to_ret) <- c("species", "order", "family")
+	return(to_ret)
+}
+}
+
+sp_family <- matrix(NA, ncol = 3, nrow = length(unq_spe))
+
+for(i in 1:length(unq_spe)){
+	sp_family[i,] <- scrape_family(unq_spe[i])
+}
+
+sp_family <- data.frame(sp_family, stringsAsFactors = FALSE)
+colnames(sp_family) <- c("species", "order", "family")
+
+# read in sp info
+sp_info <- read.csv("./species_info.csv", header = TRUE, stringsAsFactors = FALSE)
+
+to_save <- left_join(sp_info, sp_family, by = "species")
+
+write.csv(to_save, "./data/species_life_history.csv", row.names = FALSE)
