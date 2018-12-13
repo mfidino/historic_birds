@@ -3,7 +3,7 @@
 	
 	# download required packages if they're not already
 	
-	pkgsToDownload<- packages[!(packages  %in% installed.packages()[,"Package"])]
+	pkgsToDownload<- packages[!(packages  %in% utils::installed.packages()[,"Package"])]
 	if(length(pkgsToDownload)>0)
 		install.packages(pkgsToDownload, repos="http://cran.us.r-project.org", 
 										 quiet=quiet, verbose=verbose)

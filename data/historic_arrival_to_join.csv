@@ -1,7 +1,7 @@
 "","CommonName","Year","ArrivalDate","ob","ArrivalDateJulian"
 "1","mourning dove","1903",1903-04-01,"Walter",91
-"2","marsh hawk","1899",1899-04-25,"Walter",115
-"3","sparrow hawk","1898",1898-05-18,"Walter",138
+"2","northern harrier","1899",1899-04-25,"Walter",115
+"3","american kestrel","1898",1898-05-18,"Walter",138
 "4","yellow billed cuckoo","1898",1898-05-19,"Walter",139
 "5","black billed cuckoo","1899",1899-05-27,"Walter",147
 "6","belted kingfisher","1897",1897-03-28,"Walter",87
@@ -11,14 +11,14 @@
 "10","red bellied woodpecker","1898",1898-05-22,"Walter",142
 "11","red headed woodpecker","1897",1897-04-26,"Walter",116
 "12","northern flicker","1897",1897-04-15,"Walter",105
-"13","whip poor will","1898",1898-05-21,"Walter",141
+"13","eastern whip poor will","1898",1898-05-21,"Walter",141
 "14","common nighthawk","1899",1899-05-10,"Walter",130
 "15","chimney swift","1897",1897-05-01,"Walter",121
 "16","ruby throated hummingbird","1898",1898-05-19,"Walter",139
-"17","kingbird","1897",1897-04-29,"Walter",119
+"17","eastern kingbird","1897",1897-04-29,"Walter",119
 "18","great crested flycatcher","1898",1898-05-03,"Walter",123
 "19","eastern phoebe","1897",1897-04-07,"Walter",97
-"20","wood pewee","1897",1897-04-27,"Walter",117
+"20","eastern wood pewee","1897",1897-04-27,"Walter",117
 "21","yellow bellied flycatcher","1900",1900-04-29,"Walter",119
 "22","least flycatcher","1897",1897-05-12,"Walter",132
 "24","american crow","1898",1898-03-09,"Walter",68
@@ -30,12 +30,12 @@
 "30","orchard oriole","1898",1898-05-15,"Walter",135
 "31","baltimore oriole","1898",1898-04-30,"Walter",120
 "32","rusty blackbird","1900",1900-04-19,"Walter",109
-"33","bronzed grackle","1897",1897-03-29,"Walter",88
+"33","common grackle","1897",1897-03-29,"Walter",88
 "34","purple finch","1898",1898-04-24,"Walter",114
 "35","american goldfinch","1897",1897-04-25,"Walter",115
 "36","vesper sparrow","1900",1900-04-22,"Walter",112
-"37","savanna sparrow","1903",1903-03-19,"Walter",78
-"38","henslow sparrow","1898",1898-04-29,"Walter",119
+"37","savannah sparrow","1903",1903-03-19,"Walter",78
+"38","henslows sparrow","1898",1898-04-29,"Walter",119
 "39","white crowned sparrow","1897",1897-05-05,"Walter",125
 "40","white throated sparrow","1897",1897-04-26,"Walter",116
 "41","american tree sparrow","1900",1900-04-06,"Walter",96
@@ -43,7 +43,7 @@
 "43","field sparrow","1899",1899-04-23,"Walter",113
 "44","dark eyed junco","1897",1897-03-28,"Walter",87
 "45","song sparrow","1897",1897-04-08,"Walter",98
-"46","lincoln sparrow","1900",1900-05-10,"Walter",130
+"46","lincolns sparrow","1900",1900-05-10,"Walter",130
 "47","swamp sparrow","1898",1898-05-07,"Walter",127
 "48","fox sparrow","1897",1897-04-08,"Walter",98
 "49","eastern towhee","1897",1897-04-07,"Walter",97
@@ -62,42 +62,42 @@
 "62","warbling vireo","1897",1897-04-27,"Walter",117
 "63","yellow throated vireo","1898",1898-05-01,"Walter",121
 "64","blue headed vireo","1900",1900-05-17,"Walter",137
-"65","black and white creeper","1897",1897-04-28,"Walter",118
+"65","black and white warbler","1897",1897-04-28,"Walter",118
 "66","prothonotary warbler","1899",1899-05-16,"Walter",136
-"67","blue golden winged warbler","1898",1898-05-14,"Walter",134
+"67","golden winged warbler","1898",1898-05-14,"Walter",134
 "68","nashville warbler","1898",1898-05-10,"Walter",130
 "69","tennessee warbler","1898",1898-05-11,"Walter",131
-"70","parula warbler","1898",1898-05-11,"Walter",131
+"70","northern parula","1898",1898-05-11,"Walter",131
 "71","cape may warbler","1898",1898-05-13,"Walter",133
 "72","yellow warbler","1897",1897-05-11,"Walter",131
 "73","black throated blue warbler","1897",1897-05-11,"Walter",131
-"74","myrtle warbler","1897",1897-04-14,"Walter",104
+"74","yellow rumped warbler","1897",1897-04-14,"Walter",104
 "75","magnolia warbler","1897",1897-04-26,"Walter",116
 "76","cerulean warbler","1900",1900-05-12,"Walter",132
 "77","chestnut sided warbler","1897",1897-05-21,"Walter",141
 "78","bay breasted warbler","1898",1898-05-20,"Walter",140
-"79","black poll warbler","1898",1898-05-19,"Walter",139
+"79","blackpoll warbler","1898",1898-05-19,"Walter",139
 "80","blackburnian warbler","1897",1897-05-12,"Walter",132
 "81","black throated green warbler","1897",1897-04-18,"Walter",108
 "82","pine warbler","1900",1900-04-26,"Walter",116
 "83","palm warbler","1898",1898-04-29,"Walter",119
 "84","ovenbird","1897",1897-05-11,"Walter",131
-"85","grinnell water thrush","1898",1898-04-30,"Walter",120
-"86","louisiana water thrush","1902",1902-04-27,"Walter",117
+"85","northern waterthrush","1898",1898-04-30,"Walter",120
+"86","louisiana waterthrush","1902",1902-04-27,"Walter",117
 "87","connecticut warbler","1903",1903-05-20,"Walter",140
 "88","mourning warbler","1898",1898-05-20,"Walter",140
-"89","western yellow throat","1897",1897-04-26,"Walter",116
+"89","common yellowthroat","1897",1897-04-26,"Walter",116
 "90","yellow breasted chat","1902",1902-05-02,"Walter",122
 "91","hooded warbler","1903",1903-05-12,"Walter",132
 "92","wilson black cap warbler","1897",1897-05-21,"Walter",141
-"93","canadian warbler","1898",1898-05-19,"Walter",139
+"93","canada warbler","1898",1898-05-19,"Walter",139
 "94","american redstart","1897",1897-05-11,"Walter",131
 "95","northern mockingbird","1901",1901-04-29,"Walter",119
 "96","gray catbird","1897",1897-04-26,"Walter",116
 "97","brown thrasher","1897",1897-04-26,"Walter",116
 "98","house wren","1897",1897-04-14,"Walter",104
 "99","winter wren","1897",1897-04-08,"Walter",98
-"100","long billed marsh wren","1898",1898-04-14,"Walter",104
+"100","marsh wren","1898",1898-04-14,"Walter",104
 "101","brown creeper","1897",1897-04-07,"Walter",97
 "102","white breasted nuthatch","1897",1897-04-07,"Walter",97
 "103","red breasted nuthatch","1900",1900-05-03,"Walter",123
@@ -146,12 +146,12 @@
 "146","wood thrush","1901",1901-05-04,"Walter",124
 "147","wood thrush","1902",1902-04-29,"Walter",119
 "148","wood thrush","1903",1903-05-12,"Walter",132
-"149","wood pewee","1898",1898-05-19,"Walter",139
-"150","wood pewee","1899",1899-05-10,"Walter",130
-"151","wood pewee","1900",1900-05-11,"Walter",131
-"152","wood pewee","1901",1901-05-16,"Walter",136
-"153","wood pewee","1902",1902-04-28,"Walter",118
-"154","wood pewee","1903",1903-05-12,"Walter",132
+"149","eastern wood pewee","1898",1898-05-19,"Walter",139
+"150","eastern wood pewee","1899",1899-05-10,"Walter",130
+"151","eastern wood pewee","1900",1900-05-11,"Walter",131
+"152","eastern wood pewee","1901",1901-05-16,"Walter",136
+"153","eastern wood pewee","1902",1902-04-28,"Walter",118
+"154","eastern wood pewee","1903",1903-05-12,"Walter",132
 "155","winter wren","1898",1898-04-25,"Walter",115
 "156","winter wren","1899",1899-04-30,"Walter",120
 "157","winter wren","1901",1901-03-22,"Walter",81
@@ -187,15 +187,15 @@
 "187","white breasted nuthatch","1901",1901-03-18,"Walter",77
 "188","white breasted nuthatch","1902",1902-03-31,"Walter",90
 "189","white breasted nuthatch","1903",1903-04-02,"Walter",92
-"190","whip poor will","1899",1899-04-30,"Walter",120
-"191","whip poor will","1901",1901-05-09,"Walter",129
-"192","whip poor will","1903",1903-05-17,"Walter",137
-"193","western yellow throat","1898",1898-05-01,"Walter",121
-"194","western yellow throat","1899",1899-04-28,"Walter",118
-"195","western yellow throat","1900",1900-05-05,"Walter",125
-"196","western yellow throat","1901",1901-05-05,"Walter",125
-"197","western yellow throat","1902",1902-05-02,"Walter",122
-"198","western yellow throat","1903",1903-05-01,"Walter",121
+"190","eastern whip poor will","1899",1899-04-30,"Walter",120
+"191","eastern whip poor will","1901",1901-05-09,"Walter",129
+"192","eastern whip poor will","1903",1903-05-17,"Walter",137
+"193","common yellowthroat","1898",1898-05-01,"Walter",121
+"194","common yellowthroat","1899",1899-04-28,"Walter",118
+"195","common yellowthroat","1900",1900-05-05,"Walter",125
+"196","common yellowthroat","1901",1901-05-05,"Walter",125
+"197","common yellowthroat","1902",1902-05-02,"Walter",122
+"198","common yellowthroat","1903",1903-05-01,"Walter",121
 "199","warbling vireo","1898",1898-05-15,"Walter",135
 "200","warbling vireo","1899",1899-05-12,"Walter",132
 "201","warbling vireo","1900",1900-05-06,"Walter",126
@@ -223,11 +223,11 @@
 "223","swamp sparrow","1900",1900-04-21,"Walter",111
 "224","swamp sparrow","1902",1902-03-11,"Walter",70
 "225","swamp sparrow","1903",1903-04-12,"Walter",102
-"226","sparrow hawk","1903",1903-04-30,"Walter",120
-"227","sparrow hawk","1902",1902-03-21,"Walter",80
-"228","sparrow hawk","1901",1901-03-24,"Walter",83
-"229","sparrow hawk","1900",1900-04-18,"Walter",108
-"230","sparrow hawk","1899",1899-04-25,"Walter",115
+"226","american kestrel","1903",1903-04-30,"Walter",120
+"227","american kestrel","1902",1902-03-21,"Walter",80
+"228","american kestrel","1901",1901-03-24,"Walter",83
+"229","american kestrel","1900",1900-04-18,"Walter",108
+"230","american kestrel","1899",1899-04-25,"Walter",115
 "231","song sparrow","1898",1898-03-15,"Walter",74
 "232","song sparrow","1899",1899-03-19,"Walter",78
 "233","song sparrow","1900",1900-03-27,"Walter",86
@@ -297,9 +297,9 @@
 "297","eastern phoebe","1901",1901-03-18,"Walter",77
 "298","eastern phoebe","1902",1902-03-15,"Walter",74
 "299","eastern phoebe","1903",1903-03-17,"Walter",76
-"300","parula warbler","1901",1901-05-12,"Walter",132
-"301","parula warbler","1902",1902-05-03,"Walter",123
-"302","parula warbler","1903",1903-05-09,"Walter",129
+"300","northern parula","1901",1901-05-12,"Walter",132
+"301","northern parula","1902",1902-05-03,"Walter",123
+"302","northern parula","1903",1903-05-09,"Walter",129
 "303","palm warbler","1899",1899-04-20,"Walter",110
 "304","palm warbler","1900",1900-04-27,"Walter",117
 "305","palm warbler","1901",1901-04-26,"Walter",116
@@ -330,12 +330,12 @@
 "330","nashville warbler","1901",1901-05-19,"Walter",139
 "331","nashville warbler","1902",1902-05-02,"Walter",122
 "332","nashville warbler","1903",1903-05-01,"Walter",121
-"333","myrtle warbler","1898",1898-04-16,"Walter",106
-"334","myrtle warbler","1899",1899-04-14,"Walter",104
-"335","myrtle warbler","1900",1900-04-19,"Walter",109
-"336","myrtle warbler","1901",1901-04-14,"Walter",104
-"337","myrtle warbler","1902",1902-04-17,"Walter",107
-"338","myrtle warbler","1903",1903-04-08,"Walter",98
+"333","yellow rumped warbler","1898",1898-04-16,"Walter",106
+"334","yellow rumped warbler","1899",1899-04-14,"Walter",104
+"335","yellow rumped warbler","1900",1900-04-19,"Walter",109
+"336","yellow rumped warbler","1901",1901-04-14,"Walter",104
+"337","yellow rumped warbler","1902",1902-04-17,"Walter",107
+"338","yellow rumped warbler","1903",1903-04-08,"Walter",98
 "339","mourning warbler","1899",1899-05-13,"Walter",133
 "340","mourning warbler","1900",1900-05-06,"Walter",126
 "341","mourning warbler","1901",1901-05-16,"Walter",136
@@ -345,39 +345,39 @@
 "345","eastern meadowlark","1901",1901-03-19,"Walter",78
 "346","eastern meadowlark","1902",1902-03-10,"Walter",69
 "347","eastern meadowlark","1903",1903-03-13,"Walter",72
-"348","marsh hawk","1900",1900-04-19,"Walter",109
-"349","marsh hawk","1901",1901-03-25,"Walter",84
-"350","marsh hawk","1902",1902-04-21,"Walter",111
-"351","marsh hawk","1903",1903-04-01,"Walter",91
+"348","northern harrier","1900",1900-04-19,"Walter",109
+"349","northern harrier","1901",1901-03-25,"Walter",84
+"350","northern harrier","1902",1902-04-21,"Walter",111
+"351","northern harrier","1903",1903-04-01,"Walter",91
 "352","magnolia warbler","1898",1898-05-11,"Walter",131
 "353","magnolia warbler","1899",1899-04-27,"Walter",117
 "354","magnolia warbler","1900",1900-05-08,"Walter",128
 "355","magnolia warbler","1901",1901-05-06,"Walter",126
 "356","magnolia warbler","1902",1902-04-21,"Walter",111
 "357","magnolia warbler","1903",1903-05-05,"Walter",125
-"358","louisiana water thrush","1903",1903-05-05,"Walter",125
-"359","long billed marsh wren","1900",1900-04-12,"Walter",102
-"360","long billed marsh wren","1903",1903-03-29,"Walter",88
+"358","louisiana waterthrush","1903",1903-05-05,"Walter",125
+"359","marsh wren","1900",1900-04-12,"Walter",102
+"360","marsh wren","1903",1903-03-29,"Walter",88
 "361","loggerhead shrike","1899",1899-04-11,"Walter",101
 "362","loggerhead shrike","1900",1900-03-09,"Walter",68
 "363","loggerhead shrike","1901",1901-03-03,"Walter",62
 "364","loggerhead shrike","1902",1902-03-09,"Walter",68
 "365","loggerhead shrike","1903",1903-03-01,"Walter",60
-"366","lincoln sparrow","1901",1901-05-23,"Walter",143
-"367","lincoln sparrow","1902",1902-05-12,"Walter",132
-"368","lincoln sparrow","1903",1903-05-10,"Walter",130
+"366","lincolns sparrow","1901",1901-05-23,"Walter",143
+"367","lincolns sparrow","1902",1902-05-12,"Walter",132
+"368","lincolns sparrow","1903",1903-05-10,"Walter",130
 "369","least flycatcher","1898",1898-04-30,"Walter",120
 "370","least flycatcher","1899",1899-04-20,"Walter",110
 "371","least flycatcher","1900",1900-04-30,"Walter",120
 "372","least flycatcher","1901",1901-05-06,"Walter",126
 "373","least flycatcher","1902",1902-04-21,"Walter",111
 "374","least flycatcher","1903",1903-05-09,"Walter",129
-"375","kingbird","1898",1898-04-30,"Walter",120
-"376","kingbird","1899",1899-05-10,"Walter",130
-"377","kingbird","1900",1900-05-06,"Walter",126
-"378","kingbird","1901",1901-05-10,"Walter",130
-"379","kingbird","1902",1902-04-21,"Walter",111
-"380","kingbird","1903",1903-05-05,"Walter",125
+"375","eastern kingbird","1898",1898-04-30,"Walter",120
+"376","eastern kingbird","1899",1899-05-10,"Walter",130
+"377","eastern kingbird","1900",1900-05-06,"Walter",126
+"378","eastern kingbird","1901",1901-05-10,"Walter",130
+"379","eastern kingbird","1902",1902-04-21,"Walter",111
+"380","eastern kingbird","1903",1903-05-05,"Walter",125
 "381","dark eyed junco","1898",1898-03-09,"Walter",68
 "382","dark eyed junco","1899",1899-03-14,"Walter",73
 "383","dark eyed junco","1900",1900-03-23,"Walter",82
@@ -399,20 +399,20 @@
 "399","hermit thrush","1901",1901-04-05,"Walter",95
 "400","hermit thrush","1902",1902-04-13,"Walter",103
 "401","hermit thrush","1903",1903-03-19,"Walter",78
-"402","henslow sparrow","1899",1899-04-26,"Walter",116
-"403","henslow sparrow","1900",1900-04-21,"Walter",111
-"404","henslow sparrow","1901",1901-04-30,"Walter",120
-"405","henslow sparrow","1902",1902-04-24,"Walter",114
-"406","henslow sparrow","1903",1903-04-15,"Walter",105
+"402","henslows sparrow","1899",1899-04-26,"Walter",116
+"403","henslows sparrow","1900",1900-04-21,"Walter",111
+"404","henslows sparrow","1901",1901-04-30,"Walter",120
+"405","henslows sparrow","1902",1902-04-24,"Walter",114
+"406","henslows sparrow","1903",1903-04-15,"Walter",105
 "407","hairy woodpecker","1899",1899-05-24,"Walter",144
 "408","hairy woodpecker","1900",1900-04-19,"Walter",109
 "409","hairy woodpecker","1902",1902-03-25,"Walter",84
 "410","hairy woodpecker","1903",1903-03-06,"Walter",65
-"411","grinnell water thrush","1899",1899-04-28,"Walter",118
-"412","grinnell water thrush","1900",1900-04-23,"Walter",113
-"413","grinnell water thrush","1901",1901-04-17,"Walter",107
-"414","grinnell water thrush","1902",1902-04-21,"Walter",111
-"415","grinnell water thrush","1903",1903-04-29,"Walter",119
+"411","northern waterthrush","1899",1899-04-28,"Walter",118
+"412","northern waterthrush","1900",1900-04-23,"Walter",113
+"413","northern waterthrush","1901",1901-04-17,"Walter",107
+"414","northern waterthrush","1902",1902-04-21,"Walter",111
+"415","northern waterthrush","1903",1903-04-29,"Walter",119
 "416","great crested flycatcher","1899",1899-04-30,"Walter",120
 "417","great crested flycatcher","1901",1901-05-11,"Walter",131
 "418","great crested flycatcher","1902",1902-04-21,"Walter",111
@@ -494,11 +494,11 @@
 "494","cape may warbler","1901",1901-05-05,"Walter",125
 "495","cape may warbler","1902",1902-05-02,"Walter",122
 "496","cape may warbler","1903",1903-05-09,"Walter",129
-"497","canadian warbler","1899",1899-05-16,"Walter",136
-"498","canadian warbler","1900",1900-05-12,"Walter",132
-"499","canadian warbler","1901",1901-05-16,"Walter",136
-"500","canadian warbler","1902",1902-05-06,"Walter",126
-"501","canadian warbler","1903",1903-05-12,"Walter",132
+"497","canada warbler","1899",1899-05-16,"Walter",136
+"498","canada warbler","1900",1900-05-12,"Walter",132
+"499","canada warbler","1901",1901-05-16,"Walter",136
+"500","canada warbler","1902",1902-05-06,"Walter",126
+"501","canada warbler","1903",1903-05-12,"Walter",132
 "502","brown thrasher","1898",1898-04-24,"Walter",114
 "503","brown thrasher","1899",1899-04-27,"Walter",117
 "504","brown thrasher","1900",1900-04-16,"Walter",106
@@ -511,12 +511,12 @@
 "511","brown creeper","1901",1901-04-04,"Walter",94
 "512","brown creeper","1902",1902-03-21,"Walter",80
 "513","brown creeper","1903",1903-03-18,"Walter",77
-"514","bronzed grackle","1898",1898-03-14,"Walter",73
-"515","bronzed grackle","1899",1899-03-20,"Walter",79
-"516","bronzed grackle","1900",1900-03-24,"Walter",83
-"517","bronzed grackle","1901",1901-03-23,"Walter",82
-"518","bronzed grackle","1902",1902-03-10,"Walter",69
-"519","bronzed grackle","1903",1903-03-14,"Walter",73
+"514","common grackle","1898",1898-03-14,"Walter",73
+"515","common grackle","1899",1899-03-20,"Walter",79
+"516","common grackle","1900",1900-03-24,"Walter",83
+"517","common grackle","1901",1901-03-23,"Walter",82
+"518","common grackle","1902",1902-03-10,"Walter",69
+"519","common grackle","1903",1903-03-14,"Walter",73
 "520","bobolink","1900",1900-05-08,"Walter",128
 "521","bobolink","1901",1901-05-04,"Walter",124
 "522","bobolink","1902",1902-05-12,"Walter",132
@@ -535,9 +535,9 @@
 "535","eastern bluebird","1901",1901-03-17,"Walter",76
 "536","eastern bluebird","1902",1902-03-07,"Walter",66
 "537","eastern bluebird","1903",1903-03-07,"Walter",66
-"538","blue golden winged warbler","1902",1902-05-02,"Walter",122
-"539","blue golden winged warbler","1900",1900-05-12,"Walter",132
-"540","blue golden winged warbler","1901",1901-05-12,"Walter",132
+"538","golden winged warbler","1902",1902-05-02,"Walter",122
+"539","golden winged warbler","1900",1900-05-12,"Walter",132
+"540","golden winged warbler","1901",1901-05-12,"Walter",132
 "541","black throated green warbler","1898",1898-05-17,"Walter",137
 "542","black throated green warbler","1899",1899-04-23,"Walter",113
 "543","black throated green warbler","1900",1900-04-27,"Walter",117
@@ -550,11 +550,11 @@
 "550","black throated blue warbler","1901",1901-05-05,"Walter",125
 "551","black throated blue warbler","1902",1902-05-02,"Walter",122
 "552","black throated blue warbler","1903",1903-05-05,"Walter",125
-"553","black poll warbler","1899",1899-05-10,"Walter",130
-"554","black poll warbler","1900",1900-05-13,"Walter",133
-"555","black poll warbler","1901",1901-05-16,"Walter",136
-"556","black poll warbler","1902",1902-05-12,"Walter",132
-"557","black poll warbler","1903",1903-05-06,"Walter",126
+"553","blackpoll warbler","1899",1899-05-10,"Walter",130
+"554","blackpoll warbler","1900",1900-05-13,"Walter",133
+"555","blackpoll warbler","1901",1901-05-16,"Walter",136
+"556","blackpoll warbler","1902",1902-05-12,"Walter",132
+"557","blackpoll warbler","1903",1903-05-06,"Walter",126
 "558","blackburnian warbler","1898",1898-05-10,"Walter",130
 "559","blackburnian warbler","1899",1899-05-03,"Walter",123
 "560","blackburnian warbler","1900",1900-04-28,"Walter",118
@@ -565,12 +565,12 @@
 "565","black billed cuckoo","1901",1901-05-15,"Walter",135
 "566","black billed cuckoo","1902",1902-05-16,"Walter",136
 "567","black billed cuckoo","1903",1903-05-12,"Walter",132
-"568","black and white creeper","1898",1898-04-30,"Walter",120
-"569","black and white creeper","1899",1899-04-21,"Walter",111
-"570","black and white creeper","1900",1900-04-26,"Walter",116
-"571","black and white creeper","1901",1901-05-04,"Walter",124
-"572","black and white creeper","1902",1902-04-28,"Walter",118
-"573","black and white creeper","1903",1903-04-27,"Walter",117
+"568","black and white warbler","1898",1898-04-30,"Walter",120
+"569","black and white warbler","1899",1899-04-21,"Walter",111
+"570","black and white warbler","1900",1900-04-26,"Walter",116
+"571","black and white warbler","1901",1901-05-04,"Walter",124
+"572","black and white warbler","1902",1902-04-28,"Walter",118
+"573","black and white warbler","1903",1903-04-27,"Walter",117
 "574","belted kingfisher","1898",1898-03-25,"Walter",84
 "575","belted kingfisher","1899",1899-03-22,"Walter",81
 "576","belted kingfisher","1900",1900-04-10,"Walter",100

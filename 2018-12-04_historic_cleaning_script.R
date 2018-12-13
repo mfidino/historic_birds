@@ -103,6 +103,9 @@ correctNames <- function(dat){
   dat[which(dat$BooksCommonName == "wilson thrush"),"BooksCommonName"] <- "veery"
   dat[which(dat$BooksCommonName == "tree sparrow"),"BooksCommonName"] <- "american tree sparrow"
   dat[which(dat$BooksCommonName == "blue golden-winged warblerblue golden-winged warbler"),"BooksCommonName"] <- "blue golden-winged warbler"
+  dat[which(dat$BooksCommonName == "whip-poor-will"),"BooksCommonName"] <- "eastern whip poor will"
+  dat[which(dat$BooksCommonName == "wood pewee"),"BooksCommonName"] <- "eastern wood pewee"
+  dat[which(dat$BooksCommonName == "western yellow-throat"),"BooksCommonName"] <- "common yellowthroat"
   return(dat)
 }
 
@@ -138,6 +141,59 @@ WBCP_arrival <- read.csv("./Data/HistoricTableofArrival2.csv", stringsAsFactors 
 # fix names
 WBCP_arrival_fixed <- correctNames(WBCP_arrival)
 WBCP_arrival_fixed$BooksCommonName <- clean_names(WBCP_arrival_fixed$BooksCommonName)
+WBCP_arrival_fixed$BooksCommonName[agrep("louisiana water thrush", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"louisiana waterthrush"
+
+WBCP_arrival_fixed$BooksCommonName[agrep("whip poor will", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"eastern whip poor will"
+WBCP_arrival_fixed$BooksCommonName[agrep("savanna sparrow", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"savannah sparrow"
+WBCP_arrival_fixed$BooksCommonName[agrep("sparrow hawk", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"american kestrel"
+WBCP_arrival_fixed$BooksCommonName[agrep("black and white creeper", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"black and white warbler"
+WBCP_arrival_fixed$BooksCommonName[agrep("bronzed grackle", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"common grackle"
+WBCP_arrival_fixed$BooksCommonName[agrep("black poll warbler", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"blackpoll warbler"
+WBCP_arrival_fixed$BooksCommonName[agrep("blue golden winged warbler", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"golden winged warbler"
+WBCP_arrival_fixed$BooksCommonName[agrep("canadian warbler", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"canada warbler"
+WBCP_arrival_fixed$BooksCommonName[agrep("grinnell water thrush", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"northern waterthrush"
+WBCP_arrival_fixed$BooksCommonName[agrep("henslow sparrow", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"henslows sparrow"
+WBCP_arrival_fixed$BooksCommonName[WBCP_arrival_fixed$BooksCommonName =="kingbird"] <-
+	"eastern kingbird"
+WBCP_arrival_fixed$BooksCommonName[agrep("lincoln sparrow", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"lincolns sparrow"
+WBCP_arrival_fixed$BooksCommonName[agrep("long billed marsh wren", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"marsh wren"
+WBCP_arrival_fixed$BooksCommonName[agrep("marsh hawk", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"northern harrier"
+WBCP_arrival_fixed$BooksCommonName[agrep("myrtle warbler", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"yellow rumped warbler"
+
+WBCP_arrival_fixed$BooksCommonName[agrep("parula warbler", 
+																				 WBCP_arrival_fixed$BooksCommonName)] <-
+	"northern parula"
+
 # format date
 WBCP_arrival_fixed$DateFixed <- as.Date(WBCP_arrival_fixed$Date, "%m/%d/%Y")
 WBCP_arrival_fixed$Year <- year(WBCP_arrival_fixed$DateFixed)
