@@ -14,7 +14,7 @@
 						warn.conflicts=warn.conflicts)
 }
 
-clean_names <- function(names = NULL){
+.clean_names <- function(names = NULL){
 	
 	# remove all dashes and replace with space
 	names <- names %>% 

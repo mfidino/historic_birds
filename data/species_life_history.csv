@@ -1,195 +1,195 @@
-"species","Habitat","Food","Nesting","Behavior","Conservation","status","order","family"
-"Acadian Flycatcher","Forests","Insects","Tree","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"American Bittern","Marshes","Fish","Ground","Stalking","Low Concern","Breeding","Pelecaniformes","Ardeidae"
-"American Black Duck","Lakes and Ponds","Insects","Ground","Dabbler","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"American Coot","Lakes and Ponds","Plants","Floating","Surface Dive","Low Concern","Year-round","Gruiformes","Rallidae"
-"American Crow","Open Woodlands","Omnivore","Tree","Ground Forager","Low Concern","Year-round","Passeriformes","Corvidae"
-"American Goldfinch","Open Woodlands","Seeds","Shrub","Foliage Gleaner","Low Concern","Year-round","Passeriformes","Fringillidae"
-"American Kestrel","Grasslands","Small Animals","Cavity","Aerial Dive (ground/talons)","Low Concern","Year-round","Falconiformes","Falconidae"
-"American Pipit","Tundra","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Motacillidae"
-"American Redstart","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"American Robin","Open Woodlands","Insects","Tree","Ground Forager","Low Concern","Year-round","Passeriformes","Turdidae"
-"American Tree Sparrow","Open Woodlands","Seeds","Ground","Ground Forager","Common Bird in Steep Decline","Nonbreeding","Passeriformes","Passerellidae"
-"American Wigeon","Lakes and Ponds","Plants","Ground","Dabbler","Low Concern","Migrating","Anseriformes","Anatidae"
-"American Woodcock","Forests","Insects","Ground","Probing","Declining","Breeding","Charadriiformes","Scolopacidae"
-"Bachman's Sparrow","Open Woodlands","Seeds","Ground","Ground Forager","Red Watch List","Out of range","Passeriformes","Passerellidae"
-"Baltimore Oriole","Open Woodlands","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Icteridae"
-"Bank Swallow","Lakes and Ponds","Insects","Burrow","Aerial Forager","Common Bird in Steep Decline","Breeding","Passeriformes","Hirundinidae"
-"Barn Swallow","Grasslands","Insects","Building","Aerial Forager","Low Concern","Breeding","Passeriformes","Hirundinidae"
-"Bay-breasted Warbler","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Belted Kingfisher","Lakes and Ponds","Fish","Burrow","Aerial Dive (water)","Low Concern","Year-round","Coraciiformes","Alcedinidae"
-"Bewick's Wren","Open Woodlands","Insects","Cavity","Foliage Gleaner","Low Concern","Out of range","Passeriformes","Troglodytidae"
-"Black-and-white Warbler","Forests","Insects","Ground","Bark Forager","Low Concern","Migrating","Passeriformes","Parulidae"
-"Black-billed Cuckoo","Forests","Insects","Tree","Foliage Gleaner","Declining","Breeding","Cuculiformes","Cuculidae"
-"Black-capped Chickadee","Forests","Insects","Cavity","Foliage Gleaner","Low Concern","Year-round","Passeriformes","Paridae"
-"Black-crowned Night-Heron","Marshes","Fish","Tree","Stalking","Low Concern","Breeding","Pelecaniformes","Ardeidae"
-"Black-throated Blue Warbler","Forests","Insects","Shrub","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Black-throated Green Warbler","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Black Scoter","Oceans","Aquatic invertebrates","Ground","Surface Dive","Low Concern","Out of range","Anseriformes","Anatidae"
-"Black Tern","Marshes","Insects","Floating","Aerial Forager","Common Bird in Steep Decline","Breeding","Charadriiformes","Laridae"
-"Blackburnian Warbler","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Blackpoll Warbler","Forests","Insects","Tree","Foliage Gleaner","Common Bird in Steep Decline","Migrating","Passeriformes","Parulidae"
-"Blue-gray Gnatcatcher","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Polioptilidae"
-"Blue-headed Vireo","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Vireonidae"
-"Blue-winged Teal","Marshes","Omnivore","Ground","Dabbler","Low Concern","Breeding","Anseriformes","Anatidae"
-"Blue-winged Warbler","Open Woodlands","Insects","Ground","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"Blue Jay","Forests","Omnivore","Tree","Ground Forager","Low Concern","Year-round","Passeriformes","Corvidae"
-"Bobolink","Grasslands","Seeds","Ground","Ground Forager","Declining","Breeding","Passeriformes","Icteridae"
-"Bonaparte's Gull","Lakes and Ponds","Aquatic invertebrates","Tree","Dabbler","Low Concern","Migrating","Charadriiformes","Laridae"
-"Brewer's Blackbird","Towns","Seeds","Shrub","Ground Forager","Common Bird in Steep Decline","Migrating","Passeriformes","Icteridae"
-"Brown-headed Cowbird","Grasslands","Seeds","Tree","Ground Forager","Low Concern","Year-round","Passeriformes","Icteridae"
-"Brown Creeper","Forests","Insects","Tree","Bark Forager","Low Concern","Nonbreeding","Passeriformes","Certhiidae"
-"Brown Thrasher","Scrub","Omnivore","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Mimidae"
-"Bufflehead","Lakes and Ponds","Aquatic invertebrates","Cavity","Surface Dive","Low Concern","Wintering","Anseriformes","Anatidae"
-"Canada Goose","Marshes","Seeds","Ground","Ground Forager","Low Concern","Year-round","Anseriformes","Anatidae"
-"Canada Warbler","Forests","Insects","Ground","Foliage Gleaner","Declining","Migrating","Passeriformes","Parulidae"
-"Canvasback","Lakes and Ponds","Plants","Floating","Surface Dive","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"Cape May Warbler","Forests","Insects","Tree","Foliage Gleaner","Declining","Migrating","Passeriformes","Parulidae"
-"Caspian Tern","Shorelines","Fish","Ground","Aerial Dive (water)","Low Concern","Migrating","Charadriiformes","Laridae"
-"Cedar Waxwing","Open Woodlands","Fruit","Tree","Foliage Gleaner","Low Concern","Year-round","Passeriformes","Bombycillidae"
-"Cerulean Warbler","Forests","Insects","Tree","Foliage Gleaner","Declining","Breeding","Passeriformes","Parulidae"
-"Chestnut-sided Warbler","Open Woodlands","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"Chimney Swift","Towns","Insects","Building","Aerial Forager","Declining","Breeding","Caprimulgiformes","Apodidae"
-"Chipping Sparrow","Open Woodlands","Seeds","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Passerellidae"
-"Clay-colored Sparrow","Scrub","Seeds","Shrub","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Passerellidae"
-"Cliff Swallow","Lakes and Ponds","Insects","Cliff","Aerial Forager","Low Concern","Breeding","Passeriformes","Hirundinidae"
-"Common Goldeneye","Lakes and Ponds","Aquatic invertebrates","Cavity","Surface Dive","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"Common Grackle","Open Woodlands","Omnivore","Tree","Ground Forager","Common Bird in Steep Decline","Year-round","Passeriformes","Icteridae"
-"Common Loon","Lakes and Ponds","Fish","Ground","Surface Dive","Low Concern","Migrating","Gaviiformes","Gaviidae"
-"Common Merganser","Lakes and Ponds","Fish","Cavity","Surface Dive","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"Common Nighthawk","Grasslands","Insects","Ground","Aerial Forager","Common Bird in Steep Decline","Breeding","Caprimulgiformes","Caprimulgidae"
-"Common Tern","Shorelines","Fish","Ground","Aerial Dive (water)","Low Concern","Migrating","Charadriiformes","Laridae"
-"Common Yellowthroat","Scrub","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"Connecticut Warbler","Forests","Insects","Ground","Ground Forager","Declining","Migrating","Passeriformes","Parulidae"
-"Cooper's Hawk","Forests","Birds","Tree","Aerial Forager","Low Concern","Year-round","Accipitriformes","Accipitridae"
-"Dark-eyed Junco","Forests","Seeds","Ground","Ground Forager","Low Concern","Nonbreeding","Passeriformes","Passerellidae"
-"Dickcissel","Grasslands","Seeds","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Cardinalidae"
-"Double-crested Cormorant","Lakes and Ponds","Fish","Ground","Surface Dive","Low Concern","Migrating","Suliformes","Phalacrocoracidae"
-"Downy Woodpecker","Forests","Insects","Cavity","Bark Forager","Low Concern","Year-round","Piciformes","Picidae"
-"Eastern Bluebird","Grasslands","Insects","Cavity","Ground Forager","Low Concern","Year-round","Passeriformes","Turdidae"
-"Eastern Kingbird","Grasslands","Insects","Tree","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"Eastern Meadowlark","Grasslands","Insects","Ground","Ground Forager","Common Bird in Steep Decline","Year-round","Passeriformes","Icteridae"
-"Eastern Phoebe","Open Woodlands","Insects","Building","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"Eastern Screech-Owl","Forests","Small Animals","Cavity","Aerial Dive (ground/talons)","Low Concern","Year-round","Strigiformes","Strigidae"
-"Eastern Towhee","Scrub","Omnivore","Ground","Ground Forager","Low Concern","Breeding","Passeriformes","Passerellidae"
-"Eastern Whip-poor-will","Open Woodlands","Insects","Ground","Aerial Forager","Declining","Breeding","Caprimulgiformes","Caprimulgidae"
-"Eastern Wood-Pewee","Forests","Insects","Tree","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"European Starling","Towns","Insects","Cavity","Ground Forager","Low Concern","Year-round","Passeriformes","Sturnidae"
-"Field Sparrow","Scrub","Insects","Ground","Ground Forager","Common Bird in Steep Decline","Year-round","Passeriformes","Passerellidae"
-"Fox Sparrow","Forests","Insects","Ground","Ground Forager","Low Concern","Nonbreeding","Passeriformes","Passerellidae"
-"Gadwall","Marshes","Plants","Ground","Dabbler","Low Concern","Migrating","Anseriformes","Anatidae"
-"Glaucous Gull","Shorelines","Omnivore","Cliff","Ground Forager","Low Concern","Nonbreeding","Charadriiformes","Laridae"
-"Golden-crowned Kinglet","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Nonbreeding","Passeriformes","Regulidae"
-"Golden-winged Warbler","Open Woodlands","Insects","Ground","Foliage Gleaner","Red Watch List","Migrating","Passeriformes","Parulidae"
-"Grasshopper Sparrow","Grasslands","Insects","Ground","Ground Forager","Common Bird in Steep Decline","Breeding","Passeriformes","Passerellidae"
-"Gray-cheeked Thrush","Forests","Insects","Shrub","Ground Forager","Low Concern","Migrating","Passeriformes","Turdidae"
-"Gray Catbird","Open Woodlands","Insects","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Mimidae"
-"Great Blue Heron","Marshes","Fish","Tree","Stalking","Low Concern","Year-round","Pelecaniformes","Ardeidae"
-"Great Crested Flycatcher","Open Woodlands","Insects","Cavity","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"Great Horned Owl","Forests","Mammals","Tree","Aerial Dive (ground/talons)","Low Concern","Year-round","Strigiformes","Strigidae"
-"Greater Scaup","Lakes and Ponds","Aquatic invertebrates","Ground","Surface Dive","Common Bird in Steep Decline","Migrating","Anseriformes","Anatidae"
-"Green Heron","Marshes","Fish","Tree","Stalking","Common Bird in Steep Decline","Breeding","Pelecaniformes","Ardeidae"
-"Hairy Woodpecker","Forests","Insects","Cavity","Bark Forager","Low Concern","Year-round","Piciformes","Picidae"
-"Harris's Sparrow","Forests","Seeds","Ground","Ground Forager","Declining","Out of range","Passeriformes","Passerellidae"
-"Henslow's Sparrow","Grasslands","Insects","Ground","Ground Forager","Restricted Range","Breeding","Passeriformes","Passerellidae"
-"Hermit Thrush","Open Woodlands","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Turdidae"
-"Herring Gull","Shorelines","Omnivore","Ground","Ground Forager","Common Bird in Steep Decline","Wintering","Charadriiformes","Laridae"
-"Hooded Merganser","Lakes and Ponds","Fish","Cavity","Surface Dive","Low Concern","Year-round","Anseriformes","Anatidae"
-"Hooded Warbler","Forests","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"Horned Grebe","Lakes and Ponds","Aquatic invertebrates","Floating","Surface Dive","Low Concern","Migrating","Podicipediformes","Podicipedidae"
-"Horned Lark","Grasslands","Seeds","Ground","Ground Forager","Common Bird in Steep Decline","Year-round","Passeriformes","Alaudidae"
-"House Finch","Towns","Seeds","Tree","Ground Forager","Low Concern","Year-round","Passeriformes","Fringillidae"
-"House Sparrow","Towns","Omnivore","Cavity","Ground Forager","Low Concern","Year-round","Passeriformes","Passeridae"
-"House Wren","Open Woodlands","Insects","Cavity","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Troglodytidae"
-"Indigo Bunting","Open Woodlands","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Cardinalidae"
-"Killdeer","Grasslands","Insects","Ground","Ground Forager","Low Concern","Breeding","Charadriiformes","Charadriidae"
-"King Rail","Marshes","Aquatic invertebrates","Ground","Probing","Declining","Breeding","Gruiformes","Rallidae"
-"Lapland Longspur","Grasslands","Insects","Ground","Ground Forager","Low Concern","Nonbreeding","Passeriformes","Calcariidae"
-"Least Flycatcher","Forests","Insects","Tree","Flycatching","Common Bird in Steep Decline","Breeding","Passeriformes","Tyrannidae"
-"LeConte's Sparrow","Grasslands","Insects","Ground","Ground Forager","Declining","Migrating","Passeriformes","Passerellidae"
-"Lesser Scaup","Lakes and Ponds","Aquatic invertebrates","Ground","Surface Dive","Low Concern","Wintering","Anseriformes","Anatidae"
-"Lincoln's Sparrow","Scrub","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Passerellidae"
-"Loggerhead Shrike","Open Woodlands","Insects","Tree","Aerial Dive (ground/talons)","Common Bird in Steep Decline","Out of range","Passeriformes","Laniidae"
-"Long-eared Owl","Forests","Mammals","Tree","Aerial Dive (ground/talons)","Declining","Nonbreeding","Strigiformes","Strigidae"
-"Long-tailed Duck","Lakes and Ponds","Aquatic invertebrates","Ground","Surface Dive","Common Bird in Steep Decline","Out of range","Anseriformes","Anatidae"
-"Louisiana Waterthrush","Rivers and Streams","Insects","Ground","Ground Forager","Low Concern","Breeding","Passeriformes","Parulidae"
-"Magnolia Warbler","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Mallard","Lakes and Ponds","Omnivore","Ground","Dabbler","Low Concern","Year-round","Anseriformes","Anatidae"
-"Marsh Wren","Marshes","Insects","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Troglodytidae"
-"Mourning Dove","Open Woodlands","Seeds","Tree","Ground Forager","Low Concern","Year-round","Columbiformes","Columbidae"
-"Mourning Warbler","Forests","Insects","Ground","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Nashville Warbler","Forests","Insects","Ground","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Northern Cardinal","Open Woodlands","Seeds","Shrub","Ground Forager","Low Concern","Year-round","Passeriformes","Cardinalidae"
-"Northern Flicker","Open Woodlands","Insects","Cavity","Ground Forager","Low Concern","Year-round","Piciformes","Picidae"
-"Northern Harrier","Grasslands","Mammals","Ground","Aerial Dive (ground/talons)","Low Concern","Nonbreeding","Accipitriformes","Accipitridae"
-"Northern Mockingbird","Towns","Omnivore","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Mimidae"
-"Northern Parula","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Northern Rough-winged Swallow","Rivers and Streams","Insects","Burrow","Aerial Forager","Low Concern","Breeding","Passeriformes","Hirundinidae"
-"Northern Shoveler","Marshes","Omnivore","Ground","Dabbler","Low Concern","Migrating","Anseriformes","Anatidae"
-"Northern Waterthrush","Forests","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Parulidae"
-"Olive-sided Flycatcher","Open Woodlands","Insects","Tree","Flycatching","Declining","Out of range","Passeriformes","Tyrannidae"
-"Orange-crowned Warbler","Forests","Insects","Ground","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Orchard Oriole","Open Woodlands","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Icteridae"
-"Ovenbird","Forests","Insects","Ground","Ground Forager","Low Concern","Breeding","Passeriformes","Parulidae"
-"Palm Warbler","Open Woodlands","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Parulidae"
-"Philadelphia Vireo","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Vireonidae"
-"Pied-billed Grebe","Lakes and Ponds","Aquatic invertebrates","Floating","Surface Dive","Low Concern","Breeding","Podicipediformes","Podicipedidae"
-"Pine Siskin","Open Woodlands","Seeds","Tree","Foliage Gleaner","Common Bird in Steep Decline","Nonbreeding","Passeriformes","Fringillidae"
-"Pine Warbler","Forests","Insects","Tree","Bark Forager","Low Concern","Migrating","Passeriformes","Parulidae"
-"Prairie Warbler","Scrub","Insects","Shrub","Foliage Gleaner","Declining","Out of range","Passeriformes","Parulidae"
-"Prothonotary Warbler","Forests","Insects","Cavity","Foliage Gleaner","Declining","Breeding","Passeriformes","Parulidae"
-"Purple Finch","Forests","Seeds","Tree","Foliage Gleaner","Low Concern","Nonbreeding","Passeriformes","Fringillidae"
-"Purple Martin","Lakes and Ponds","Insects","Cavity","Aerial Forager","Low Concern","Breeding","Passeriformes","Hirundinidae"
-"Red-bellied Woodpecker","Forests","Insects","Cavity","Bark Forager","Low Concern","Year-round","Piciformes","Picidae"
-"Red-breasted Merganser","Lakes and Ponds","Fish","Ground","Surface Dive","Low Concern","Migrating","Anseriformes","Anatidae"
-"Red-breasted Nuthatch","Forests","Insects","Cavity","Bark Forager","Low Concern","Nonbreeding","Passeriformes","Sittidae"
-"Red-eyed Vireo","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Vireonidae"
-"Red-headed Woodpecker","Open Woodlands","Omnivore","Cavity","Flycatching","Declining","Breeding","Piciformes","Picidae"
-"Red-tailed Hawk","Open Woodlands","Small Animals","Tree","Soaring (raptor)","Low Concern","Year-round","Accipitriformes","Accipitridae"
-"Red-throated Loon","Lakes and Ponds","Fish","Ground","Surface Dive","Low Concern","Migrating","Gaviiformes","Gaviidae"
-"Red-winged Blackbird","Marshes","Insects","Shrub","Ground Forager","Low Concern","Year-round","Passeriformes","Icteridae"
-"Redhead","Lakes and Ponds","Plants","Floating","Surface Dive","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"Ring-billed Gull","Lakes and Ponds","Omnivore","Ground","Ground Forager","Low Concern","Migrating","Charadriiformes","Laridae"
-"Ring-necked Duck","Lakes and Ponds","Plants","Ground","Surface Dive","Low Concern","Migrating","Anseriformes","Anatidae"
-"Rock Pigeon","Towns","Seeds","Building","Ground Forager","Low Concern","Year-round","Columbiformes","Columbidae"
-"Rose-breasted Grosbeak","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Cardinalidae"
-"Ruby-crowned Kinglet","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Regulidae"
-"Ruby-throated Hummingbird","Open Woodlands","Nectar","Tree","Hovering","Low Concern","Breeding","Caprimulgiformes","Trochilidae"
-"Ruddy Duck","Marshes","Aquatic invertebrates","Ground","Surface Dive","Low Concern","Nonbreeding","Anseriformes","Anatidae"
-"Rusty Blackbird","Forests","Insects","Tree","Ground Forager","Common Bird in Steep Decline","Nonbreeding","Passeriformes","Icteridae"
-"Sanderling","Shorelines","Aquatic invertebrates","Ground","Probing","Low Concern","Migrating","Charadriiformes","Scolopacidae"
-"Savannah Sparrow","Grasslands","Insects","Ground","Ground Forager","Low Concern","Breeding","Passeriformes","Passerellidae"
-"Scarlet Tanager","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Cardinalidae"
-"Sharp-shinned Hawk","Forests","Birds","Tree","Aerial Dive (ground/talons)","Low Concern","Nonbreeding","Accipitriformes","Accipitridae"
-"Solitary Sandpiper","Marshes","Aquatic invertebrates","Tree","Probing","Low Concern","Migrating","Charadriiformes","Scolopacidae"
-"Song Sparrow","Open Woodlands","Insects","Shrub","Ground Forager","Low Concern","Year-round","Passeriformes","Passerellidae"
-"Sora","Marshes","Seeds","Floating","Ground Forager","Low Concern","Breeding","Gruiformes","Rallidae"
-"Spotted Sandpiper","Shorelines","Small Animals","Ground","Probing","Low Concern","Breeding","Charadriiformes","Scolopacidae"
-"Summer Tanager","Open Woodlands","Insects","Tree","Foliage Gleaner","Low Concern","Out of range","Passeriformes","Cardinalidae"
-"Swainson's Thrush","Forests","Insects","Shrub","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Turdidae"
-"Swamp Sparrow","Marshes","Insects","Shrub","Ground Forager","Low Concern","Year-round","Passeriformes","Passerellidae"
-"Tennessee Warbler","Forests","Insects","Ground","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Tree Swallow","Lakes and Ponds","Insects","Cavity","Aerial Forager","Low Concern","Breeding","Passeriformes","Hirundinidae"
-"Veery","Forests","Insects","Ground","Ground Forager","Low Concern","Migrating","Passeriformes","Turdidae"
-"Vesper Sparrow","Grasslands","Insects","Ground","Ground Forager","Low Concern","Breeding","Passeriformes","Passerellidae"
-"Virginia Rail","Marshes","Aquatic invertebrates","Ground","Probing","Low Concern","Breeding","Gruiformes","Rallidae"
-"Warbling Vireo","Open Woodlands","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Vireonidae"
-"White-breasted Nuthatch","Forests","Insects","Cavity","Bark Forager","Low Concern","Year-round","Passeriformes","Sittidae"
-"White-crowned Sparrow","Scrub","Insects","Ground","Ground Forager","Low Concern","Nonbreeding","Passeriformes","Passerellidae"
-"White-throated Sparrow","Forests","Seeds","Ground","Ground Forager","Low Concern","Nonbreeding","Passeriformes","Passerellidae"
-"Willow Flycatcher","Marshes","Insects","Shrub","Flycatching","Low Concern","Breeding","Passeriformes","Tyrannidae"
-"Wilson's Snipe","Marshes","Aquatic invertebrates","Ground","Probing","Low Concern","Nonbreeding","Charadriiformes","Scolopacidae"
-"Wilson's Warbler","Scrub","Insects","Ground","Foliage Gleaner","Common Bird in Steep Decline","Migrating","Passeriformes","Parulidae"
-"Winter Wren","Forests","Insects","Cavity","Ground Forager","Low Concern","Migrating","Passeriformes","Troglodytidae"
-"Wood Duck","Lakes and Ponds","Insects","Cavity","Dabbler","Low Concern","Year-round","Anseriformes","Anatidae"
-"Wood Thrush","Forests","Insects","Tree","Ground Forager","Declining","Breeding","Passeriformes","Turdidae"
-"Yellow-bellied Flycatcher","Forests","Insects","Ground","Flycatching","Low Concern","Migrating","Passeriformes","Tyrannidae"
-"Yellow-bellied Sapsucker","Forests","Insects","Cavity","Bark Forager","Low Concern","Migrating","Piciformes","Picidae"
-"Yellow-billed Cuckoo","Open Woodlands","Insects","Tree","Foliage Gleaner","Common Bird in Steep Decline","Breeding","Cuculiformes","Cuculidae"
-"Yellow-breasted Chat","Scrub","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Icteriidae"
-"Yellow-headed Blackbird","Marshes","Insects","Shrub","Ground Forager","Low Concern","Breeding","Passeriformes","Icteridae"
-"Yellow-rumped Warbler","Forests","Insects","Tree","Foliage Gleaner","Low Concern","Migrating","Passeriformes","Parulidae"
-"Yellow-throated Vireo","Open Woodlands","Insects","Tree","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Vireonidae"
-"Yellow-throated Warbler","Forests","Insects","Tree","Bark Forager","Low Concern","Breeding","Passeriformes","Parulidae"
-"Yellow Warbler","Open Woodlands","Insects","Shrub","Foliage Gleaner","Low Concern","Breeding","Passeriformes","Parulidae"
-"Golden-winged Warbler","Open Woodlands","Insects","Ground","Foliage Gleaner","Red Watch List","Migrating","Passeriformes","Parulidae"
+species,habitat,food,nesting,behavior,conservation,status,order,family
+Acadian Flycatcher,Forests,Insects,Tree,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+American Bittern,Marshes,Fish,Ground,Stalking,Low Concern,Breeding,Pelecaniformes,Ardeidae
+American Black Duck,Lakes and Ponds,Insects,Ground,Dabbler,Low Concern,Nonbreeding,Anseriformes,Anatidae
+American Coot,Lakes and Ponds,Plants,Floating,Surface Dive,Low Concern,Year-round,Gruiformes,Rallidae
+American Crow,Open Woodlands,Omnivore,Tree,Ground Forager,Low Concern,Year-round,Passeriformes,Corvidae
+American Goldfinch,Open Woodlands,Seeds,Shrub,Foliage Gleaner,Low Concern,Year-round,Passeriformes,Fringillidae
+American Kestrel,Grasslands,Small Animals,Cavity,Aerial Dive (ground/talons),Low Concern,Year-round,Falconiformes,Falconidae
+American Pipit,Tundra,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Motacillidae
+American Redstart,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+American Robin,Open Woodlands,Insects,Tree,Ground Forager,Low Concern,Year-round,Passeriformes,Turdidae
+American Tree Sparrow,Open Woodlands,Seeds,Ground,Ground Forager,Common Bird in Steep Decline,Nonbreeding,Passeriformes,Passerellidae
+American Wigeon,Lakes and Ponds,Plants,Ground,Dabbler,Low Concern,Migrating,Anseriformes,Anatidae
+American Woodcock,Forests,Insects,Ground,Probing,Declining,Breeding,Charadriiformes,Scolopacidae
+Bachman's Sparrow,Open Woodlands,Seeds,Ground,Ground Forager,Red Watch List,Out of range,Passeriformes,Passerellidae
+Baltimore Oriole,Open Woodlands,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Icteridae
+Bank Swallow,Lakes and Ponds,Insects,Burrow,Aerial Forager,Common Bird in Steep Decline,Breeding,Passeriformes,Hirundinidae
+Barn Swallow,Grasslands,Insects,Building,Aerial Forager,Low Concern,Breeding,Passeriformes,Hirundinidae
+Bay-breasted Warbler,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Belted Kingfisher,Lakes and Ponds,Fish,Burrow,Aerial Dive (water),Low Concern,Year-round,Coraciiformes,Alcedinidae
+Bewick's Wren,Open Woodlands,Insects,Cavity,Foliage Gleaner,Low Concern,Out of range,Passeriformes,Troglodytidae
+Black-and-white Warbler,Forests,Insects,Ground,Bark Forager,Low Concern,Migrating,Passeriformes,Parulidae
+Black-billed Cuckoo,Forests,Insects,Tree,Foliage Gleaner,Declining,Breeding,Cuculiformes,Cuculidae
+Black-capped Chickadee,Forests,Insects,Cavity,Foliage Gleaner,Low Concern,Year-round,Passeriformes,Paridae
+Black-crowned Night-Heron,Marshes,Fish,Tree,Stalking,Low Concern,Breeding,Pelecaniformes,Ardeidae
+Black-throated Blue Warbler,Forests,Insects,Shrub,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Black-throated Green Warbler,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Black Scoter,Oceans,Aquatic invertebrates,Ground,Surface Dive,Low Concern,Out of range,Anseriformes,Anatidae
+Black Tern,Marshes,Insects,Floating,Aerial Forager,Common Bird in Steep Decline,Breeding,Charadriiformes,Laridae
+Blackburnian Warbler,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Blackpoll Warbler,Forests,Insects,Tree,Foliage Gleaner,Common Bird in Steep Decline,Migrating,Passeriformes,Parulidae
+Blue-gray Gnatcatcher,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Polioptilidae
+Blue-headed Vireo,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Vireonidae
+Blue-winged Teal,Marshes,Omnivore,Ground,Dabbler,Low Concern,Breeding,Anseriformes,Anatidae
+Blue-winged Warbler,Open Woodlands,Insects,Ground,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+Blue Jay,Forests,Omnivore,Tree,Ground Forager,Low Concern,Year-round,Passeriformes,Corvidae
+Bobolink,Grasslands,Seeds,Ground,Ground Forager,Declining,Breeding,Passeriformes,Icteridae
+Bonaparte's Gull,Lakes and Ponds,Aquatic invertebrates,Tree,Dabbler,Low Concern,Migrating,Charadriiformes,Laridae
+Brewer's Blackbird,Towns,Seeds,Shrub,Ground Forager,Common Bird in Steep Decline,Migrating,Passeriformes,Icteridae
+Brown-headed Cowbird,Grasslands,Seeds,Tree,Ground Forager,Low Concern,Year-round,Passeriformes,Icteridae
+Brown Creeper,Forests,Insects,Tree,Bark Forager,Low Concern,Nonbreeding,Passeriformes,Certhiidae
+Brown Thrasher,Scrub,Omnivore,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Mimidae
+Bufflehead,Lakes and Ponds,Aquatic invertebrates,Cavity,Surface Dive,Low Concern,Wintering,Anseriformes,Anatidae
+Canada Goose,Marshes,Seeds,Ground,Ground Forager,Low Concern,Year-round,Anseriformes,Anatidae
+Canada Warbler,Forests,Insects,Ground,Foliage Gleaner,Declining,Migrating,Passeriformes,Parulidae
+Canvasback,Lakes and Ponds,Plants,Floating,Surface Dive,Low Concern,Nonbreeding,Anseriformes,Anatidae
+Cape May Warbler,Forests,Insects,Tree,Foliage Gleaner,Declining,Migrating,Passeriformes,Parulidae
+Caspian Tern,Shorelines,Fish,Ground,Aerial Dive (water),Low Concern,Migrating,Charadriiformes,Laridae
+Cedar Waxwing,Open Woodlands,Fruit,Tree,Foliage Gleaner,Low Concern,Year-round,Passeriformes,Bombycillidae
+Cerulean Warbler,Forests,Insects,Tree,Foliage Gleaner,Declining,Breeding,Passeriformes,Parulidae
+Chestnut-sided Warbler,Open Woodlands,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+Chimney Swift,Towns,Insects,Building,Aerial Forager,Declining,Breeding,Caprimulgiformes,Apodidae
+Chipping Sparrow,Open Woodlands,Seeds,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Passerellidae
+Clay-colored Sparrow,Scrub,Seeds,Shrub,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Passerellidae
+Cliff Swallow,Lakes and Ponds,Insects,Cliff,Aerial Forager,Low Concern,Breeding,Passeriformes,Hirundinidae
+Common Goldeneye,Lakes and Ponds,Aquatic invertebrates,Cavity,Surface Dive,Low Concern,Nonbreeding,Anseriformes,Anatidae
+Common Grackle,Open Woodlands,Omnivore,Tree,Ground Forager,Common Bird in Steep Decline,Year-round,Passeriformes,Icteridae
+Common Loon,Lakes and Ponds,Fish,Ground,Surface Dive,Low Concern,Migrating,Gaviiformes,Gaviidae
+Common Merganser,Lakes and Ponds,Fish,Cavity,Surface Dive,Low Concern,Nonbreeding,Anseriformes,Anatidae
+Common Nighthawk,Grasslands,Insects,Ground,Aerial Forager,Common Bird in Steep Decline,Breeding,Caprimulgiformes,Caprimulgidae
+Common Tern,Shorelines,Fish,Ground,Aerial Dive (water),Low Concern,Migrating,Charadriiformes,Laridae
+Common Yellowthroat,Scrub,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+Connecticut Warbler,Forests,Insects,Ground,Ground Forager,Declining,Migrating,Passeriformes,Parulidae
+Cooper's Hawk,Forests,Birds,Tree,Aerial Forager,Low Concern,Year-round,Accipitriformes,Accipitridae
+Dark-eyed Junco,Forests,Seeds,Ground,Ground Forager,Low Concern,Nonbreeding,Passeriformes,Passerellidae
+Dickcissel,Grasslands,Seeds,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Cardinalidae
+Double-crested Cormorant,Lakes and Ponds,Fish,Ground,Surface Dive,Low Concern,Migrating,Suliformes,Phalacrocoracidae
+Downy Woodpecker,Forests,Insects,Cavity,Bark Forager,Low Concern,Year-round,Piciformes,Picidae
+Eastern Bluebird,Grasslands,Insects,Cavity,Ground Forager,Low Concern,Year-round,Passeriformes,Turdidae
+Eastern Kingbird,Grasslands,Insects,Tree,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+Eastern Meadowlark,Grasslands,Insects,Ground,Ground Forager,Common Bird in Steep Decline,Year-round,Passeriformes,Icteridae
+Eastern Phoebe,Open Woodlands,Insects,Building,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+Eastern Screech-Owl,Forests,Small Animals,Cavity,Aerial Dive (ground/talons),Low Concern,Year-round,Strigiformes,Strigidae
+Eastern Towhee,Scrub,Omnivore,Ground,Ground Forager,Low Concern,Breeding,Passeriformes,Passerellidae
+Eastern Whip-poor-will,Open Woodlands,Insects,Ground,Aerial Forager,Declining,Breeding,Caprimulgiformes,Caprimulgidae
+Eastern Wood-Pewee,Forests,Insects,Tree,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+European Starling,Towns,Insects,Cavity,Ground Forager,Low Concern,Year-round,Passeriformes,Sturnidae
+Field Sparrow,Scrub,Insects,Ground,Ground Forager,Common Bird in Steep Decline,Year-round,Passeriformes,Passerellidae
+Fox Sparrow,Forests,Insects,Ground,Ground Forager,Low Concern,Nonbreeding,Passeriformes,Passerellidae
+Gadwall,Marshes,Plants,Ground,Dabbler,Low Concern,Migrating,Anseriformes,Anatidae
+Glaucous Gull,Shorelines,Omnivore,Cliff,Ground Forager,Low Concern,Nonbreeding,Charadriiformes,Laridae
+Golden-crowned Kinglet,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Nonbreeding,Passeriformes,Regulidae
+Golden-winged Warbler,Open Woodlands,Insects,Ground,Foliage Gleaner,Red Watch List,Migrating,Passeriformes,Parulidae
+Grasshopper Sparrow,Grasslands,Insects,Ground,Ground Forager,Common Bird in Steep Decline,Breeding,Passeriformes,Passerellidae
+Gray-cheeked Thrush,Forests,Insects,Shrub,Ground Forager,Low Concern,Migrating,Passeriformes,Turdidae
+Gray Catbird,Open Woodlands,Insects,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Mimidae
+Great Blue Heron,Marshes,Fish,Tree,Stalking,Low Concern,Year-round,Pelecaniformes,Ardeidae
+Great Crested Flycatcher,Open Woodlands,Insects,Cavity,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+Great Horned Owl,Forests,Mammals,Tree,Aerial Dive (ground/talons),Low Concern,Year-round,Strigiformes,Strigidae
+Greater Scaup,Lakes and Ponds,Aquatic invertebrates,Ground,Surface Dive,Common Bird in Steep Decline,Migrating,Anseriformes,Anatidae
+Green Heron,Marshes,Fish,Tree,Stalking,Common Bird in Steep Decline,Breeding,Pelecaniformes,Ardeidae
+Hairy Woodpecker,Forests,Insects,Cavity,Bark Forager,Low Concern,Year-round,Piciformes,Picidae
+Harris's Sparrow,Forests,Seeds,Ground,Ground Forager,Declining,Out of range,Passeriformes,Passerellidae
+Henslow's Sparrow,Grasslands,Insects,Ground,Ground Forager,Restricted Range,Breeding,Passeriformes,Passerellidae
+Hermit Thrush,Open Woodlands,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Turdidae
+Herring Gull,Shorelines,Omnivore,Ground,Ground Forager,Common Bird in Steep Decline,Wintering,Charadriiformes,Laridae
+Hooded Merganser,Lakes and Ponds,Fish,Cavity,Surface Dive,Low Concern,Year-round,Anseriformes,Anatidae
+Hooded Warbler,Forests,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+Horned Grebe,Lakes and Ponds,Aquatic invertebrates,Floating,Surface Dive,Low Concern,Migrating,Podicipediformes,Podicipedidae
+Horned Lark,Grasslands,Seeds,Ground,Ground Forager,Common Bird in Steep Decline,Year-round,Passeriformes,Alaudidae
+House Finch,Towns,Seeds,Tree,Ground Forager,Low Concern,Year-round,Passeriformes,Fringillidae
+House Sparrow,Towns,Omnivore,Cavity,Ground Forager,Low Concern,Year-round,Passeriformes,Passeridae
+House Wren,Open Woodlands,Insects,Cavity,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Troglodytidae
+Indigo Bunting,Open Woodlands,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Cardinalidae
+Killdeer,Grasslands,Insects,Ground,Ground Forager,Low Concern,Breeding,Charadriiformes,Charadriidae
+King Rail,Marshes,Aquatic invertebrates,Ground,Probing,Declining,Breeding,Gruiformes,Rallidae
+Lapland Longspur,Grasslands,Insects,Ground,Ground Forager,Low Concern,Nonbreeding,Passeriformes,Calcariidae
+Least Flycatcher,Forests,Insects,Tree,Flycatching,Common Bird in Steep Decline,Breeding,Passeriformes,Tyrannidae
+LeConte's Sparrow,Grasslands,Insects,Ground,Ground Forager,Declining,Migrating,Passeriformes,Passerellidae
+Lesser Scaup,Lakes and Ponds,Aquatic invertebrates,Ground,Surface Dive,Low Concern,Wintering,Anseriformes,Anatidae
+Lincoln's Sparrow,Scrub,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Passerellidae
+Loggerhead Shrike,Open Woodlands,Insects,Tree,Aerial Dive (ground/talons),Common Bird in Steep Decline,Out of range,Passeriformes,Laniidae
+Long-eared Owl,Forests,Mammals,Tree,Aerial Dive (ground/talons),Declining,Nonbreeding,Strigiformes,Strigidae
+Long-tailed Duck,Lakes and Ponds,Aquatic invertebrates,Ground,Surface Dive,Common Bird in Steep Decline,Out of range,Anseriformes,Anatidae
+Louisiana Waterthrush,Rivers and Streams,Insects,Ground,Ground Forager,Low Concern,Breeding,Passeriformes,Parulidae
+Magnolia Warbler,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Mallard,Lakes and Ponds,Omnivore,Ground,Dabbler,Low Concern,Year-round,Anseriformes,Anatidae
+Marsh Wren,Marshes,Insects,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Troglodytidae
+Mourning Dove,Open Woodlands,Seeds,Tree,Ground Forager,Low Concern,Year-round,Columbiformes,Columbidae
+Mourning Warbler,Forests,Insects,Ground,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Nashville Warbler,Forests,Insects,Ground,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Northern Cardinal,Open Woodlands,Seeds,Shrub,Ground Forager,Low Concern,Year-round,Passeriformes,Cardinalidae
+Northern Flicker,Open Woodlands,Insects,Cavity,Ground Forager,Low Concern,Year-round,Piciformes,Picidae
+Northern Harrier,Grasslands,Mammals,Ground,Aerial Dive (ground/talons),Low Concern,Nonbreeding,Accipitriformes,Accipitridae
+Northern Mockingbird,Towns,Omnivore,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Mimidae
+Northern Parula,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Northern Rough-winged Swallow,Rivers and Streams,Insects,Burrow,Aerial Forager,Low Concern,Breeding,Passeriformes,Hirundinidae
+Northern Shoveler,Marshes,Omnivore,Ground,Dabbler,Low Concern,Migrating,Anseriformes,Anatidae
+Northern Waterthrush,Forests,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Parulidae
+Olive-sided Flycatcher,Open Woodlands,Insects,Tree,Flycatching,Declining,Out of range,Passeriformes,Tyrannidae
+Orange-crowned Warbler,Forests,Insects,Ground,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Orchard Oriole,Open Woodlands,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Icteridae
+Ovenbird,Forests,Insects,Ground,Ground Forager,Low Concern,Breeding,Passeriformes,Parulidae
+Palm Warbler,Open Woodlands,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Parulidae
+Philadelphia Vireo,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Vireonidae
+Pied-billed Grebe,Lakes and Ponds,Aquatic invertebrates,Floating,Surface Dive,Low Concern,Breeding,Podicipediformes,Podicipedidae
+Pine Siskin,Open Woodlands,Seeds,Tree,Foliage Gleaner,Common Bird in Steep Decline,Nonbreeding,Passeriformes,Fringillidae
+Pine Warbler,Forests,Insects,Tree,Bark Forager,Low Concern,Migrating,Passeriformes,Parulidae
+Prairie Warbler,Scrub,Insects,Shrub,Foliage Gleaner,Declining,Out of range,Passeriformes,Parulidae
+Prothonotary Warbler,Forests,Insects,Cavity,Foliage Gleaner,Declining,Breeding,Passeriformes,Parulidae
+Purple Finch,Forests,Seeds,Tree,Foliage Gleaner,Low Concern,Nonbreeding,Passeriformes,Fringillidae
+Purple Martin,Lakes and Ponds,Insects,Cavity,Aerial Forager,Low Concern,Breeding,Passeriformes,Hirundinidae
+Red-bellied Woodpecker,Forests,Insects,Cavity,Bark Forager,Low Concern,Year-round,Piciformes,Picidae
+Red-breasted Merganser,Lakes and Ponds,Fish,Ground,Surface Dive,Low Concern,Migrating,Anseriformes,Anatidae
+Red-breasted Nuthatch,Forests,Insects,Cavity,Bark Forager,Low Concern,Nonbreeding,Passeriformes,Sittidae
+Red-eyed Vireo,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Vireonidae
+Red-headed Woodpecker,Open Woodlands,Omnivore,Cavity,Flycatching,Declining,Breeding,Piciformes,Picidae
+Red-tailed Hawk,Open Woodlands,Small Animals,Tree,Soaring (raptor),Low Concern,Year-round,Accipitriformes,Accipitridae
+Red-throated Loon,Lakes and Ponds,Fish,Ground,Surface Dive,Low Concern,Migrating,Gaviiformes,Gaviidae
+Red-winged Blackbird,Marshes,Insects,Shrub,Ground Forager,Low Concern,Year-round,Passeriformes,Icteridae
+Redhead,Lakes and Ponds,Plants,Floating,Surface Dive,Low Concern,Nonbreeding,Anseriformes,Anatidae
+Ring-billed Gull,Lakes and Ponds,Omnivore,Ground,Ground Forager,Low Concern,Migrating,Charadriiformes,Laridae
+Ring-necked Duck,Lakes and Ponds,Plants,Ground,Surface Dive,Low Concern,Migrating,Anseriformes,Anatidae
+Rock Pigeon,Towns,Seeds,Building,Ground Forager,Low Concern,Year-round,Columbiformes,Columbidae
+Rose-breasted Grosbeak,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Cardinalidae
+Ruby-crowned Kinglet,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Regulidae
+Ruby-throated Hummingbird,Open Woodlands,Nectar,Tree,Hovering,Low Concern,Breeding,Caprimulgiformes,Trochilidae
+Ruddy Duck,Marshes,Aquatic invertebrates,Ground,Surface Dive,Low Concern,Nonbreeding,Anseriformes,Anatidae
+Rusty Blackbird,Forests,Insects,Tree,Ground Forager,Common Bird in Steep Decline,Nonbreeding,Passeriformes,Icteridae
+Sanderling,Shorelines,Aquatic invertebrates,Ground,Probing,Low Concern,Migrating,Charadriiformes,Scolopacidae
+Savannah Sparrow,Grasslands,Insects,Ground,Ground Forager,Low Concern,Breeding,Passeriformes,Passerellidae
+Scarlet Tanager,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Cardinalidae
+Sharp-shinned Hawk,Forests,Birds,Tree,Aerial Dive (ground/talons),Low Concern,Nonbreeding,Accipitriformes,Accipitridae
+Solitary Sandpiper,Marshes,Aquatic invertebrates,Tree,Probing,Low Concern,Migrating,Charadriiformes,Scolopacidae
+Song Sparrow,Open Woodlands,Insects,Shrub,Ground Forager,Low Concern,Year-round,Passeriformes,Passerellidae
+Sora,Marshes,Seeds,Floating,Ground Forager,Low Concern,Breeding,Gruiformes,Rallidae
+Spotted Sandpiper,Shorelines,Small Animals,Ground,Probing,Low Concern,Breeding,Charadriiformes,Scolopacidae
+Summer Tanager,Open Woodlands,Insects,Tree,Foliage Gleaner,Low Concern,Out of range,Passeriformes,Cardinalidae
+Swainson's Thrush,Forests,Insects,Shrub,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Turdidae
+Swamp Sparrow,Marshes,Insects,Shrub,Ground Forager,Low Concern,Year-round,Passeriformes,Passerellidae
+Tennessee Warbler,Forests,Insects,Ground,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Tree Swallow,Lakes and Ponds,Insects,Cavity,Aerial Forager,Low Concern,Breeding,Passeriformes,Hirundinidae
+Veery,Forests,Insects,Ground,Ground Forager,Low Concern,Migrating,Passeriformes,Turdidae
+Vesper Sparrow,Grasslands,Insects,Ground,Ground Forager,Low Concern,Breeding,Passeriformes,Passerellidae
+Virginia Rail,Marshes,Aquatic invertebrates,Ground,Probing,Low Concern,Breeding,Gruiformes,Rallidae
+Warbling Vireo,Open Woodlands,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Vireonidae
+White-breasted Nuthatch,Forests,Insects,Cavity,Bark Forager,Low Concern,Year-round,Passeriformes,Sittidae
+White-crowned Sparrow,Scrub,Insects,Ground,Ground Forager,Low Concern,Nonbreeding,Passeriformes,Passerellidae
+White-throated Sparrow,Forests,Seeds,Ground,Ground Forager,Low Concern,Nonbreeding,Passeriformes,Passerellidae
+Willow Flycatcher,Marshes,Insects,Shrub,Flycatching,Low Concern,Breeding,Passeriformes,Tyrannidae
+Wilson's Snipe,Marshes,Aquatic invertebrates,Ground,Probing,Low Concern,Nonbreeding,Charadriiformes,Scolopacidae
+Wilson's Warbler,Scrub,Insects,Ground,Foliage Gleaner,Common Bird in Steep Decline,Migrating,Passeriformes,Parulidae
+Winter Wren,Forests,Insects,Cavity,Ground Forager,Low Concern,Migrating,Passeriformes,Troglodytidae
+Wood Duck,Lakes and Ponds,Insects,Cavity,Dabbler,Low Concern,Year-round,Anseriformes,Anatidae
+Wood Thrush,Forests,Insects,Tree,Ground Forager,Declining,Breeding,Passeriformes,Turdidae
+Yellow-bellied Flycatcher,Forests,Insects,Ground,Flycatching,Low Concern,Migrating,Passeriformes,Tyrannidae
+Yellow-bellied Sapsucker,Forests,Insects,Cavity,Bark Forager,Low Concern,Migrating,Piciformes,Picidae
+Yellow-billed Cuckoo,Open Woodlands,Insects,Tree,Foliage Gleaner,Common Bird in Steep Decline,Breeding,Cuculiformes,Cuculidae
+Yellow-breasted Chat,Scrub,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Icteriidae
+Yellow-headed Blackbird,Marshes,Insects,Shrub,Ground Forager,Low Concern,Breeding,Passeriformes,Icteridae
+Yellow-rumped Warbler,Forests,Insects,Tree,Foliage Gleaner,Low Concern,Migrating,Passeriformes,Parulidae
+Yellow-throated Vireo,Open Woodlands,Insects,Tree,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Vireonidae
+Yellow-throated Warbler,Forests,Insects,Tree,Bark Forager,Low Concern,Breeding,Passeriformes,Parulidae
+Yellow Warbler,Open Woodlands,Insects,Shrub,Foliage Gleaner,Low Concern,Breeding,Passeriformes,Parulidae
+Golden-winged Warbler,Open Woodlands,Insects,Ground,Foliage Gleaner,Red Watch List,Migrating,Passeriformes,Parulidae
