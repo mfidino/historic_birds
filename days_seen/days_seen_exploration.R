@@ -69,10 +69,10 @@ for(i in 1:length(winners)){
 losers <- which(spe_cor < -0.0025)
 unq_species[losers]
 
-hm <- ds[ds$species == "Northern Cardinal",]
+hm <- ds[ds$species == "Great Blue Heron",]
 plot(hm$prop ~ hm$year, type = 'p')
 
-hm <- ds[ds$species == "Downy Woodpecker",]
+hm <- ds[ds$species == "Cooper's Hawk",]
 plot(hm$prop ~ hm$year, type = 'p')
 
 for(i in 1:length(losers)){
@@ -88,3 +88,14 @@ test <- ds %>% group_by(species, observer) %>%
 	summarise(prop = sum(prop))
 
 
+no_mason <- test$species[test$prop == 0 & test$observer == "Fidino"]
+
+data.frame(test[test$species %in% no_mason,])
+
+# figure out new species
+
+test <- ds %>% group_by(species, year > 2000) %>% 
+	summarise(prop = sum(prop))
+colnames(test)[2] <- "mason"
+yes_mason <- test$species[test$prop == 0 & test$mason != TRUE]
+data.frame(test[test$species %in% yes_mason,])
