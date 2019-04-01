@@ -8,6 +8,7 @@
 # packages needed
 library(tidyverse)
 library(lme4)
+library(msm)
 
 # read in the data
 dat <- read.csv("../data/arrival.csv", stringsAsFactors = FALSE)
@@ -26,6 +27,12 @@ to_go <- c("Anseriformes",
 sp_drop <- sp_hist$species[which(sp_hist$order %in% to_go)]
 dat <- dat[-which(dat$species %in% sp_drop),]
 
+to_go <- "Nonbreeding"
+
+sp_drop <- sp_hist$species[which(sp_hist$status %in% to_go)]
+dat <- dat[-which(dat$species %in% sp_drop)]
+sp_hist <- sp_hist[-which(sp_hist$status == to_go),]
+
 # we need to drop some of the less common species. Figure out which
 #  of the observers saw a given species.
 sp_count <- table(dat$species, dat$observer)
@@ -36,20 +43,34 @@ all_three <- names(which(rowSums(sp_count>0) == 3))
 dat <- dat[which(dat$species %in% all_three),]
 sp_hist <- sp_hist[which(sp_hist$species %in% dat$species),]
 
+# next step. Grab the species who have been seen atleast 9 times.
+gte9 <- names(which(table(dat$species) > 8))
+
+dat <- dat[which(dat$species %in% gte9),]
+sp_hist <- sp_hist[which(sp_hist$species %in% dat$species),]
+
+
+#sp_hist$status[sp_hist$status == "Nonbreeding"] <- "Migrating"
 # make year start at 0 for the minimum.
 dat$year0 <- dat$year - min(dat$year)
+# do it by decade instead
+dat$year0 <-dat$year0 / 10
 
 dat <- left_join( sp_hist, dat, by = "species" )
 
 # drop out of range birds
-dat <- dat[-which(dat$status == "Out of range"),]
+#dat <- dat[-which(dat$status == "Out of range"),]
+#sp_hist <- sp_hist[-which(sp_hist$status == "Out of range"),]
 
 dat <- dat[complete.cases(dat),]
-dat$status <- factor(dat$status, levels = c("Year-round", "Breeding", "Migrating", "Nonbreeding"))
+dat$species <- factor(dat$species)
+dat$status <- factor(dat$status, levels = c("Year-round", "Breeding", "Migrating"))
 dat$family <- factor(dat$family)
 
+
 # fit random effect model
-m1 <- lmer(julian ~ year0 +  (1 + year0 | family), data = dat)
+m1 <- lmer(julian ~ year0 + status +  (1 + year0 | species), data = dat,
+					 control=lmerControl(optimizer = "Nelder_Mead", optCtrl=list(maxfun=2e6) ))
 
 # get the random effects
 ranvar <- ranef(m1, condVar = TRUE)
@@ -70,7 +91,7 @@ ranvar[,2] <- ranvar[,2] + vcov(m1)[2,2] # slope
 ransd <- sqrt(ranvar)
 
 # collect the model coefficients
-c1 <- coefficients(m1)$family
+c1 <- coefficients(m1)$species
 
 # this is to get the quantiles
 myfun <- function(x){
@@ -86,19 +107,19 @@ intercept_estimates <- t(apply(intercepts, 1, myfun))
 slope_estimates <- t(apply(slopes, 1, myfun))
 
 plot(intercept_estimates[,2] ~ slope_estimates[,2], bty = "l",
-		 ylim = c(75, 135), xlim = c(-0.45,0.45), pch = 16,
-		 xlab = "Change in arrival date per year",
+		 ylim = c(65, 145), xlim = c(-5,5), pch = 16,
+		 xlab = "Change in arrival date per decade",
 		 ylab = "Average arrival date in 1897 (Julian day)")
 
-for(i in 1:26){
+for(i in 1:90){
 	lines(x = slope_estimates[i,-2], y = rep(intercept_estimates[i,2],2))
 }
 
 abline(v = 0, lty = 3)
 
 # Calculate the species who had negative effects
-decre <- levels(dat$family)[which(rowSums(sign(slope_estimates)) == -3)]
-incre <- levels(dat$family)[which(rowSums(sign(slope_estimates)) == 3)]
+decre <- row.names(coef(m1)$species)[which(rowSums(sign(slope_estimates)) == -3)]
+incre <- row.names(coef(m1)$species)[which(rowSums(sign(slope_estimates)) == 3)]
 
 for(i in 1:length(decre)){
 	# location of which species
@@ -119,15 +140,18 @@ for(i in 1:length(incre)){
 }
 
 # adding some labels to help with interpretation
-text(x = -0.2, y = 85,labels = "Arrive earlier", cex = 1.4)
-text(x = 0.2, y = 85,labels = "Arrive later", cex = 1.4)
+text(x = -2, y = 85,labels = "Arrive earlier", cex = 1.4)
+text(x = 2, y = 85,labels = "Arrive later", cex = 1.4)
 
 # calculate confidence intervals for individual families.
 #  Using lme as the output makes it easier to come up with predicions.
-m1 <- lme(julian ~ year0, data = dat, random = ~ 1 + year0 | family)
+m1 <- lme(julian ~ year0 + status, data = dat, random = ~ 1 + year0 | species)
 
 # newdata for prdictions
-newdat <- expand.grid(year0=seq(-5,125,1), family=levels(dat$family))
+newdat <- expand.grid(year0=seq(-5,12.5,1), species=levels(dat$species))
+newdat <- left_join(newdat, sp_hist[,c("species", "status")], by = "species")
+newdat$species <- factor(newdat$species)
+newdat$status <- factor(newdat$status, levels = c("Year-round", "Breeding", "Migrating"))
 
 # add these predictions
 newdat$pred <- predict(m1, newdat)
@@ -153,25 +177,28 @@ newdat$predlow <- qnorm(0.025, newdat$pred, newdat$SE2)
 newdat$predhi <- qnorm(0.975, newdat$pred, newdat$SE2)
 
 # which family to be plotted
-the_fam <- "Bombycillidae"
-one_fam <- newdat[newdat$family == the_fam,]
+pdf("species_arrival_results_decrease.pdf", height = 4, width = 4)
+for(i in 1:length(decre)){
+
+the_fam <- decre[i]
+one_fam <- newdat[newdat$species == the_fam,]
 
 # this is the raw data
-family_data <- dat[dat$family == the_fam,]
+family_data <- dat[dat$species == the_fam,]
 
 # calling plot function
 plot(1~1, 
-		 ylim = c(30,170),xlim = c(0, 120), xlab = "", 
+		 ylim = c(30,170),xlim = c(0, 12), xlab = "", 
 		 ylab = "", bty = "l", yaxt = "n", xaxt = "n")
 
 # adding ticks to the x-axis
-axis(1, at= seq(0,120, 20), labels = F, tck = -0.025)
-axis(1, at= seq(0,120, 10), labels = F, tck = -0.0125)
+axis(1, at= seq(0,12, 2), labels = F, tck = -0.025)
+axis(1, at= seq(0,12, 1), labels = F, tck = -0.0125)
 # adding numbers to the x-axis
-mtext(text = seq(0,120,20), 
-			1, line = 0.45, at = seq(0,120,20))
+mtext(text = seq(0,12,2), 
+			1, line = 0.45, at = seq(0,12,2))
 # label to the x-axis
-mtext(text = "Years since 1897", 1, line = 2.7, at = 60,
+mtext(text = "Decades since 1897", 1, line = 2.7, at = 6,
 			cex = 1)
 
 # following suit to the y-axis
@@ -195,6 +222,8 @@ points(family_data$julian ~ family_data$year0, pch = 21, cex = 1.2, bg = "#20B4D
 lines(one_fam$low ~ one_fam$year0, lty = 2, lwd = 2)
 lines(one_fam$hi ~ one_fam$year0, lty = 2, lwd = 2)
 lines(one_fam$pred ~ one_fam$year0, lwd = 3)
+mtext(text = decre[i], 3, at = 6)
 
-
+}
+dev.off()
 
