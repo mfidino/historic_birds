@@ -27,10 +27,10 @@ to_go <- c("Anseriformes",
 sp_drop <- sp_hist$species[which(sp_hist$order %in% to_go)]
 dat <- dat[-which(dat$species %in% sp_drop),]
 
-to_go <- "Nonbreeding"
+to_go <- c("Nonbreeding", "Year-round")
 
 sp_drop <- sp_hist$species[which(sp_hist$status %in% to_go)]
-dat <- dat[-which(dat$species %in% sp_drop)]
+dat <- dat[-which(dat$species %in% sp_drop),]
 sp_hist <- sp_hist[-which(sp_hist$status == to_go),]
 
 # we need to drop some of the less common species. Figure out which
@@ -64,13 +64,43 @@ dat <- left_join( sp_hist, dat, by = "species" )
 
 dat <- dat[complete.cases(dat),]
 dat$species <- factor(dat$species)
-dat$status <- factor(dat$status, levels = c("Year-round", "Breeding", "Migrating"))
+dat$status <- factor(dat$status, levels = c("Breeding", "Migrating"))
 dat$family <- factor(dat$family)
 
+the_sp <- sapply(the_dat, function(x) unname(unique(as.character(x$species))))
+
+
+results_list <- vector("list", length = 61)
+coef_list <- vector("list", length = 61)
+
+the_dat <- split(dat, factor(dat$species))
+
+for(i in 1:61){
+	results_list[[i]] <- summary(lm(julian ~ year0, data = the_dat[[i]]))
+	coef_list[[i]] <- data.frame(coefficients(results_list[[i]]))
+}
+
+coef_df <- bind_rows(coef_list)
+
+coef_df$species <- rep(the_sp, each = 2)
+
+inters <- coef_df[seq(1,121,2),]
+
+windows(4,8)
+par(mfrow = c(3,1))
+
+hist(dat$julian[dat$observer == "Walter"])
+hist(dat$julian[dat$observer == "Dreuth"])
+hist(dat$julian[dat$observer == "Fidino"])
 
 # fit random effect model
-m1 <- lmer(julian ~ year0 + status +  (1 + year0 | species), data = dat,
+m1 <- lmer(julian ~ year0  +  (1 + year0 | species), data = dat,
 					 control=lmerControl(optimizer = "Nelder_Mead", optCtrl=list(maxfun=2e6) ))
+
+
+
+
+
 
 # get the random effects
 ranvar <- ranef(m1, condVar = TRUE)
@@ -107,11 +137,11 @@ intercept_estimates <- t(apply(intercepts, 1, myfun))
 slope_estimates <- t(apply(slopes, 1, myfun))
 
 plot(intercept_estimates[,2] ~ slope_estimates[,2], bty = "l",
-		 ylim = c(65, 145), xlim = c(-5,5), pch = 16,
+		 ylim = c(85, 140), xlim = c(-1.75,1.75), pch = 16,
 		 xlab = "Change in arrival date per decade",
 		 ylab = "Average arrival date in 1897 (Julian day)")
 
-for(i in 1:90){
+for(i in 1:61){
 	lines(x = slope_estimates[i,-2], y = rep(intercept_estimates[i,2],2))
 }
 
@@ -151,7 +181,7 @@ m1 <- lme(julian ~ year0 + status, data = dat, random = ~ 1 + year0 | species)
 newdat <- expand.grid(year0=seq(-5,12.5,1), species=levels(dat$species))
 newdat <- left_join(newdat, sp_hist[,c("species", "status")], by = "species")
 newdat$species <- factor(newdat$species)
-newdat$status <- factor(newdat$status, levels = c("Year-round", "Breeding", "Migrating"))
+newdat$status <- factor(newdat$status, levels = c( "Breeding", "Migrating"))
 
 # add these predictions
 newdat$pred <- predict(m1, newdat)
