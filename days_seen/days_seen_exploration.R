@@ -2,6 +2,7 @@
 ds <- read.csv("../data/days_seen_per_year.csv",
 										stringsAsFactors = FALSE)
 
+ds <- ds[-grep("House Sparrow", ds$species),]
 # we need to drop the shore birds and whatnot.
 sp_hist <- read.csv("../data/species_life_history.csv", stringsAsFactors = FALSE)[-194,]
 
@@ -140,6 +141,7 @@ for(i in 1:length(coef_list)){
 	if(!has_difference[i]){
 		relation[i] <- "1-1-1"
 		rare[i] <- plogis(tmp_coefs[1]) < 0.05
+		next
 	}
 	
 	# check the order
@@ -195,6 +197,7 @@ for(i in 1:length(coef_list)){
 	}
 	if(all(my_contrasts$p.value > 0.05)){
 		relation[i] <- '1-1-1'
+		rare[i] <- plogis(tmp_coefs[1]) < 0.05
 	}
 
 	mod_summary[[i]] <- tmp_mod
@@ -285,6 +288,8 @@ data.frame(test[test$species %in% yes_mason,])
 ds <- read.csv("../data/days_seen_per_year.csv",
 							 stringsAsFactors = FALSE)
 
+ds <- ds[-grep("House Sparrow", ds$species),]
+
 # we need to drop the shore birds and whatnot.
 sp_hist <- read.csv("../data/species_life_history.csv", stringsAsFactors = FALSE)[-194,]
 
@@ -340,6 +345,8 @@ library(vegan)
 sp_dat <- split(hey, hey$observer)
 
 
+
+
 1 - vegdist(rbind(sp_dat$Dreuth$detected, sp_dat$Walter$detected), method = "jaccard")
 1 - vegdist(rbind(sp_dat$Fidino$detected, sp_dat$Walter$detected), method = "jaccard")
 1 - vegdist(rbind(sp_dat$Fidino$detected, sp_dat$Dreuth$detected), method = "jaccard")
@@ -351,3 +358,31 @@ walter_alpha <- sum(sp_dat$Walter$detected)
 dreuth_alpha <- sum(sp_dat$Walter$detected)
 
 plot(sp_dat$Dreuth$detected ~ sp_dat$Walter$detected)
+
+
+
+
+hm <- ds %>% group_by(observer, species) %>% 
+	summarise(propSeen = sum(daySeen) / sum(countOfDays)) %>% 
+	arrange(desc( propSeen)) %>% 
+	arrange(observer) %>% 
+	data.frame
+hm$col <- "black"
+hm$col[hm$observer == "Dreuth"] <- "red"	
+hm$col[hm$observer == "Fidino"] <- "purple"	
+hm$cou <- rep(1:146, 3)
+
+
+ah <- sp_hist[which(sp_hist$species %in% ds$species),]
+
+wal <- hm[which(hm$observer == "Walter"),]
+wal <- wal[-which(wal$propSeen == 0),]
+
+bt <- hm[which(hm$observer != "Walter"),]
+bt <- bt[-which(bt$propSeen == 0),]
+
+wal$species[which(!wal$species %in% bt$species)]
+
+bt$species[which(!bt$species %in% wal$species)]
+
+plot(hm$propSeen ~ hm$cou, col = hm$col)
