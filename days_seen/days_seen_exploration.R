@@ -1,3 +1,4 @@
+setwd("./days_seen/")
 # read in the day seen data
 ds <- read.csv("../data/days_seen_per_year.csv",
 										stringsAsFactors = FALSE)
