@@ -6,6 +6,8 @@
 ##################
 
 library(lme4)
+library(rstan)
+library(rstanarm)
 library(dplyr)
 
 # read in the bird functional trait data
@@ -74,6 +76,7 @@ ward$species <- gsub(
 )
 
 # combine to the lincoln park data
+analysis <- "binomial"
 source("prepare_data.R")
 
 ds_state <- dplyr::left_join(
@@ -160,6 +163,31 @@ y <- cbind(
 	ds_state$countOfDays - ds_state$daySeen
 )
 
+test <- stan_glmer(
+	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
+			diet_breadth *fidino + forstrat_breadth * fidino +
+			(1+dreuth + fidino|species),
+	family = binomial(link = "logit"),
+	prior = cauchy(0, 2.5),
+	prior_intercept = cauchy(0, 5),
+	QR = TRUE,
+	chains = 6,
+	cores = 6, 
+	seed = 400,
+	iter = 3000,
+	data = ds_state
+	)
+
+saveRDS(test, "stan_output.RDS")
+
+summary(test)
+
+good_rhat <- refit(test, iter = 1000, chains = 6, seed = 12345)
+
+posterior_interval(test, prob = 0.95)
+
+launch_shinystan(test, ppd = FALSE)
+
 # Fit the model
 m1 <- glmer(
 	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
@@ -167,8 +195,7 @@ m1 <- glmer(
 		(1+dreuth + fidino|species),
 	family = binomial,
 	data = ds_state,
-	control=glmerControl(optimizer="bobyqa",
-											 optCtrl=list(maxfun=2e5))
+	control=glmerControl(optimizer="bobyqa")
 )
 
 m2 <- glmer(
@@ -204,9 +231,153 @@ make_preds <- function(obs, pframe = for_preds, mod){
 	if(obs == "Fidino"){
 		pframe$fidino <- 1
 	}
-	test <- predict(mod, pframe)
-	return(test)
-	}
+	#test <- predict(mod, pframe)
+	#return(test)
+	return(pframe)
+}
+
+longshot <- make_preds("Walter")
+
+
+walter <- posterior_linpred(test, newdata = make_preds("Walter"))
+
+fidino <- posterior_linpred(test, newdata = make_preds("Fidino"))
+
+walter <- posterior_predict(test, newdata = make_preds("Fidino"))
+walter <- apply(walter, 2, median)
+
+wint <- predictive_interval(test, newdata = make_preds("Fidino"), prob = 0.95)
+
+
+wdat <- make_preds("Fidino")
+yo <- cbind(walter, wint)
+yo <- yo[order(wdat$species),]
+new_or <- order(yo[,1])
+
+yo <- yo[new_or,]
+
+wrdat <- ds_state[ds_state$observer == "Fidino",]  %>% group_by(species) %>% 
+	summarise(prop = mean(daySeen ))
+
+
+plot(yo[,1], ylim = c(0,70))
+for( i in 1:121){
+	lines(c(i,i),
+				yo[i,-1])
+}
+
+points(wrdat$prop[new_or], pch = 16)
+
+
+fidino <- posterior_predict(test, newdata = make_preds("Fidino"))
+dreu <- posterior_predict(test, newdata = make_preds("Dreuth"))
+
+walter <- plogis(walter)
+fidino <- plogis(fidino)
+
+ot_diff <- fidino-av
+
+
+
+
+dreu <- plogis(dreu)
+
+
+av <- (walter + dreu) / 2
+
+
+ot_diff <- fidino - plogis(av)
+
+
+
+ack <- apply(ot_diff, 2, median)
+
+
+sp_ord <- order(ack)
+my_species <- longshot$species[sp_ord]
+
+plot(ack[order(ack)], ylim = c(-65,65),
+		 ylab = "Difference in days observed: Fidino vs Mean(Walter & Dreuth)",
+		 xlab = "Species")
+
+
+
+
+lows <- apply(ot_diff, 2, quantile, probs = 0.025)
+hihs <- apply(ot_diff, 2, quantile, probs = 0.975)
+lows <- lows[order(ack)]
+hihs <- hihs[order(ack)]
+for(i in 1:121){
+	lines(x = rep(i, 2), y = c(lows[i], hihs[i]))
+}
+abline(h = 0)
+
+dat <- make_preds("Fidino")[order(ack),]
+
+dat$species[which(lows>0)]
+
+dat$species[which(hihs<0)]
+
+differs <- c(which(hihs<0), which(lows>0))
+
+plot(ack[order(ack)][differs], ylim = c(-40,60),
+		 ylab = "Estimated difference in days observed: Fidino vs Mean(Walter & Dreuth)",
+		 xlab = "Species",
+		 bty = "l")
+
+lows <- apply(ot_diff, 2, quantile, probs = 0.025)
+hihs <- apply(ot_diff, 2, quantile, probs = 0.975)
+lows <- lows[order(ack)][differs]
+hihs <- hihs[order(ack)][differs]
+for(i in 1:length(lows)){
+	lines(x = rep(i, 2), y = c(lows[i], hihs[i]))
+}
+abline(h = 0)
+
+hm <- make_preds("Fidino")
+
+lil_move <- rnorm(121, 0, 0.1)
+
+plot(ack ~ c(hm$diet_breadth+lil_move))
+abline(h = 0)
+
+for(i in 1:121){
+	lines(x = rep(hm$diet_breadth[i] + lil_move[i], 2),
+				y = c(lows[i], hihs[i]))
+}
+
+
+plot(ack ~ c(hm$forstrat_breadth+lil_move + 1))
+abline(h = 0)
+
+for(i in 1:121){
+	lines(x = rep(hm$forstrat_breadth[i] + lil_move[i] + 1, 2),
+				y = c(lows[i], hihs[i]))
+}
+
+
+#dropzeros
+togo <- which(hm$change == 0)
+min_df <- hm[-togo,]
+
+plot(ack[-togo] ~ c(min_df$change / 10), ylim = c(-40,60))
+cor(ack[-togo], min_df$change/10)
+abline(h = 0)
+for(i in 1:nrow(min_df)){
+	lines(x = rep(min_df$change[i]/10, 2),
+				y = c(lows[-togo][i], hihs[-togo][i]))
+}
+
+
+
+my_species[which(hihs < 0)]
+my_species[which(lows > 0)]
+
+ack <- posterior_predict(test, data.frame(longshot))
+
+ack2 <- predictive_interval(test, prob = 0.95, data.frame(longshot))
+
+apply(ack, 2, median)
 
 walters <- bootMer(
 	m1, 
