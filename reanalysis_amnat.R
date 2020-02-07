@@ -239,69 +239,77 @@ make_preds <- function(obs, pframe = for_preds, mod){
 longshot <- make_preds("Walter")
 
 
-walter <- posterior_linpred(test, newdata = make_preds("Walter"))
+walter <- posterior_linpred(
+	test,
+	newdata = make_preds("Walter")
+)
+dreu <- posterior_linpred(
+	test,
+	newdata = make_preds("Dreuth")
+)
 
-fidino <- posterior_linpred(test, newdata = make_preds("Fidino"))
+# take average between the two
+historical <- (walter + dreu) / 2
 
-walter <- posterior_predict(test, newdata = make_preds("Fidino"))
-walter <- apply(walter, 2, median)
+fidino <- posterior_linpred(
+	test,
+	newdata = make_preds("Fidino")
+)
 
-wint <- predictive_interval(test, newdata = make_preds("Fidino"), prob = 0.95)
+my_diff <- plogis(fidino) - plogis(historical)
+
+my_diff <- apply(
+	my_diff,
+	2,
+	quantile, probs = c(0.025, 0.5, 0.975)
+) %>% t
+
+row.names(my_diff) <- make_preds(obs = "Fidino")$species
+
+my_diff <- my_diff[order(my_diff[,2]),]
+
+my_diff <- my_diff * 100
+
+# reduce down to significant effects
+results <- my_diff[my_diff[,3] < 0 | my_diff[,1] > 0, ]
 
 
-wdat <- make_preds("Fidino")
-yo <- cbind(walter, wint)
-yo <- yo[order(wdat$species),]
-new_or <- order(yo[,1])
-
-yo <- yo[new_or,]
-
-wrdat <- ds_state[ds_state$observer == "Fidino",]  %>% group_by(species) %>% 
-	summarise(prop = mean(daySeen ))
 
 
-plot(yo[,1], ylim = c(0,70))
-for( i in 1:121){
-	lines(c(i,i),
-				yo[i,-1])
+to_plot <- left_join(
+	data.frame(species = row.names(results),
+						 med = results[,2],
+						 low = results[,1],
+						 hi = results[,3]),
+	ward,
+	by = "species"
+)
+
+to_plot$change[is.na(to_plot$change)] <- 0
+to_plot$col <- "white"
+to_plot$col[which(to_plot$change > 0)] <- "black"
+to_plot$col[which(to_plot$change < 0)] <- "gray70"
+to_plot$pch <- 21
+to_plot$pch[which(to_plot$change > 0)]  <- 24
+to_plot$pch[which(to_plot$change < 0)]  <- 25
+quartz(height = 6, width = 6)
+par(mar = c(6,6,1,1))
+plot(to_plot$med, ylim = c(-50,100),
+		 ylab = "Change in proportion of days observed\nrelative to historical baseline",
+		 xlab = "Species",
+		 bty = "l", cex.lab = 1.5, pch = to_plot$pch, bg = to_plot$col)
+
+for(i in 1:nrow(results)){
+	lines(x = c(i,i), y = results[i,-2])
 }
+points(to_plot$med, pch = to_plot$pch, bg = to_plot$col)
+abline(h = 0, lty = 2)
 
-points(wrdat$prop[new_or], pch = 16)
-
-
-fidino <- posterior_predict(test, newdata = make_preds("Fidino"))
-dreu <- posterior_predict(test, newdata = make_preds("Dreuth"))
-
-walter <- plogis(walter)
-fidino <- plogis(fidino)
-
-ot_diff <- fidino-av
-
-
-
-
-dreu <- plogis(dreu)
-
-
-av <- (walter + dreu) / 2
-
-
-ot_diff <- fidino - plogis(av)
-
-
-
-ack <- apply(ot_diff, 2, median)
-
-
-sp_ord <- order(ack)
-my_species <- longshot$species[sp_ord]
-
-plot(ack[order(ack)], ylim = c(-65,65),
-		 ylab = "Difference in days observed: Fidino vs Mean(Walter & Dreuth)",
-		 xlab = "Species")
-
-
-
+legend("topleft", legend = c("Increased statewide",
+														 "Decreased statewide",
+														 "No data"),
+			 pch = c(24,25,21), pt.bg = c("black", "gray70", "white"), 
+			 bty ="n")
 
 lows <- apply(ot_diff, 2, quantile, probs = 0.025)
 hihs <- apply(ot_diff, 2, quantile, probs = 0.975)
@@ -321,7 +329,7 @@ dat$species[which(hihs<0)]
 differs <- c(which(hihs<0), which(lows>0))
 
 plot(ack[order(ack)][differs], ylim = c(-40,60),
-		 ylab = "Estimated difference in days observed: Fidino vs Mean(Walter & Dreuth)",
+		 ylab = "Change in proportion of days observed relative to historical baseline",
 		 xlab = "Species",
 		 bty = "l")
 
