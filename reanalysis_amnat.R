@@ -163,7 +163,7 @@ y <- cbind(
 	ds_state$countOfDays - ds_state$daySeen
 )
 
-test <- stan_glmer(
+m1 <- stan_glmer(
 	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
 			diet_breadth *fidino + forstrat_breadth * fidino +
 			(1+dreuth + fidino|species),
@@ -178,37 +178,10 @@ test <- stan_glmer(
 	data = ds_state
 	)
 
-saveRDS(test, "stan_output.RDS")
-
-summary(test)
-
-good_rhat <- refit(test, iter = 1000, chains = 6, seed = 12345)
-
-posterior_interval(test, prob = 0.95)
 
 launch_shinystan(test, ppd = FALSE)
 
 # Fit the model
-m1 <- glmer(
-	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
-			diet_breadth *fidino + forstrat_breadth * fidino +
-		(1+dreuth + fidino|species),
-	family = binomial,
-	data = ds_state,
-	control=glmerControl(optimizer="bobyqa")
-)
-
-m2 <- glmer(
-	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
-		diet_breadth *fidino + forstrat_breadth * fidino +
-		(1+dreuth + fidino|species),
-	family = binomial,
-	data = ds_state,
-	control=glmerControl(optimizer="bobyqa",
-											 optCtrl=list(maxfun=2e4))
-)
-
-summary(m1)
 
 # make predictions from model, we can use fun_trait_lp
 #  to generate most of the prediction data.frame
@@ -236,23 +209,21 @@ make_preds <- function(obs, pframe = for_preds, mod){
 	return(pframe)
 }
 
-longshot <- make_preds("Walter")
-
-
+# generate predictions from linear predictor
 walter <- posterior_linpred(
-	test,
+	m1,
 	newdata = make_preds("Walter")
 )
-dreu <- posterior_linpred(
-	test,
+dreuth <- posterior_linpred(
+	m1,
 	newdata = make_preds("Dreuth")
 )
 
 # take average between the two
-historical <- (walter + dreu) / 2
+historical <- (walter + dreuth) / 2
 
 fidino <- posterior_linpred(
-	test,
+	m1,
 	newdata = make_preds("Fidino")
 )
 
@@ -273,9 +244,7 @@ my_diff <- my_diff * 100
 # reduce down to significant effects
 results <- my_diff[my_diff[,3] < 0 | my_diff[,1] > 0, ]
 
-
-
-
+# set it up to plot
 to_plot <- left_join(
 	data.frame(species = row.names(results),
 						 med = results[,2],
@@ -286,228 +255,163 @@ to_plot <- left_join(
 )
 
 to_plot$change[is.na(to_plot$change)] <- 0
-to_plot$col <- "white"
+to_plot$col <- "gray70"
 to_plot$col[which(to_plot$change > 0)] <- "black"
-to_plot$col[which(to_plot$change < 0)] <- "gray70"
+to_plot$col[which(to_plot$change < 0)] <- "white"
 to_plot$pch <- 21
 to_plot$pch[which(to_plot$change > 0)]  <- 24
 to_plot$pch[which(to_plot$change < 0)]  <- 25
-quartz(height = 6, width = 6)
-par(mar = c(6,6,1,1))
-plot(to_plot$med, ylim = c(-50,100),
-		 ylab = "Change in proportion of days observed\nrelative to historical baseline",
-		 xlab = "Species",
-		 bty = "l", cex.lab = 1.5, pch = to_plot$pch, bg = to_plot$col)
 
+quartz(height = 6.5, width = 6.5)
+
+pdf(
+	"species_relative_change.pdf",
+	height = 6.5,
+	width = 6.5,
+)
+par(mar = c(1,5,1,0.25))
+{plot(
+	1~1,
+	type = "n",
+	bty = "l",
+	axes = FALSE,
+	xlab = "",
+	ylab = "",
+	xlim = c(1,57),
+	ylim = c(-50,100)
+)
+	
+	# put in names for biggest winners and losers
+	
+	losers <- head(results)[1:5,2]
+	# Painstakingly putting the names in the figure
+	
+	loser_names <- names(losers)
+	
+	
+	temp <- legend(
+		5,
+		-25 ,
+		legend = rev(loser_names), 
+		bty = "n",
+		cex = 0.75,
+		y.intersp = 1.3
+	)
+	
+	for(i in 1:5){
+		lines(
+			x = c(i, rev(temp$text$x)[i] - 0.25),
+			y = c(losers[i], rev(temp$text$y)[i]),
+			col = "gray50"
+		)
+	}
+	
+	winners <- tail(results,5)[,2]
+	# Painstakingly putting the names in the figure
+	
+	winner_names <- names(winners)
+	
+	temp <-legend(
+		51,
+		93 ,
+		legend = rep(" ", 5), 
+		text.width = strwidth("Black-capped Chickadee"),
+		bty = "n",
+		xjust = 1,
+		yjust = 1,
+		cex = 0.75,
+		y.intersp = 1.3
+	)
+	
+	text(temp$rect$left + temp$rect$w, temp$text$y,
+			 rev(winner_names), pos = 2, cex = 0.75)
+	
+	
+	for(i in 1:5){
+		lines(
+			x = c(50.2, i + 52),
+			y = c(rev(temp$text$y)[i], winners[i]),
+			col = "gray50"
+		)
+	}
+	
+
+
+# add confidence intervals
 for(i in 1:nrow(results)){
-	lines(x = c(i,i), y = results[i,-2])
+	lines(
+		x = c(i,i),
+		y = results[i,-2],
+		lwd = 2
+	)
 }
-points(to_plot$med, pch = to_plot$pch, bg = to_plot$col)
-abline(h = 0, lty = 2)
+	
 
-legend("topleft", legend = c("Increased statewide",
-														 "Decreased statewide",
-														 "No data"),
-			 pch = c(24,25,21), pt.bg = c("black", "gray70", "white"), 
-			 bty ="n")
 
-lows <- apply(ot_diff, 2, quantile, probs = 0.025)
-hihs <- apply(ot_diff, 2, quantile, probs = 0.975)
-lows <- lows[order(ack)]
-hihs <- hihs[order(ack)]
-for(i in 1:121){
-	lines(x = rep(i, 2), y = c(lows[i], hihs[i]))
+points(
+	to_plot$med,
+	pch = to_plot$pch,
+	bg = to_plot$col
+)
+
+lines(
+	x = c(-1,57),
+	y = c(0,0),
+	lty = 2
+)
+
+legend(
+	x = -1,
+	y = 102,
+	legend = c("Increased statewide",
+						 "Decreased statewide",
+						 "No data"
+					 ),
+	pch = c(24,25,21),
+	pt.bg = c("black",
+						"white",
+						"gray70"
+					), 
+	bty ="n"
+)
+
+
+axis(
+	2,
+	seq(-50, 100, 10),
+	labels = FALSE,
+	tck = -0.015
+)
+
+axis(
+	2,
+	seq(-50, 100, 5),
+	labels = FALSE,
+	tck = -0.015/2
+)
+
+mtext(
+	sprintf(
+		"%.0f",
+		seq(-50, 100, 10)
+	),
+	side = 2,
+	line = 0.75,
+	at = seq(-50, 100, 10),
+	las = 1
+)
+
+mtext(
+	paste0(
+		"Change in proportion of days observed ",
+		"relative to historical baseline"
+		),
+	side = 2,
+	line = 2.95,
+	cex = 1.15,
+	at = mean(c(-50,100))
+)
 }
-abline(h = 0)
-
-dat <- make_preds("Fidino")[order(ack),]
-
-dat$species[which(lows>0)]
-
-dat$species[which(hihs<0)]
-
-differs <- c(which(hihs<0), which(lows>0))
-
-plot(ack[order(ack)][differs], ylim = c(-40,60),
-		 ylab = "Change in proportion of days observed relative to historical baseline",
-		 xlab = "Species",
-		 bty = "l")
-
-lows <- apply(ot_diff, 2, quantile, probs = 0.025)
-hihs <- apply(ot_diff, 2, quantile, probs = 0.975)
-lows <- lows[order(ack)][differs]
-hihs <- hihs[order(ack)][differs]
-for(i in 1:length(lows)){
-	lines(x = rep(i, 2), y = c(lows[i], hihs[i]))
-}
-abline(h = 0)
-
-hm <- make_preds("Fidino")
-
-lil_move <- rnorm(121, 0, 0.1)
-
-plot(ack ~ c(hm$diet_breadth+lil_move))
-abline(h = 0)
-
-for(i in 1:121){
-	lines(x = rep(hm$diet_breadth[i] + lil_move[i], 2),
-				y = c(lows[i], hihs[i]))
-}
-
-
-plot(ack ~ c(hm$forstrat_breadth+lil_move + 1))
-abline(h = 0)
-
-for(i in 1:121){
-	lines(x = rep(hm$forstrat_breadth[i] + lil_move[i] + 1, 2),
-				y = c(lows[i], hihs[i]))
-}
-
-
-#dropzeros
-togo <- which(hm$change == 0)
-min_df <- hm[-togo,]
-
-plot(ack[-togo] ~ c(min_df$change / 10), ylim = c(-40,60))
-cor(ack[-togo], min_df$change/10)
-abline(h = 0)
-for(i in 1:nrow(min_df)){
-	lines(x = rep(min_df$change[i]/10, 2),
-				y = c(lows[-togo][i], hihs[-togo][i]))
-}
-
-
-
-my_species[which(hihs < 0)]
-my_species[which(lows > 0)]
-
-ack <- posterior_predict(test, data.frame(longshot))
-
-ack2 <- predictive_interval(test, prob = 0.95, data.frame(longshot))
-
-apply(ack, 2, median)
-
-walters <- bootMer(
-	m1, 
-  function(x) make_preds(obs = "Walter", mod = x),
-	nsim = 500
-)
-
-saveRDS(walters, "walter_bootstrap.RDS")
-
-ci_lower <- apply(
-	walters$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.025, na.rm=TRUE))
-)
-
-ci_upper <- apply(
-	walters$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.975, na.rm=TRUE))
-)
-
-walter_pred <- data.frame(species = pframe$species,
-								 est = walters$t0,
-								 low = ci_lower,
-								 upr = ci_upper)
-
-
-dreuth <- bootMer(
-	m1, 
-	function(x) make_preds(obs = "Dreuth", mod = x),
-	nsim = 500,
-	parallel = "snow"
-)
-
-saveRDS(dreuth, "dreuth_bootstrap.RDS")
-
-ci_lower <- apply(
-	dreuth$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.025, na.rm=TRUE))
-)
-
-ci_upper <- apply(
-	dreuth$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.975, na.rm=TRUE))
-)
-
-plot(plogis(dreuth_pred$est) ~ plogis(walter_pred$est))
-
-dreuth_pred <- data.frame(species = pframe$species,
-													est = dreuth$t0,
-													low = ci_lower,
-													upr = ci_upper)
-
-fidino <- bootMer(
-	m2, 
-	function(x) make_preds(obs = "Fidino", mod = x),
-	nsim = 500,
-	parallel = "snow"
-)
-
-saveRDS(fidino, "fidino_bootstrap.RDS")
-
-ci_lower <- apply(
-	fidino$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.025, na.rm=TRUE))
-)
-
-ci_upper <- apply(
-	fidino$t,
-	2,
-	function(x) as.numeric(quantile(x, probs=.975, na.rm=TRUE))
-)
-
-fidino_pred <- data.frame(species = pframe$species,
-													est = fidino$t0,
-													low = ci_lower,
-													upr = ci_upper)
-
-plot(plogis(fidino_pred$est) ~ plogis(walter_pred$est))
-
-plot(plogis(fidino_pred$est[order(walter_pred$est, decreasing = TRUE)]))
-
-
-hm <- fidino_pred
-# get coefficients
-mcof <- data.frame(coef(m1)$species)
-x <- matrix(c(410938.07,4610657.19, 410964.72,4610152.84),
-						ncol = 2, byrow = TRUE)
-
-
-# get average change for each species
-otime <- mcof[,c(1:3)] 
-otime$dreuth <- otime$dreuth + otime$X.Intercept.
-otime$fidino <- otime$fidino + otime$X.Intercept.
-
-otime <- apply(otime, 2, plogis)
-
-otime[big_change,]
-
-# get comparisons across time
-
-
-
-
-ss <- getME(m2,c("theta","fixef"))
-m3 <- update(m2,start=ss,control=glmerControl(optCtrl=list(maxfun=2e4)))
-
-ss2 <- getME(m2, c("theta","fixef"))
-m3 <- update(m2,start=ss2,control=glmerControl(optimizer="bobyqa",
-																							 optCtrl=list(maxfun=2e6)))
-
-co <- coef(yo)
-bb <- glm(y ~ change + observer * species,
-					data = test, family = binomial)
-
-
-
-m3 <- update(yo,start=ss,control=glmerControl(optimizer="bobyqa",
-																					 optCtrl=list(maxfun=2e5)))
-
-
+dev.off()
+####
 
