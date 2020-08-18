@@ -164,22 +164,37 @@ y <- cbind(
 )
 
 m1 <- stan_glmer(
-	y ~ dreuth +  fidino * change + log_bm_scaled *fidino+
-			diet_breadth *fidino + forstrat_breadth * fidino +
-			(1+dreuth + fidino|species),
+	y ~ dreuth +  fidino * change + log_bm_scaled * fidino +
+			diet_breadth * fidino + forstrat_breadth * fidino +
+			(1 + dreuth + fidino|species),
 	family = binomial(link = "logit"),
 	prior = cauchy(0, 2.5),
 	prior_intercept = cauchy(0, 5),
 	QR = TRUE,
 	chains = 6,
 	cores = 6, 
-	seed = 400,
-	iter = 3000,
-	data = ds_state
+	seed = 300,
+	iter = 5000,
+	data = ds_state,
+	adapt_delta = 0.995
 	)
 
 
-launch_shinystan(test, ppd = FALSE)
+msum <- summary(m1)
+
+# get mean and 95% CI
+mci <- cbind(
+	m1$coefficients,
+	posterior_interval(m1)[1:length(m1$coefficients),])
+
+write.csv(
+	mci,
+	"posterior_intervals.csv"
+)
+
+hoo <- as.matrix(m1)
+
+launch_shinystan(m1, ppd = FALSE)
 
 # Fit the model
 
