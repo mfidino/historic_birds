@@ -67,18 +67,18 @@ f_ri <- specpool(fidino)
 
 
 to_plot <- data.frame(est = c(
-	w_ri$boot,
-	d_ri$boot,
-	f_ri$boot
+	w_ri$chao,
+	d_ri$chao,
+	f_ri$chao
 ))
 
-to_plot$low <- to_plot$est - c(w_ri$boot.se,
-															 d_ri$boot.se,
-															 f_ri$boot.se)
+to_plot$low <- to_plot$est - c(w_ri$chao.se,
+															 d_ri$chao.se,
+															 f_ri$chao.se)
 
-to_plot$hi <- to_plot$est + c(w_ri$boot.se,
-															d_ri$boot.se,
-															f_ri$boot.se)
+to_plot$hi <- to_plot$est + c(w_ri$chao.se,
+															d_ri$chao.se,
+															f_ri$chao.se)
 
 to_plot$obs <- factor(c("Walter", "Dreuth", "Fidino"),
 											levels = c("Walter", "Dreuth", "Fidino"))
