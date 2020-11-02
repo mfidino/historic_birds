@@ -65,6 +65,7 @@ w_ri <- specpool(walter)
 d_ri <- specpool(dreuth)
 f_ri <- specpool(fidino)
 
+floor(qnorm(c(0.025, 0.975), d_ri$chao, d_ri$chao.se))
 
 to_plot <- data.frame(est = c(
 	w_ri$chao,

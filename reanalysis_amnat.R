@@ -124,9 +124,10 @@ fun_trait_lp$forstrat_breadth <-
 fun_trait_lp <- fun_trait_lp %>% 
 	select(English, BodyMass.Value, forstrat_breadth, diet_breadth)
 
-# subtract one from forstart and diet breadth
-fun_trait_lp$forstrat_breadth <- fun_trait_lp$forstrat_breadth -1
-fun_trait_lp$diet_breadth <- fun_trait_lp$diet_breadth -1
+# subtract one from forstart and diet breadth so that it starts
+#  at 0 instead of 1.
+fun_trait_lp$forstrat_breadth <- fun_trait_lp$forstrat_breadth - 1
+fun_trait_lp$diet_breadth <- fun_trait_lp$diet_breadth - 1
 
 ds_state <- dplyr::inner_join(
 	ds_state, 
@@ -164,7 +165,7 @@ y <- cbind(
 )
 
 m1 <- stan_glmer(
-	y ~ dreuth +  fidino * change + log_bm_scaled * fidino +
+	y ~ dreuth +  fidino * change +
 			diet_breadth * fidino + forstrat_breadth * fidino +
 			(1 + dreuth + fidino|species),
 	family = binomial(link = "logit"),
@@ -179,6 +180,7 @@ m1 <- stan_glmer(
 	adapt_delta = 0.995
 	)
 
+saveRDS(m1, "stan_freq_output.RDS")
 
 msum <- summary(m1)
 
