@@ -10,6 +10,9 @@ library(rstan)
 library(rstanarm)
 library(dplyr)
 
+
+options(mc.cores = parallel::detectCores())
+
 # read in the bird functional trait data
 fun <- read.csv(
 	"./data/BirdFuncDat.csv",
@@ -104,7 +107,7 @@ fun_trait_lp <- fun_trait_lp %>%
 				 Diet.Vunk, Diet.Scav, Diet.Fruit, Diet.Nect, Diet.Seed,
 				 Diet.PlantO, ForStrat.watbelowsurf, ForStrat.wataroundsurf,
 				 ForStrat.ground, ForStrat.understory, ForStrat.midhigh,
-				 ForStrat.canopy, ForStrat.aerial, BodyMass.Value)
+				 ForStrat.canopy, ForStrat.aerial)
 
 # calculate each species diet breadth
 fun_trait_lp$diet_breadth <- 
@@ -122,7 +125,7 @@ fun_trait_lp$forstrat_breadth <-
 	)
 
 fun_trait_lp <- fun_trait_lp %>% 
-	select(English, BodyMass.Value, forstrat_breadth, diet_breadth)
+	select(English, forstrat_breadth, diet_breadth)
 
 # subtract one from forstart and diet breadth so that it starts
 #  at 0 instead of 1.
@@ -135,15 +138,8 @@ ds_state <- dplyr::inner_join(
 	by = c("species" = "English")
 )
 
-# log body mass
-ds_state$log_bm <- log(ds_state$BodyMass.Value)
 # make species a factor
 ds_state$species <- factor(ds_state$species)
-
-# scale the covariates
-ds_state$log_bm_scaled <- scale(ds_state$log_bm)
-#ds_state$diet_scaled <- scale(ds_state$diet_breadth)
-#ds_state$forstrat_scaled <- scale(ds_state$forstrat_breadth)
 
 # increase the range of the change value so that the range
 #  is more comparable to the scaled covariates.
@@ -164,6 +160,7 @@ y <- cbind(
 	ds_state$countOfDays - ds_state$daySeen
 )
 
+if(!file.exists("stan_freq_output.RDS")){
 m1 <- stan_glmer(
 	y ~ dreuth +  fidino * change +
 			diet_breadth * fidino + forstrat_breadth * fidino +
@@ -182,19 +179,109 @@ m1 <- stan_glmer(
 
 saveRDS(m1, "stan_freq_output.RDS")
 
-msum <- summary(m1)
+} else {
+	m1 <- readRDS("stan_freq_output.RDS")
+}
+
+# This is just an example, but the frequentist model
+#  essentially returns the same values.
+
+test <- lme4::glmer(
+	y ~ dreuth +  fidino * change +
+		diet_breadth * fidino + forstrat_breadth * fidino +
+		(1 + dreuth + fidino|species),
+	family = "binomial",
+	data = ds_state
+)
+
+
+msum <- summary(m1, probs = c(0.025, 0.5, 0.975))
 
 # get mean and 95% CI
 mci <- cbind(
 	m1$coefficients,
-	posterior_interval(m1)[1:length(m1$coefficients),])
+	posterior_interval(m1)[1:length(m1$coefficients),],
+	prob = 0.95)
 
 write.csv(
 	mci,
 	"posterior_intervals.csv"
 )
 
-hoo <- as.matrix(m1)
+# Calculate some interesting summary stats from the posterior
+
+ndays <- 70
+
+bmc <- as.matrix(m1)
+
+# average days observed across for across species
+round(
+	quantile(
+	  plogis(bmc[,1]) * ndays,
+	  probs = c(0.025,0.5,0.975)
+	),
+	2
+)
+
+round(
+	quantile(
+		plogis(rowSums(bmc[,1:2])) * ndays,
+		probs = c(0.025,0.5,0.975)
+	),
+	2
+)
+
+round(
+	quantile(
+		plogis(rowSums(bmc[,c(1,3)])) * ndays,
+		probs = c(0.025,0.5,0.975)
+	),
+	2
+)
+
+# get the change in proportion of days seen
+#  in final sampling period
+tmp_mat <- matrix(NA, nrow = 15000, ncol = 6)
+
+for(i in 1:6){
+	tmp_mat[,i] <- bmc[,1] + bmc[,3] + (bmc[,5] * (i-1) ) + (bmc[,8] * (i-1) )
+}
+
+tmp_mat <- apply(
+	tmp_mat, 
+	2, 
+	quantile,
+	probs = c(0.025,0.5,0.975)
+)
+
+round(
+	plogis(
+		tmp_mat
+	) * 100,
+	2
+)
+
+# Get the sigma terms from the model
+
+sigmas <- bmc[,grep("Sigma", colnames(bmc))]
+
+round(t(
+	apply(
+		sigmas,
+		2,
+		quantile,
+		probs = c(0.025,0.5,0.975)
+	)
+),2)
+
+
+round(
+	head(
+		msum[,1:8],
+		9
+	),
+	2
+)
 
 launch_shinystan(m1, ppd = FALSE)
 
@@ -209,8 +296,7 @@ for_preds <- left_join(fun_trait_lp,
 for_preds$change[is.na(for_preds$change)] <- 0
 
 make_preds <- function(obs, pframe = for_preds, mod){
-	pframe$BodyMass.Value <- scale(log(pframe$BodyMass.Value)) 
-	colnames(pframe)[1:2] <- c("species", "log_bm_scaled")
+	colnames(pframe)[1] <- c("species")
 	pframe$change <- pframe$change * 10
 	pframe$species <- factor(pframe$species)
 	pframe$dreuth <- 0
@@ -286,7 +372,7 @@ pdf(
 	height = 6.5,
 	width = 6.5,
 )
-par(mar = c(1,5,1,0.25))
+par(mar = c(1,5,1,0.25), xpd = NA)
 {plot(
 	1~1,
 	type = "n",
@@ -311,7 +397,7 @@ par(mar = c(1,5,1,0.25))
 		-25 ,
 		legend = rev(loser_names), 
 		bty = "n",
-		cex = 0.75,
+		cex = 1,
 		y.intersp = 1.3
 	)
 	
@@ -336,12 +422,12 @@ par(mar = c(1,5,1,0.25))
 		bty = "n",
 		xjust = 1,
 		yjust = 1,
-		cex = 0.75,
+		cex = 1,
 		y.intersp = 1.3
 	)
 	
 	text(temp$rect$left + temp$rect$w, temp$text$y,
-			 rev(winner_names), pos = 2, cex = 0.75)
+			 rev(winner_names), pos = 2, cex = 1)
 	
 	
 	for(i in 1:5){
@@ -409,8 +495,8 @@ axis(
 
 mtext(
 	sprintf(
-		"%.0f",
-		seq(-50, 100, 10)
+		"%.1f",
+		seq(-0.5, 1, 0.1)
 	),
 	side = 2,
 	line = 0.75,
