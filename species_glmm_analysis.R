@@ -10,6 +10,9 @@ library(rstan)
 library(rstanarm)
 library(dplyr)
 
+# Sources some utility functions and the like
+source("sourcer.R")
+
 
 options(mc.cores = parallel::detectCores())
 
@@ -234,6 +237,23 @@ round(
 round(
 	quantile(
 		plogis(rowSums(bmc[,c(1,3)])) * ndays,
+		probs = c(0.025,0.5,0.975)
+	),
+	2
+)
+
+round(
+	quantile(
+		plogis(bmc[,c(1,4,7)] %*% matrix(c(1,0,0), nrow =3, ncol = 1)),
+		probs = c(0.025,0.5,0.975)
+	),
+	2
+)
+
+
+round(
+	quantile(
+		plogis(rowSums(bmc[,c(1)])),
 		probs = c(0.025,0.5,0.975)
 	),
 	2

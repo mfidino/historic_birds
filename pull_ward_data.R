@@ -4,9 +4,9 @@ text <- tesseract::ocr("./data/ward_bird_change.png", engine = eng)
 cat(text)
 
 t2 <- cat(text)
-write.csv(test, "test.csv", row.names = FALSE, quote = FALSE)
+write.csv(test, "./data/raw_ward_data.csv", row.names = FALSE, quote = FALSE)
 
-t2 <- read.csv("test.csv", stringsAsFactors = FALSE, header = FALSE)
+t2 <- read.csv("./data/raw_ward_data.csv", stringsAsFactors = FALSE, header = FALSE)
 
 # get species names
 spec <- apply(t2, 1, function(x) strsplit(x, "\\("))

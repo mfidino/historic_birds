@@ -1,6 +1,7 @@
 library(vegan)
 
 analysis <- "richness"
+source("sourcer.R")
 source("prepare_data.R")
 
 # determine the number of species
@@ -92,9 +93,9 @@ points(
 legend(
 	"topright",
 	legend = c(
-		"Walter (1898 - 1903)",
-		"Dreuth (1927 - 1932)",
-		"Fidino  (2012 - 2015)"
+		"1898 - 1903",
+		"1927 - 1932",
+		"2012 - 2015"
 	),
 	pch = c(16, 8, 17),
 	col = c("blue", "orange", "black"),

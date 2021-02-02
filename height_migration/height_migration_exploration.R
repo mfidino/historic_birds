@@ -1,6 +1,6 @@
 # read in the height of migration data
 
-height <- read.csv(".../data/species_seen_per_day.csv", 
+height <- read.csv("./data/species_seen_per_day.csv", 
 									 stringsAsFactors = FALSE)
 
 # excel screwed up the dates.
