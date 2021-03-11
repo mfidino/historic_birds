@@ -5,7 +5,7 @@
 	
 	pkgsToDownload<- packages[!(packages  %in% utils::installed.packages()[,"Package"])]
 	if(length(pkgsToDownload)>0)
-		install.packages(pkgsToDownload, repos="http://cran.us.r-project.org", 
+		utils::install.packages(pkgsToDownload, 
 										 quiet=quiet, verbose=verbose)
 	
 	# then load them
