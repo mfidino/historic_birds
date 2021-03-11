@@ -538,3 +538,108 @@ mtext(
 dev.off()
 ####
 
+jpeg("diet_breath.jpg", height = 6, width = 6, units = "in", res = 300)
+par(mar = c(7,7,1,1))
+xx <- seq(0,6,length.out = 100) 
+hm <- cbind(1, seq(0,6,length.out = 100)) %*%  t(bmc[,c(1,5)])
+hm <- apply(plogis(hm) * 70, 1, quantile, probs = c(0.025,0.5,0.975))
+
+plot(hm[2,] ~ c(xx + 1) , type = "l", ylim = c(0,80), lwd = 2, bty = "l",
+		 xlab = "Diet breadth of species", ylab = c("Number of days observed per year"),
+		 las = 1, cex.lab = 1.5, cex.axis = 1.25)
+
+x1 <- c(xx + 1)
+x2 <- rev(x1)
+y1 <- hm[1,]
+y2 <- rev(hm[3,])
+polygon(
+	c(x1, x2), c(y1, y2),
+	col = scales::alpha("#32DAC3", .30),
+	border = NA
+)
+lines(hm[2,] ~ c(xx+1), lwd = 2)
+
+
+x1 <- xx + 1
+x2 <- rev(x1)
+y1 <- hm2[1,]
+y2 <- rev(hm2[3,])
+polygon(
+	c(x1, x2), c(y1, y2),
+	col = scales::alpha("purple", .30),
+	border = NA
+)
+
+
+
+
+hm2 <- cbind(1,1,xx,xx) %*%  t(bmc[,c(1,3,5,8)])
+hm2 <- apply(plogis(hm2) * 70, 1, quantile, probs = c(0.025,0.5,0.975))
+lines(hm2[2,]  ~ c(xx + 1), lty = 2, lwd = 2)
+
+legend("topleft", pch = c(22,22) ,
+			 pt.bg = c(
+			 	scales::alpha("#32DAC3", .30),
+			 	scales::alpha("purple", .30)),
+			 lty = c(1,2), lwd = c(2,2), 
+			 pt.cex = 4,
+			 legend = c("Walter (1898-1903)", "Fidino (2012-2015)"),
+			 y.intersp = 1.5, bty = "n")
+dev.off()
+
+
+
+###
+
+
+jpeg("statewide_occupancy.jpg", height = 6, width = 6, units = "in", res = 300)
+par(mar = c(7,7,1,1))
+xx <- seq(-2.6,6,length.out = 100) 
+hm <- cbind(1, xx) %*%  t(bmc[,c(1,4)])
+hm <- apply(plogis(hm) * 70, 1, quantile, probs = c(0.025,0.5,0.975))
+
+plot(hm[2,] ~ c(xx / 10) , type = "l", ylim = c(0,80), lwd = 2, bty = "l",
+		 xlab = "Change in statewide occupancy", ylab = c("Number of days observed per year"),
+		 las = 1, cex.lab = 1.5, cex.axis = 1.25)
+
+x1 <- c(xx /10)
+x2 <- rev(x1)
+y1 <- hm[1,]
+y2 <- rev(hm[3,])
+polygon(
+	c(x1, x2), c(y1, y2),
+	col = scales::alpha("#32DAC3", .30),
+	border = NA
+)
+lines(hm[2,] ~ c(xx/10), lwd = 2)
+
+
+
+hm2 <- cbind(1,1,xx,xx) %*%  t(bmc[,c(1,3,4,7)])
+hm2 <- apply(plogis(hm2) * 70, 1, quantile, probs = c(0.025,0.5,0.975))
+
+x1 <- c(xx /10)
+x2 <- rev(x1)
+y1 <- hm2[1,]
+y2 <- rev(hm2[3,])
+polygon(
+	c(x1, x2), c(y1, y2),
+	col = scales::alpha("purple", .30),
+	border = NA
+)
+
+
+
+
+
+lines(hm2[2,]  ~ c(xx /10), lty = 2, lwd = 2)
+
+legend("topleft", pch = c(22,22) ,
+			 pt.bg = c(
+			 	scales::alpha("#32DAC3", .30),
+			 	scales::alpha("purple", .30)),
+			 lty = c(1,2), lwd = c(2,2), 
+			 pt.cex = 4,
+			 legend = c("Walter (1898-1903)", "Fidino (2012-2015)"),
+			 y.intersp = 1.5, bty = "n")
+dev.off()

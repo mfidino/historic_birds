@@ -73,48 +73,52 @@ to_plot <- data.frame(est = c(
 	f_ri$chao
 ))
 
-to_plot$low <- to_plot$est - c(w_ri$chao.se,
+to_plot$low <- to_plot$est - (1.96 * c(w_ri$chao.se,
 															 d_ri$chao.se,
-															 f_ri$chao.se)
+															 f_ri$chao.se))
 
-to_plot$hi <- to_plot$est + c(w_ri$chao.se,
+to_plot$hi <- to_plot$est + ( 1.96 * c(w_ri$chao.se,
 															d_ri$chao.se,
-															f_ri$chao.se)
+															f_ri$chao.se))
 
 to_plot$obs <- factor(c("Walter", "Dreuth", "Fidino"),
 											levels = c("Walter", "Dreuth", "Fidino"))
 
+jpeg("point_est.jpeg", height = 6, width = 6, units = "in", res = 250)
+par(mar = c(7,7,1,1))
 
-plot(to_plot$est ~ to_plot$obs, type = "p", ylim = c(110, 140),
+plot(to_plot$est ~ to_plot$obs, type = "p", ylim = c(100, 150),
 		 pch = 21, bg = "black", ylab = "Species richness",
 		 bty = "l", 
-		 xlab = "observer")
+		 xlab = "observer", cex.lab = 2)
 
 for(i in 1:3){
 	lines(x = rep(i,2),
 				y = to_plot[i,2:3])
 }
+dev.off()
 
 pdf(
 	"lp_specaccum.pdf",
-	height = 4,
-	width = 4,
+	height = 6,
+	width = 6,
 )
 
 plot(w_sac, ylim = c(0, 130), ci.type = "polygon",
-		 col = "black", ci.col = "gray", lwd = 1,
+		 col = "black", ci.col = "gray", lwd = 2,
 		 xlab = "Number of bird counts",
-		 ylab = "Species richness", bty = 'l')
+		 ylab = "Species richness", bty = 'l',
+		 cex.lab = 1.5)
 
 
 plot(d_sac, add = TRUE, col =  "black", ci.type = "polygon",
-		 ci.col = scales::alpha("black", .20), lty = 2)
+		 ci.col = scales::alpha("purple", .20), lty = 2, lwd = 2)
 
 plot(f_sac, add = TRUE, col =  "black", ci.type = "polygon",
-		 ci.col = scales::alpha("gray60", .20), lty = 3)
+		 ci.col = scales::alpha("yellow", .20), lty = 3, lwd = 2)
 
 legend("bottomright" , legend = c("Walter  (1898 - 1903)", "Dreuth (1927 - 1932)", "Fidino  (2012 - 2015)"),
-			 lty = 1:3, lwd = 1, bty="n", cex = 0.75)
+			 lty = 1:3, lwd = 2, bty="n", cex = 1.5)
 
 dev.off()
 
