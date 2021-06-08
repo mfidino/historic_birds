@@ -3,7 +3,7 @@
 
 ---
 
-I've detailed all the files that are present within this repository on the readme. If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
+I've detailed all the files that are present within this repository on the readme (save for the images subfolder, which just holds the bird images in this readme file). If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
 
 <div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
 <div align="center"> <h3>Analysis scripts in the working directory</h3> </div>
