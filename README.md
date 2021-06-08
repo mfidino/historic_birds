@@ -111,9 +111,20 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 
 
 
-8. `species_seen_per_day.csv`: The Walter's considered May 7 to May 20 the height of migration. We tabulated species richness per day during this time across all survey years. Can be plotted out with R script `height_migration_exploration.R`.
+8. `species_seen_per_day.csv`: The Walter's considered May 7 to May 20 the height of migration. We tabulated species richness per day during this time across all survey years. Can be plotted out with R script `height_migration_exploration.R`. It has 2 columns and 252 rows. 
 
-10.  `ward_changes.csv`: This contains the statewide occupancy trends for Illinois Breeding birds estimated by Ward et al. (2018) that have since been cleaned after `raw_ward_data.csv`. The cleaning script is `pull_ward_data.csv`.
+| Column header | Data type | Description                                                                                                                                                                                                          |
+|---------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| date          | date      | The date. Note: Excel hates really old dates and as such the date formats are off for the first 28 records (y-m-d). The rest are in m/d/y format. This is fixed in ./height_migration/height_migration_exploration.R |
+| speciesSeen   | integer   | The number of species seen on this date                                                                                                                                                                              |
+
+
+10.  `ward_changes.csv`: This contains the statewide occupancy trends for Illinois Breeding birds estimated by Ward et al. (2018) that have since been cleaned after `raw_ward_data.csv`. The cleaning script is `pull_ward_data.csv`. It has two columns and 67 rows.
+
+| Column header | Data type | Description                                                                                                           |
+|---------------|-----------|-----------------------------------------------------------------------------------------------------------------------|
+| species       | character | The species name, matches with other files in this folder.                                                            |
+| change        | numeric   | The change in statewide occupancy across Illinois from around 1900 to 2000. Negative values mean decreased occupancy. |
 
 
 
