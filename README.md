@@ -128,4 +128,19 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 
 
 
+##./figures
+
+This contains the 3 figures in the manuscript. Of the most importance is likely figure_1.pdf, which contains a map of the route we took between 2012 - 2015. Note, if the Alfred Caldwell Lily pool was closed (usually opens in late April or so), we just walked through the parking lot and met back up with the route (recording any birds heard or seen near the actual route near the Lily pool via the parking lot).
+
+##./height_migration
+
+This is just our attempt at recreating the figure Walter and Walter had in their birding book, which is:
+
+
+<div align="center"><img width="500" height="auto" align="center" src="./height_migration/height_migration_walter_plot.JPEG" alt="The Walter's plot of counts per day during the height of migration." /></div>
+
+We recreated it, but took the average during each survey period, with the script `./height_migration/height_migration_exploration.R`
+
+<div align="center"> <h3>./assets/</h3> </div>
+
 
