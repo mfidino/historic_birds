@@ -56,7 +56,7 @@ This nested folder contains the raw data that was taken from William Dreuth's fi
 
 `./data/raw_count_data/raw_ward_data.csv`: The raw data from the png file before names were formatted / cleaned. We provide the metadata below for the cleaned version of this file.
 
-<div align="center"><img width="150" height="auto" src="./images/rock_dove.png" alt="A drawing of a pigeon that Mason made." /></div>
+<div align="center"><img width="150" height="auto" src="./images/shrike.png" alt="A drawing of a shrike that Mason made." /></div>
 
 <div align="center"> <h3>./data</h3> </div>
 
@@ -138,14 +138,14 @@ And the citation for these data are:
 | species       | character | The species name, matches with other files in this folder.                                                            |
 | change        | numeric   | The change in statewide occupancy across Illinois from around 1900 to 2000. Negative values mean decreased occupancy. |
 
-<div align="center"><img width="150" height="auto" src="./images/shrike.png" alt="A drawing of a shrike that Mason made." /></div>
+<div align="center"><img width="150" height="auto" src="./images/rock_dove.png" alt="A drawing of a pigeon that Mason made." /></div>
 <div align="center"> <h3>./figures</h3> </div>
 
 ---
 
 This contains the 3 figures in the manuscript. Of the most importance is likely figure_1.pdf, which contains a map of the route we took between 2012 - 2015. Note, if the Alfred Caldwell Lily pool was closed (usually opens in late April or so), we just walked through the parking lot and met back up with the route (recording any birds heard or seen near the actual route near the Lily pool via the parking lot).
 
-<div align="center"><img width="150" height="auto" src="./images/rock_dove.png" alt="A drawing of a pigeon that Mason made." /></div>
+<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
 
 ##./height_migration
 
@@ -153,7 +153,7 @@ This is just our attempt at recreating the figure Walter and Walter had in their
 
 We recreated it, but took the average during each survey period, with the script `./height_migration/height_migration_exploration.R`
 
-<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
+<div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
 
 <div align="center"> <h3>./results</h3> </div>
 
@@ -169,5 +169,4 @@ This is the posterior distribution, and summarised posterior, from our GLMM anal
 | upper_95        | numeric   | Upper 95% credible interval                                          |
 
 
-<div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
-
+<div align="center"><img width="150" height="auto" src="./images/shrike.png" alt="A drawing of a shrike that Mason made." /></div>
