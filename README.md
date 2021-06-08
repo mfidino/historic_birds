@@ -56,7 +56,7 @@ This folder, aside from having the `./data/raw_count_data` subfolder, contains t
 
 | Column header | Data type   | Description                                                                         |
 |---------------|-------------|-------------------------------------------------------------------------------------|
-| species       | character   | The common name of the species observed                                             |
+| species       | character   | The common name of the species observed. This matches the other files in the folder.                                           |
 | year          | year        | The year the species was observed                                                   |
 | arrival       | date        | The first time the species was observed on a given year (m/d/y format)              |
 | observer      | categorical | The survey period (Walter = 1898-1903, Dreuth = 1927 - 1932, Fidino = 2012 - 2015) |
@@ -72,7 +72,7 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 
 | Column header | Data type   | Description                                                                        |
 |---------------|-------------|------------------------------------------------------------------------------------|
-| species       | character   | The common name of the species observed                                            |
+| species       | character   | The common name of the species observed. This matches the other files in the folder.                                            |
 | year          | year        | The year the species was observed                                                  |
 | daySeen       | integer     | The number of days the species was observed between March and May                  |
 | observer      | categorical | The survey period (Walter = 1898-1903, Dreuth = 1927 - 1932, Fidino = 2012 - 2015) |
