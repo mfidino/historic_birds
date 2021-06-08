@@ -84,22 +84,8 @@ to_plot$hi <- to_plot$est + ( 1.96 * c(w_ri$chao.se,
 to_plot$obs <- factor(c("Walter", "Dreuth", "Fidino"),
 											levels = c("Walter", "Dreuth", "Fidino"))
 
-jpeg("point_est.jpeg", height = 6, width = 6, units = "in", res = 250)
-par(mar = c(7,7,1,1))
-
-plot(to_plot$est ~ to_plot$obs, type = "p", ylim = c(100, 150),
-		 pch = 21, bg = "black", ylab = "Species richness",
-		 bty = "l", 
-		 xlab = "observer", cex.lab = 2)
-
-for(i in 1:3){
-	lines(x = rep(i,2),
-				y = to_plot[i,2:3])
-}
-dev.off()
-
 pdf(
-	"lp_specaccum.pdf",
+	"./figures/lp_specaccum.pdf",
 	height = 6,
 	width = 6,
 )
