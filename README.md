@@ -137,10 +137,10 @@ This contains the 3 figures in the manuscript. Of the most importance is likely 
 This is just our attempt at recreating the figure Walter and Walter had in their birding book, which is:
 
 
-<div align="center"><img width="500" height="auto" align="center" src="./height_migration/height_migration_walter_plot.JPEG" alt="The Walter's plot of counts per day during the height of migration." /></div>
+<div align="center"><img width="500" height="auto" align="center" src="./height_migration/height_migration_walter_plot.JPG" alt="The Walter's plot of counts per day during the height of migration." /></div>
 
 We recreated it, but took the average during each survey period, with the script `./height_migration/height_migration_exploration.R`
 
-<div align="center"> <h3>./assets/</h3> </div>
+
 
 
