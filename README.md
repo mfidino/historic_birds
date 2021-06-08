@@ -2,12 +2,15 @@
 
 *Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community*
 
-<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
+
 
 
 I've detailed all the files that are present within this repository on the readme. If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
 
-### Analysis scripts in the working directory
+<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
+<div align="center"> <h3>Analysis scripts in the working directory</h3> </div>
+
+---
 
 The working directory of this repository has five scripts.
 
@@ -27,7 +30,9 @@ Ward, M. P., Stodola, K. W., Walk, J. W., Benson, T. J., Deppe, J. L., and J. D.
 
 <div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
 
-## ./data/raw_count_data
+<div align="center"> <h3>./data/raw_count_data</h3> </div>
+
+---
 
 This nested folder contains the raw data that was taken from William Dreuth's field notes (1927 - 1932) as well as from Mason Fidino (2012 - 2015), as well as the image of the table from Ward et al. (2018) and the raw csv it was converted to (before the data were cleaned in `.pull_ward_data.R`. There was no raw Walter's data as it was just supplied in the book "Wild Birds in City Parks"
 
@@ -132,8 +137,9 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 | change        | numeric   | The change in statewide occupancy across Illinois from around 1900 to 2000. Negative values mean decreased occupancy. |
 
 <div align="center"><img width="150" height="auto" src="./images/shrike.png" alt="A drawing of a shrike that Mason made." /></div>
+<div align="center"> <h3>./figures</h3> </div>
 
-##./figures
+---
 
 This contains the 3 figures in the manuscript. Of the most importance is likely figure_1.pdf, which contains a map of the route we took between 2012 - 2015. Note, if the Alfred Caldwell Lily pool was closed (usually opens in late April or so), we just walked through the parking lot and met back up with the route (recording any birds heard or seen near the actual route near the Lily pool via the parking lot).
 
@@ -147,8 +153,10 @@ We recreated it, but took the average during each survey period, with the script
 
 <div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
 
+<div align="center"> <h3>./results</h3> </div>
 
-##./results
+---
+
 This is the posterior distribution, and summarised posterior, from our GLMM analysis. The full posterior is saved as an R specific RDS file (`./results/stan_freq_output.RDS`), which if it is present will be read in during `species_glmm_analysis.R`, otherwise the model will be fit and saved.  The other file, `posterior_intervals.csv`, has 4 columns and 373 rows of data.
 
 | Column header   | Data type | Description                                                          |
