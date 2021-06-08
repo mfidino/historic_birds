@@ -56,7 +56,11 @@ This nested folder contains the raw data that was taken from William Dreuth's fi
 
 `./data/raw_count_data/raw_ward_data.csv`: The raw data from the png file before names were formatted / cleaned. We provide the metadata below for the cleaned version of this file.
 
-##./data
+<div align="center"><img width="150" height="auto" src="./images/rock_dove.png" alt="A drawing of a pigeon that Mason made." /></div>
+
+<div align="center"> <h3>./data</h3> </div>
+
+---
 
 This folder, aside from having the `./data/raw_count_data` subfolder, contains the data used in our analysis, plus a couple other files that we found useful which we believe should accompany these data. Unlike the raw data, almost all of the common names of species should be identical to the Species column in `./data/species_life_history.csv`, which makes it easier to join datasets as needed. The only file that does not have the same names is `./data/BirdFuncDat.csv`. The species names are updated within the `species_glmm_analysis.R` script.
 
