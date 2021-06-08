@@ -73,16 +73,23 @@ lp_nmds <- metaMDS(
 	try = 100
 )
 
-pdf(
-	"beta_nmds.pdf",
+tiff(
+	"beta_nmds.tiff",
 	height = 6,
 	width = 6,
+	units = "in",
+	res = 600,
+	compression = "lzw"
 )
 
 plot(
 	lp_nmds,
 	type = "n",
-	bty = "l"
+	bty = "l",
+	las = 1,
+	cex.lab = 1.2,
+	xlim = c(-0.5, 1), 
+	ylim = c(-0.4,0.4)
 )
 points(
 	lp_nmds,
@@ -94,9 +101,9 @@ points(
 legend(
 	"topright",
 	legend = c(
-		"Walters: 1898 - 1903",
-		"Dreuth:  1927 - 1932",
-		"Fidino:   2012 - 2015"
+		"1898 - 1903",
+		"1927 - 1932",
+		"2012 - 2015"
 	),
 	pch = c(16, 8, 17),
 	col = c("blue", "orange", "black"),

@@ -251,14 +251,6 @@ round(
 )
 
 
-round(
-	quantile(
-		plogis(rowSums(bmc[,c(1)])),
-		probs = c(0.025,0.5,0.975)
-	),
-	2
-)
-
 # get the change in proportion of days seen
 #  in final sampling period
 tmp_mat <- matrix(NA, nrow = 15000, ncol = 6)
@@ -385,12 +377,15 @@ to_plot$pch <- 21
 to_plot$pch[which(to_plot$change > 0)]  <- 24
 to_plot$pch[which(to_plot$change < 0)]  <- 25
 
-quartz(height = 6.5, width = 6.5)
+windows(height = 6.5, width = 6.5)
 
-pdf(
-	"species_relative_change.pdf",
+tiff(
+	"figure_3.tiff",
 	height = 6.5,
 	width = 6.5,
+	units = "in",
+	res = 600,
+	compression = "lzw"
 )
 par(mar = c(1,5,1,0.25), xpd = NA)
 {plot(
