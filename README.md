@@ -147,7 +147,9 @@ This contains the 3 figures in the manuscript. Of the most importance is likely 
 
 <div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
 
-##./height_migration
+<div align="center"> <h3>./height_migration</h3> </div>
+
+---
 
 This is just our attempt at recreating the figure Walter and Walter had in their birding book, which can be observed at `./height_migration/height_migration_walter_plot.jpg`
 
