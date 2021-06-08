@@ -26,7 +26,7 @@ The working directory of this repository has five scripts.
 5.  To see how we prepared the summarised data for all of these analyses, see: `prepare_data.R`. This script is sourced in each of the three analysis scripts and creates a data.frame object titled `ds` (it stands for days seen) that is used. The script prints out the metadata for the `ds` data.frame object into the R console when it is ran.
 
 
-Ward, M. P., Stodola, K. W., Walk, J. W., Benson, T. J., Deppe, J. L., and J. D. Brawn. 2018. Changes in bird distributions in Illinois, USA, over the 20th century were driven by use of alternative rather than primary habitats. The Condor: Ornithological Applications, 120:622-631.
+```Ward, M. P., Stodola, K. W., Walk, J. W., Benson, T. J., Deppe, J. L., and J. D. Brawn. 2018. Changes in bird distributions in Illinois, USA, over the 20th century were driven by use of alternative rather than primary habitats. The Condor: Ornithological Applications, 120:622-631.```
 
 <div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
 
@@ -76,7 +76,7 @@ This folder, aside from having the `./data/raw_count_data` subfolder, contains t
 
 And the citation for these data are:
 
-Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jetz, W. (2014). EltonTraits 1.0: Species‐level foraging attributes of the world's birds and mammals: Ecological Archives E095‐178. Ecology, 95(7), 2027-2027.
+```Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jetz, W. (2014). EltonTraits 1.0: Species‐level foraging attributes of the world's birds and mammals: Ecological Archives E095‐178. Ecology, 95(7), 2027-2027.```
 
 3. `days_seen_per_year.csv`: This is the number of days species were seen per survey year. This is probably the primary dataset used for our analyses. It has four columns and 2041 rows of data.
 
