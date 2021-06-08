@@ -74,13 +74,6 @@ ward <- read.csv(
 	stringsAsFactors = FALSE
 )
 
-# Do some slight changes to species names in the ward data
-ward$species <- gsub(
-	"N\\.",
-	"Northern",
-	ward$species
-)
-
 # combine to the lincoln park data
 analysis <- "binomial"
 source("prepare_data.R")
@@ -163,7 +156,7 @@ y <- cbind(
 	ds_state$countOfDays - ds_state$daySeen
 )
 
-if(!file.exists("stan_freq_output.RDS")){
+if(!file.exists("./results/stan_freq_output.RDS")){
 m1 <- stan_glmer(
 	y ~ dreuth +  fidino * change +
 			diet_breadth * fidino + forstrat_breadth * fidino +
@@ -180,10 +173,10 @@ m1 <- stan_glmer(
 	adapt_delta = 0.995
 	)
 
-saveRDS(m1, "stan_freq_output.RDS")
+saveRDS(m1, "./results/stan_freq_output.RDS")
 
 } else {
-	m1 <- readRDS("stan_freq_output.RDS")
+	m1 <- readRDS("./results/stan_freq_output.RDS")
 }
 
 # This is just an example, but the frequentist model
@@ -206,15 +199,20 @@ mci <- cbind(
 	posterior_interval(m1)[1:length(m1$coefficients),],
 	prob = 0.95)
 
+mci <- data.frame(
+	parameter = row.names(mci),
+	median_estimate = mci[,1],
+	lower_95 = mci[,2],
+	upper_95 = mci[,3]
+)
 write.csv(
 	mci,
-	"posterior_intervals.csv"
+	"./results/posterior_intervals.csv",
+	row.names = FALSE
 )
 
 # Calculate some interesting summary stats from the posterior
-
 ndays <- 70
-
 bmc <- as.matrix(m1)
 
 # average days observed across for across species
@@ -380,7 +378,7 @@ to_plot$pch[which(to_plot$change < 0)]  <- 25
 windows(height = 6.5, width = 6.5)
 
 tiff(
-	"figure_3.tiff",
+	"./figures/figure_3.tiff",
 	height = 6.5,
 	width = 6.5,
 	units = "in",

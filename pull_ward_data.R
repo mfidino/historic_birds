@@ -1,12 +1,12 @@
 library(tesseract)
 eng <- tesseract("eng")
-text <- tesseract::ocr("./data/ward_bird_change.png", engine = eng)
+text <- tesseract::ocr("./data/raw_data/ward_bird_change.png", engine = eng)
 cat(text)
 
 t2 <- cat(text)
-write.csv(test, "./data/raw_ward_data.csv", row.names = FALSE, quote = FALSE)
+write.csv(test, "./data/raw_data/raw_ward_data.csv", row.names = FALSE, quote = FALSE)
 
-t2 <- read.csv("./data/raw_ward_data.csv", stringsAsFactors = FALSE, header = FALSE)
+t2 <- read.csv("./data/raw_data/raw_ward_data.csv", stringsAsFactors = FALSE, header = FALSE)
 
 # get species names
 spec <- apply(t2, 1, function(x) strsplit(x, "\\("))
@@ -27,6 +27,14 @@ nums <- as.numeric(nums)
 
 ward <- data.frame(species = spec,
 									 change = nums)
+
+# Do some slight changes to species names in the ward data
+ward$species <- gsub(
+	"N\\.",
+	"Northern",
+	ward$species
+)
+
 write.csv(ward, "./data/ward_changes.csv", row.names = FALSE)
 
 	

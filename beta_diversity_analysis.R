@@ -74,7 +74,7 @@ lp_nmds <- metaMDS(
 )
 
 tiff(
-	"beta_nmds.tiff",
+	"./figures/figure_2.tiff",
 	height = 6,
 	width = 6,
 	units = "in",
