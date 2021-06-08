@@ -27,6 +27,14 @@ nums <- as.numeric(nums)
 
 ward <- data.frame(species = spec,
 									 change = nums)
+
+# Do some slight changes to species names in the ward data
+ward$species <- gsub(
+	"N\\.",
+	"Northern",
+	ward$species
+)
+
 write.csv(ward, "./data/ward_changes.csv", row.names = FALSE)
 
 	

@@ -74,13 +74,6 @@ ward <- read.csv(
 	stringsAsFactors = FALSE
 )
 
-# Do some slight changes to species names in the ward data
-ward$species <- gsub(
-	"N\\.",
-	"Northern",
-	ward$species
-)
-
 # combine to the lincoln park data
 analysis <- "binomial"
 source("prepare_data.R")
