@@ -3,6 +3,8 @@
 *Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community*
 
 
+I've detailed all the files that are present within this repository on the readme. If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
+
 ### Analysis scripts in the working directory
 
 The working directory of this repository has five scripts.
