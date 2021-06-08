@@ -15,13 +15,13 @@ The working directory of this repository has five scripts.
 
 1. To run the alpha diversity analysis, which estimates species richness among survey periods, open the R script: `species_richness_analysis.R`
 
-2. To run the beta diversity analysis, which estimates community similarity among yearss, open the R script: `beta_diversity_analysis.R`
+2. To run the beta diversity analysis, which estimates community similarity among years, open the R script: `beta_diversity_analysis.R`
 
 3. To run the multi-species GLMM, which estimates how diet-breadth, foraging breadth, and changes in statewide occupancy are associated to changes in bird frequency over time within Lincoln Park, open the R script: `species_glmm_analysis.R`
 
 4. To see how we converted an image of table 1 of Ward et al. (2018) to a csv, open the R script: `pull_ward_data.R`
 
-5.  To see how we prepared the summarised data for all of these analyses, see: `prepare_data.R`. This script is sourced in each of the three analysis scripts and creates a data.frame object titled `ds` (it stands for days seen) that is used. The script prints out the metadata for the `ds` data.frame object into the R console when it is ran.
+5.  To see how we prepared the summarized data for all of these analyses, see: `prepare_data.R`. This script is sourced in each of the three analysis scripts and creates a data.frame object titled `ds` (it stands for days seen) that is used. The script prints out the metadata for the `ds` data.frame object into the R console when it is ran.
 
 
 ```Ward, M. P., Stodola, K. W., Walk, J. W., Benson, T. J., Deppe, J. L., and J. D. Brawn. 2018. Changes in bird distributions in Illinois, USA, over the 20th century were driven by use of alternative rather than primary habitats. The Condor: Ornithological Applications, 120:622-631.```
@@ -64,7 +64,7 @@ This nested folder contains the raw data that was taken from William Dreuth's fi
 
 This folder, aside from having the `./data/raw_count_data` subfolder, contains the data used in our analysis, plus a couple other files that we found useful which we believe should accompany these data. Unlike the raw data, almost all of the common names of species should be identical to the Species column in `./data/species_life_history.csv`, which makes it easier to join datasets as needed. The only file that does not have the same names is `./data/BirdFuncDat.csv`. The species names are updated within the `species_glmm_analysis.R` script.
 
-1. `arrival.csv`: This contains the arrival dates of birds in julian day per year across all survey years. While not used in the analysis, we have provided it. It has 5 columns and 1831 rows of data.
+1. `arrival.csv`: This contains the arrival dates of birds in ordinal day per year across all survey years. While not used in the analysis, we have provided it. It has 5 columns and 1831 rows of data.
 
 | Column header | Data type   | Description                                                                         |
 |---------------|-------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ We recreated it, but took the average during each survey period, with the script
 
 ---
 
-This is the posterior distribution, and summarised posterior, from our GLMM analysis. The full posterior is saved as an R specific RDS file (`./results/stan_freq_output.RDS`), which if it is present will be read in during `species_glmm_analysis.R`, otherwise the model will be fit and saved.  The other file, `posterior_intervals.csv`, has 4 columns and 373 rows of data.
+This is the posterior distribution, and summarized posterior, from our GLMM analysis. The full posterior is saved as an R specific RDS file (`./results/stan_freq_output.RDS`), which if it is present will be read in during `species_glmm_analysis.R`, otherwise the model will be fit and saved.  The other file, `posterior_intervals.csv`, has 4 columns and 373 rows of data.
 
 | Column header   | Data type | Description                                                          |
 |-----------------|-----------|----------------------------------------------------------------------|
