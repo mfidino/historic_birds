@@ -1,9 +1,7 @@
-# A repository for:
 
-*Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community*
+<div align="center"> <h3>Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community</h2> </div>
 
-
-
+---
 
 I've detailed all the files that are present within this repository on the readme. If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
 
