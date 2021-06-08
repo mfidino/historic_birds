@@ -2,6 +2,8 @@
 
 *Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community*
 
+<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
+
 
 I've detailed all the files that are present within this repository on the readme. If the data is tabular, there is a small metadata table for it here that describes what each column represents. Following the analysis scripts header, each one represents a different folder in the repository.
 
@@ -23,6 +25,7 @@ The working directory of this repository has five scripts.
 
 Ward, M. P., Stodola, K. W., Walk, J. W., Benson, T. J., Deppe, J. L., and J. D. Brawn. 2018. Changes in bird distributions in Illinois, USA, over the 20th century were driven by use of alternative rather than primary habitats. The Condor: Ornithological Applications, 120:622-631.
 
+<div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
 
 ## ./data/raw_count_data
 
@@ -113,7 +116,7 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 
 
 
-8. `species_seen_per_day.csv`: The Walter's considered May 7 to May 20 the height of migration. We tabulated species richness per day during this time across all survey years. Can be plotted out with R script `height_migration_exploration.R`. It has 2 columns and 252 rows. 
+7. `species_seen_per_day.csv`: The Walter's considered May 7 to May 20 the height of migration. We tabulated species richness per day during this time across all survey years. Can be plotted out with R script `height_migration_exploration.R`. It has 2 columns and 252 rows. 
 
 | Column header | Data type | Description                                                                                                                                                                                                          |
 |---------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -121,24 +124,28 @@ Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jet
 | speciesSeen   | integer   | The number of species seen on this date                                                                                                                                                                              |
 
 
-10.  `ward_changes.csv`: This contains the statewide occupancy trends for Illinois Breeding birds estimated by Ward et al. (2018) that have since been cleaned after `raw_ward_data.csv`. The cleaning script is `pull_ward_data.csv`. It has two columns and 67 rows.
+8.  `ward_changes.csv`: This contains the statewide occupancy trends for Illinois Breeding birds estimated by Ward et al. (2018) that have since been cleaned after `raw_ward_data.csv`. The cleaning script is `pull_ward_data.csv`. It has two columns and 67 rows.
 
 | Column header | Data type | Description                                                                                                           |
 |---------------|-----------|-----------------------------------------------------------------------------------------------------------------------|
 | species       | character | The species name, matches with other files in this folder.                                                            |
 | change        | numeric   | The change in statewide occupancy across Illinois from around 1900 to 2000. Negative values mean decreased occupancy. |
 
-
+<div align="center"><img width="150" height="auto" src="./images/shrike.png" alt="A drawing of a shrike that Mason made." /></div>
 
 ##./figures
 
 This contains the 3 figures in the manuscript. Of the most importance is likely figure_1.pdf, which contains a map of the route we took between 2012 - 2015. Note, if the Alfred Caldwell Lily pool was closed (usually opens in late April or so), we just walked through the parking lot and met back up with the route (recording any birds heard or seen near the actual route near the Lily pool via the parking lot).
+
+<div align="center"><img width="150" height="auto" src="./images/rock_dove.png" alt="A drawing of a pigeon that Mason made." /></div>
 
 ##./height_migration
 
 This is just our attempt at recreating the figure Walter and Walter had in their birding book, which can be observed at `./height_migration/height_migration_walter_plot.jpg`
 
 We recreated it, but took the average during each survey period, with the script `./height_migration/height_migration_exploration.R`
+
+<div align="center"><img width="150" height="auto" src="./images/american_robin.png" alt="A drawing of a robin that Mason made." /></div>
 
 
 ##./results
@@ -152,5 +159,5 @@ This is the posterior distribution, and summarised posterior, from our GLMM anal
 | upper_95        | numeric   | Upper 95% credible interval                                          |
 
 
-
+<div align="center"><img width="150" height="auto" src="./images/blue_jay.png" alt="A drawing of a blue jay that Mason made." /></div>
 
