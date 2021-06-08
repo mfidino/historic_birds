@@ -134,12 +134,20 @@ This contains the 3 figures in the manuscript. Of the most importance is likely 
 
 ##./height_migration
 
-This is just our attempt at recreating the figure Walter and Walter had in their birding book, which is:
-
-
-<div align="center"><img width="500" height="auto" align="center" src="./height_migration/height_migration_walter_plot.JPG" alt="The Walter's plot of counts per day during the height of migration." /></div>
+This is just our attempt at recreating the figure Walter and Walter had in their birding book, which can be observed at `./height_migration/height_migration_walter_plot.jpg`
 
 We recreated it, but took the average during each survey period, with the script `./height_migration/height_migration_exploration.R`
+
+
+##./results
+This is the posterior distribution, and summarised posterior, from our GLMM analysis. The full posterior is saved as an R specific RDS file (`./results/stan_freq_output.RDS`), which if it is present will be read in during `species_glmm_analysis.R`, otherwise the model will be fit and saved.  The other file, `posterior_intervals.csv`, has 4 columns and 373 rows of data.
+
+| Column header   | Data type | Description                                                          |
+|-----------------|-----------|----------------------------------------------------------------------|
+| parameter       | character | The model parameter, named as specified in `species_glmm_analysis.R` |
+| median_estimate | numeric   | The median estimate for the parameter                                |
+| lower_95        | numeric   | Lower 95% credible interval                                          |
+| upper_95        | numeric   | Upper 95% credible interval                                          |
 
 
 
