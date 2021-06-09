@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/160694873.svg)](https://zenodo.org/badge/latestdoi/160694873)
 
 <div align="center"> <h3>Metadata for: Strolling through a century: replicating historical bird surveys to explore 100 years of change in an urban bird community</h2> </div>
 
