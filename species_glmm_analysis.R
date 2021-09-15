@@ -10,8 +10,9 @@ library(rstan)
 library(rstanarm)
 library(dplyr)
 
-# Sources some utility functions and the like
-source("sourcer.R")
+# prepare most of the data for analysis
+analysis <- "binomial"
+source("prepare_data.R")
 
 
 options(mc.cores = parallel::detectCores())
